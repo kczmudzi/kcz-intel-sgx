@@ -43,6 +43,9 @@
 
 #define ENCLAVE_INITIATOR_NAME "libenclave_initiator.signed.so"
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
+
 int main(int argc, char* argv[])
 {
     int update = 0;
@@ -55,42 +58,55 @@ int main(int argc, char* argv[])
     (void)argv;
 
 
+    start_cycles = __rdtsc();
     // create ECDH initiator enclave
     status = sgx_create_enclave(ENCLAVE_INITIATOR_NAME, SGX_DEBUG_FLAG, &token, &update, &initiator_enclave_id, NULL);
     if (status != SGX_SUCCESS) {
         printf("failed to load enclave %s, error code is 0x%x.\n", ENCLAVE_INITIATOR_NAME, status);
         return -1;
     }
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles); 
     printf("succeed to load enclave %s\n", ENCLAVE_INITIATOR_NAME);
 
+    start_cycles = __rdtsc();
     // create ECDH session using initiator enclave, it would create ECDH session with responder enclave running in another process
     status = test_create_session(initiator_enclave_id, &ret_status);
     if (status != SGX_SUCCESS || ret_status != 0) {
         printf("failed to establish secure channel: ECALL return 0x%x, error code is 0x%x.\n", status, ret_status);
-        sgx_destroy_enclave(initiator_enclave_id);
-        return -1;
+        goto destroy_enclave;
     }
+    stop_cycles = __rdtsc();
+    printf("create session enclave %ld\n", stop_cycles-start_cycles); 
     printf("succeed to establish secure channel.\n");
 
+    start_cycles = __rdtsc();
     // Test message exchange between initiator enclave and responder enclave running in another process
     status = test_message_exchange(initiator_enclave_id, &ret_status);
     if (status != SGX_SUCCESS || ret_status != 0) {
         printf("test_message_exchange Ecall failed: ECALL return 0x%x, error code is 0x%x.\n", status, ret_status);
-        sgx_destroy_enclave(initiator_enclave_id);
-        return -1;
+        goto destroy_enclave;
     }
+    stop_cycles = __rdtsc();
+    printf("message enclave %ld\n", stop_cycles-start_cycles); 
     printf("Succeed to exchange secure message...\n");
 
+    start_cycles = __rdtsc();
     // close ECDH session
     status = test_close_session(initiator_enclave_id, &ret_status);
     if (status != SGX_SUCCESS || ret_status != 0) {
         printf("test_close_session Ecall failed: ECALL return 0x%x, error code is 0x%x.\n", status, ret_status);
-        sgx_destroy_enclave(initiator_enclave_id);
-        return -1;
+        goto destroy_enclave;
     }
+    stop_cycles = __rdtsc();
+    printf("close session enclave %ld\n", stop_cycles-start_cycles); 
     printf("Succeed to close Session...\n");
 
+destroy_enclave:
+    start_cycles = __rdtsc();
     sgx_destroy_enclave(initiator_enclave_id);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
 
     return 0;
 }

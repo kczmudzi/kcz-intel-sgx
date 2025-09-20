@@ -235,12 +235,16 @@ int ecall_sm4_ctr_functions()
 	return rev;
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
+
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
 {
 	(void)(argc);
 	(void)(argv);
 
+    start_cycles = __rdtsc();
 	/* Initialize the enclave */
 	if (initialize_enclave() < 0)
 	{
@@ -248,47 +252,68 @@ int SGX_CDECL main(int argc, char *argv[])
 		getchar();
 		return -1;
 	}
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
 
 	/* GM SMx functions test */
 	/* SM2 */
+    start_cycles = __rdtsc();
 	if (ecall_sm2_sign_verify_functions() == 0)
 		printf("GM SM2 - sign and verify: PASS\n");
 	else
 		printf("GM SM2 - sign and verify: FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 1 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	if (ecall_sm2_key_exchange_functions() == 0)
 		printf("GM SM2 - key exchange: PASS\n");
 	else
 		printf("GM SM2 - key exchange: FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 2 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	if (ecall_sm2_encrypt_decrypt_gm_functions() == 0)
 		printf("GM SM2 - encrypt and decrypt(GM version): PASS\n");
 	else
 		printf("GM SM2 - encrypt and decrypt(GM version): FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 3 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	/* SM3 */
 	if (ecall_sm3_functions() == 0)
 		printf("GM SM3 - compute digest of message: PASS\n");
 	else
 		printf("GM SM3 - compute digest of message: FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 4 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	/* SM4 */
 	if (ecall_sm4_cbc_functions() == 0)
 		printf("GM SM4 - cbc encrypt and decrypt: PASS\n");
 	else
 		printf("GM SM4 - cbc encrypt and decrypt: FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 5 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	if (ecall_sm4_ctr_functions () == 0)
 		printf("GM SM4 - ctr encrypt and decrypt: PASS\n");
 	else
 		printf("GM SM4 - ctr encrypt and decrypt: FAIL\n");
+    stop_cycles = __rdtsc();
+    printf("ecall 6 enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
 	/* Destroy the enclave */
 	sgx_destroy_enclave(global_eid);
+    stop_cycles = __rdtsc();
+    printf("destroy  enclave %ld\n", stop_cycles-start_cycles);
 
 	printf("Info: SampleEnclaveGMIPP successfully returned.\n");
 
-	printf("Enter a character before exit ...\n");
-	getchar();
 	return 0;
 }

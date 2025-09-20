@@ -177,6 +177,8 @@ void ocall_print_string(const char *str)
     printf("%s", str);
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
 
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
@@ -185,12 +187,15 @@ int SGX_CDECL main(int argc, char *argv[])
     (void)(argv);
 
 
+    start_cycles = __rdtsc();
     /* Initialize the enclave */
     if(initialize_enclave() < 0){
         printf("Enter a character before exit ...\n");
         getchar();
         return -1; 
     }
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
  
     // We want to run a program for a really long time by
     // searching for powers of two between 0 and max_value.
@@ -200,6 +205,7 @@ int SGX_CDECL main(int argc, char *argv[])
     time_t t1 = 0, t2 = 0;
     uint32_t count = 0;
 
+    start_cycles = __rdtsc();
     // Find out what max value takes more than 60 seconds when running
     // outside the enclave.
     while ((t2 - t1) < 60)
@@ -216,7 +222,10 @@ int SGX_CDECL main(int argc, char *argv[])
         printf("\tIt took %u seconds to compute\n", (uint32_t)(t2 - t1));
         fflush(stdout);
     }
+    stop_cycles = __rdtsc();
+    printf("outside enclave %ld\n", stop_cycles-start_cycles);
    
+    start_cycles = __rdtsc();
     // Now we have a good idea of something that should take at least 60 seconds
     // Make an ECALL for the same function with AEX Enabled. The function
     // will also count the number of times it its AEX handler was called back.
@@ -231,12 +240,17 @@ int SGX_CDECL main(int argc, char *argv[])
         print_error_message(status);
         return -1;
     }
+    stop_cycles = __rdtsc();
+    printf("inside enclave %ld\n", stop_cycles-start_cycles);
     printf("There are %u powers of two between 0 and %p (calculated inside the enclave)\n", count, (void*)max_value);
     printf("\tIt took %u seconds to compute\n", (uint32_t)(t2 - t1));
     printf("\tWe counted %lu async enclave exits during this time period. \n", aex_count);
 
+    start_cycles = __rdtsc();
     /* Destroy the enclave */
     sgx_destroy_enclave(global_eid);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Info: SampleAEXNotify successfully returned.\n");
 

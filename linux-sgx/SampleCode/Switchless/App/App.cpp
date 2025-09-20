@@ -233,6 +233,9 @@ void benchmark_empty_ecall(int is_switchless)
     printf("Time elapsed: %ld.%06ld seconds\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
+
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
 {
@@ -244,25 +247,42 @@ int SGX_CDECL main(int argc, char *argv[])
     us_config.num_uworkers = 2;
     us_config.num_tworkers = 2;
 
+    start_cycles = __rdtsc();
     /* Initialize the enclave */
     if(initialize_enclave(&us_config) < 0)
     {
         printf("Error: enclave initialization failed\n");
         return -1;
     }
-
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Running a benchmark that compares **ordinary** and **switchless** OCalls...\n");
+    start_cycles = __rdtsc();
     benchmark_empty_ocall(1);
+    stop_cycles = __rdtsc();
+    printf("ocall 1 enclave %ld\n", stop_cycles-start_cycles);
+    start_cycles = __rdtsc();
     benchmark_empty_ocall(0);
+    stop_cycles = __rdtsc();
+    printf("ocall 0 enclave %ld\n", stop_cycles-start_cycles);
     printf("Done.\n");
     
 
     printf("Running a benchmark that compares **ordinary** and **switchless** ECalls...\n");
+    start_cycles = __rdtsc();
     benchmark_empty_ecall(1);
+    stop_cycles = __rdtsc();
+    printf("ecall 1 enclave %ld\n", stop_cycles-start_cycles);
+    start_cycles = __rdtsc();
     benchmark_empty_ecall(0);
+    stop_cycles = __rdtsc();
+    printf("ecall 0 enclave %ld\n", stop_cycles-start_cycles);
     printf("Done.\n");
 
+    start_cycles = __rdtsc();
     sgx_destroy_enclave(global_eid);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
     return 0;
 }

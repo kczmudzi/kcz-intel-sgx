@@ -48,6 +48,8 @@
 #define ENCLAVE_NAME_UNSEAL "libenclave_unseal.signed.so"
 #define SEALED_DATA_FILE "sealed_data_blob.txt"
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
 
 
 static size_t get_file_size(const char *filename)
@@ -124,7 +126,10 @@ static bool seal_and_save_data()
 {
     sgx_enclave_id_t eid_seal = 0;
     // Load the enclave for sealing
+    start_cycles = __rdtsc();
     sgx_status_t ret = initialize_enclave(ENCLAVE_NAME_SEAL, &eid_seal);
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
     if (ret != SGX_SUCCESS)
     {
         ret_error_support(ret);
@@ -132,7 +137,10 @@ static bool seal_and_save_data()
     }
     // Get the sealed data size
     uint32_t sealed_data_size = 0;
+    start_cycles = __rdtsc();
     ret = get_sealed_data_size(eid_seal, &sealed_data_size);
+    stop_cycles = __rdtsc();
+    printf("sealed data size enclave %ld\n", stop_cycles-start_cycles);
     if (ret != SGX_SUCCESS)
     {
         ret_error_support(ret);
@@ -153,7 +161,10 @@ static bool seal_and_save_data()
         return false;
     }
     sgx_status_t retval;
+    start_cycles = __rdtsc();
     ret = seal_data(eid_seal, &retval, temp_sealed_buf, sealed_data_size);
+    stop_cycles = __rdtsc();
+    printf("seal data enclave %ld\n", stop_cycles-start_cycles);
     if (ret != SGX_SUCCESS)
     {
         ret_error_support(ret);
@@ -169,6 +180,7 @@ static bool seal_and_save_data()
         return false;
     }
 
+    start_cycles = __rdtsc();
     // Save the sealed blob
     if (write_buf_to_file(SEALED_DATA_FILE, temp_sealed_buf, sealed_data_size, 0) == false)
     {
@@ -177,9 +189,14 @@ static bool seal_and_save_data()
         sgx_destroy_enclave(eid_seal);
         return false;
     }
+    stop_cycles = __rdtsc();
+    printf("write buf to file enclave %ld\n", stop_cycles-start_cycles);
 
     free(temp_sealed_buf);
+    start_cycles = __rdtsc();
     sgx_destroy_enclave(eid_seal);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
 
     std::cout << "Sealing data succeeded." << std::endl;
     return true;
@@ -190,7 +207,10 @@ static bool read_and_unseal_data()
 {
     sgx_enclave_id_t eid_unseal = 0;
     // Load the enclave for unsealing
+    start_cycles = __rdtsc();
     sgx_status_t ret = initialize_enclave(ENCLAVE_NAME_UNSEAL, &eid_unseal);
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
     if (ret != SGX_SUCCESS)
     {
         ret_error_support(ret);
@@ -198,7 +218,10 @@ static bool read_and_unseal_data()
     }
     
     // Read the sealed blob from the file
+    start_cycles = __rdtsc();
     size_t fsize = get_file_size(SEALED_DATA_FILE);
+    stop_cycles = __rdtsc();
+    printf("file size enclave %ld\n", stop_cycles-start_cycles);
     if (fsize == (size_t)-1)
     {
         std::cout << "Failed to get the file size of \"" << SEALED_DATA_FILE << "\"" << std::endl;
@@ -212,6 +235,7 @@ static bool read_and_unseal_data()
         sgx_destroy_enclave(eid_unseal);
         return false;
     }
+    start_cycles = __rdtsc();
     if (read_file_to_buf(SEALED_DATA_FILE, temp_buf, fsize) == false)
     {
         std::cout << "Failed to read the sealed data blob from \"" << SEALED_DATA_FILE << "\"" << std::endl;
@@ -219,10 +243,15 @@ static bool read_and_unseal_data()
         sgx_destroy_enclave(eid_unseal);
         return false;
     }
+    stop_cycles = __rdtsc();
+    printf("read file to buf enclave %ld\n", stop_cycles-start_cycles);
 
     // Unseal the sealed blob
     sgx_status_t retval;
+    start_cycles = __rdtsc();
     ret = unseal_data(eid_unseal, &retval, temp_buf, fsize);
+    stop_cycles = __rdtsc();
+    printf("unseal data enclave %ld\n", stop_cycles-start_cycles);
     if (ret != SGX_SUCCESS)
     {
         ret_error_support(ret);
@@ -239,12 +268,14 @@ static bool read_and_unseal_data()
     }
 
     free(temp_buf);
+    start_cycles = __rdtsc();
     sgx_destroy_enclave(eid_unseal);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
    
     std::cout << "Unseal succeeded." << std::endl;
     return true;
 }
-
 
 int main(int argc, char* argv[])
 {

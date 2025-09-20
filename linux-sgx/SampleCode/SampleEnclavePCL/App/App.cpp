@@ -284,6 +284,8 @@ void ocall_print_string(const char *str)
     printf("%s", str);
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
 
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
@@ -292,26 +294,38 @@ int SGX_CDECL main(int argc, char *argv[])
     (void)(argv);
 
 
+    start_cycles = __rdtsc();
     /* Initialize the enclave */
     if ( initialize_enclave ( ENCLAVE_FILENAME, &global_eid ) != SGX_SUCCESS ){
         printf("Enter a character before exit ...\n");
         getchar();
         return -1; 
     }
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
  
+    start_cycles = __rdtsc();
     /* Utilize edger8r attributes */
     edger8r_array_attributes();
     edger8r_pointer_attributes();
     edger8r_type_attributes();
     edger8r_function_attributes();
+    stop_cycles = __rdtsc();
+    printf("edger8r enclave %ld\n", stop_cycles-start_cycles);
     
+    start_cycles = __rdtsc();
     /* Utilize trusted libraries */
     ecall_libc_functions();
     ecall_libcxx_functions();
     ecall_thread_functions();
+    stop_cycles = __rdtsc();
+    printf("ecall enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
     /* Destroy the enclave */
     sgx_destroy_enclave(global_eid);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Info: SampleEnclavePCL successfully returned.\n");
 

@@ -185,6 +185,8 @@ void ocall_print_string(const char *str)
     printf("%s", str);
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
 
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
@@ -193,24 +195,30 @@ int SGX_CDECL main(int argc, char *argv[])
     (void)(argv);
 
 
+    start_cycles = __rdtsc();
     /* Initialize the enclave */
     if(initialize_enclave() < 0){
         printf("Enter a character before exit ...\n");
         getchar();
         return -1; 
     }
- 
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles); 
     
+    start_cycles = __rdtsc();
     /* Utilize trusted libraries */ 
     ecall_libcxx_functions();
+    stop_cycles = __rdtsc(); 
+    printf("ecall enclave %ld\n", stop_cycles-start_cycles);
     
+    start_cycles = __rdtsc();
     /* Destroy the enclave */
     sgx_destroy_enclave(global_eid);
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Info: Cxx17DemoEnclave successfully returned.\n");
 
-    //printf("Enter a character before exit ...\n");
-    //getchar();
     return 0;
 }
 
