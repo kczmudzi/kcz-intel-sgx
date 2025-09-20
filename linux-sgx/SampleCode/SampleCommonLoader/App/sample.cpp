@@ -157,6 +157,9 @@ static bool destroy_enclave(secs_t *secs)
     return true;
 }
 
+#include <x86intrin.h> // For __rdtsc()                                         
+uint64_t start_cycles, stop_cycles;
+
 int main(void)
 {
     secs_t secs;
@@ -166,20 +169,35 @@ int main(void)
     secs.attributes = SGX_FLAGS_MODE64BIT | SGX_FLAGS_DEBUG;
     secs.xfrm = 3;
 
+    start_cycles = __rdtsc();
     if (false == create_enclave(&secs))
         return 1;
+    stop_cycles = __rdtsc();
+    printf("create enclave %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
     if (false == add_enclave_page(&secs))
         return 1;
+    stop_cycles = __rdtsc();
+    printf("add pages %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
     if (false == init_enclave(&secs))
         return 1;
+    stop_cycles = __rdtsc();
+    printf("init enclave %ld\n", stop_cycles-start_cycles);
 
     // enclave is ready to use.
+    start_cycles = __rdtsc();
     sgx_get_token(NULL, (void *)secs.base);
+    stop_cycles = __rdtsc();
+    printf("ecall %ld\n", stop_cycles-start_cycles);
 
+    start_cycles = __rdtsc();
     if (false == destroy_enclave(&secs))
         return 1;
+    stop_cycles = __rdtsc();
+    printf("destroy enclave %ld\n", stop_cycles-start_cycles);
 
     printf("Success!\n");
 
