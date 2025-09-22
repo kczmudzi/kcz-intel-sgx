@@ -1,0 +1,220 @@
+init enclave 153593294
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16377590
+
+ Performance counter stats for './app':
+
+             88.64 msec task-clock                       #    0.998 CPUs utilized             
+                16      context-switches                 #  180.496 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               915      page-faults                      #   10.322 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.088833483 seconds time elapsed
+
+       0.010531000 seconds user
+       0.076900000 seconds sys
+
+
+init enclave 156554888
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16323600
+
+ Performance counter stats for './app':
+
+             90.07 msec task-clock                       #    0.998 CPUs utilized             
+                17      context-switches                 #  188.736 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               915      page-faults                      #   10.158 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090265821 seconds time elapsed
+
+       0.009447000 seconds user
+       0.079854000 seconds sys
+
+
+init enclave 156115436
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16250208
+
+ Performance counter stats for './app':
+
+             89.73 msec task-clock                       #    0.998 CPUs utilized             
+                17      context-switches                 #  189.465 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               917      page-faults                      #   10.220 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.089923859 seconds time elapsed
+
+       0.013835000 seconds user
+       0.074532000 seconds sys
+
+
+init enclave 157504280
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16300600
+
+ Performance counter stats for './app':
+
+             90.46 msec task-clock                       #    0.997 CPUs utilized             
+                17      context-switches                 #  187.937 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               914      page-faults                      #   10.104 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090721342 seconds time elapsed
+
+       0.008310000 seconds user
+       0.081043000 seconds sys
+
+
+init enclave 157083016
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16315338
+
+ Performance counter stats for './app':
+
+             90.32 msec task-clock                       #    0.998 CPUs utilized             
+                16      context-switches                 #  177.149 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               914      page-faults                      #   10.120 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090502047 seconds time elapsed
+
+       0.011563000 seconds user
+       0.077838000 seconds sys
+
+
+init enclave 156268722
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16352662
+
+ Performance counter stats for './app':
+
+             89.92 msec task-clock                       #    0.998 CPUs utilized             
+                15      context-switches                 #  166.809 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               917      page-faults                      #   10.198 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090106674 seconds time elapsed
+
+       0.010471000 seconds user
+       0.078572000 seconds sys
+
+
+init enclave 157395506
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16418306
+
+ Performance counter stats for './app':
+
+             90.43 msec task-clock                       #    0.996 CPUs utilized             
+                20      context-switches                 #  221.160 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               915      page-faults                      #   10.118 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090773039 seconds time elapsed
+
+       0.011461000 seconds user
+       0.077168000 seconds sys
+
+
+init enclave 156305270
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16271138
+
+ Performance counter stats for './app':
+
+             89.87 msec task-clock                       #    0.998 CPUs utilized             
+                16      context-switches                 #  178.027 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               915      page-faults                      #   10.181 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090087931 seconds time elapsed
+
+       0.008355000 seconds user
+       0.080456000 seconds sys
+
+
+init enclave 156702190
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16293672
+
+ Performance counter stats for './app':
+
+             90.05 msec task-clock                       #    0.997 CPUs utilized             
+                18      context-switches                 #  199.899 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               915      page-faults                      #   10.162 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090297928 seconds time elapsed
+
+       0.011548000 seconds user
+       0.077747000 seconds sys
+
+
+init enclave 157006292
+succeed to load enclaves.
+failed to establish secure channel: ECALL return 0x0, error code is 0xe4.
+destroy enclave 16354534
+
+ Performance counter stats for './app':
+
+             90.23 msec task-clock                       #    0.998 CPUs utilized             
+                17      context-switches                 #  188.407 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               916      page-faults                      #   10.152 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.090424068 seconds time elapsed
+
+       0.009361000 seconds user
+       0.080196000 seconds sys
+
+
