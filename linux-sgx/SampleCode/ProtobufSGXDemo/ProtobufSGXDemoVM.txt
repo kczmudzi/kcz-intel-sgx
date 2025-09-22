@@ -1,0 +1,250 @@
+init enclave 56939204
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1124108
+destroy enclave 2492398
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.35 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  287.052 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   20.891 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031524129 seconds time elapsed
+
+       0.000000000 seconds user
+       0.031014000 seconds sys
+
+
+init enclave 57676338
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1058794
+destroy enclave 2467992
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.65 msec task-clock                       #    0.993 CPUs utilized             
+                 9      context-switches                 #  284.387 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               654      page-faults                      #   20.665 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031869378 seconds time elapsed
+
+       0.002963000 seconds user
+       0.028642000 seconds sys
+
+
+init enclave 56828192
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1112188
+destroy enclave 2439422
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.24 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  288.128 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               656      page-faults                      #   21.001 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031406156 seconds time elapsed
+
+       0.002997000 seconds user
+       0.027999000 seconds sys
+
+
+init enclave 57111424
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1081118
+destroy enclave 2528496
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.38 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  286.770 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               654      page-faults                      #   20.839 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031541441 seconds time elapsed
+
+       0.001998000 seconds user
+       0.028978000 seconds sys
+
+
+init enclave 56737728
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1069256
+destroy enclave 2451948
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.14 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  289.007 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               656      page-faults                      #   21.065 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031304295 seconds time elapsed
+
+       0.001998000 seconds user
+       0.028979000 seconds sys
+
+
+init enclave 56574662
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1078496
+destroy enclave 2497546
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.13 msec task-clock                       #    0.993 CPUs utilized             
+                11      context-switches                 #  353.378 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   21.042 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031346024 seconds time elapsed
+
+       0.000996000 seconds user
+       0.029990000 seconds sys
+
+
+init enclave 57005974
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1082408
+destroy enclave 2467006
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.28 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  287.713 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   20.939 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031442900 seconds time elapsed
+
+       0.002000000 seconds user
+       0.028997000 seconds sys
+
+
+init enclave 57109862
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1102044
+destroy enclave 2518078
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.41 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  254.727 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   20.856 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031583763 seconds time elapsed
+
+       0.003997000 seconds user
+       0.026991000 seconds sys
+
+
+init enclave 57113080
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1081938
+destroy enclave 2386154
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.28 msec task-clock                       #    0.994 CPUs utilized             
+                10      context-switches                 #  319.668 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   20.938 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031457465 seconds time elapsed
+
+       0.002916000 seconds user
+       0.028209000 seconds sys
+
+
+init enclave 57014752
+x.id=101
+x.str=yvhqbat
+x.email=yvhbat@126.com
+ecall enclave 1104580
+destroy enclave 2544546
+Info: ProtobufDemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             31.35 msec task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #  287.070 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               655      page-faults                      #   20.892 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.031510881 seconds time elapsed
+
+       0.000993000 seconds user
+       0.029854000 seconds sys
+
+
