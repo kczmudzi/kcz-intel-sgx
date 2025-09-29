@@ -1,0 +1,270 @@
+init enclave 17557652
+succeed to load enclaves.
+create session enclave 1335348
+succeed to establish secure channel.
+message enclave 42588
+Succeed to exchange secure message...
+close session enclave 6772
+Succeed to close Session...
+destroy enclave 533726
+
+ Performance counter stats for './app':
+
+             11.25 msec task-clock                       #    0.984 CPUs utilized             
+                 7      context-switches                 #  622.278 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,379      page-faults                      #  211.486 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011436259 seconds time elapsed
+
+       0.004106000 seconds user
+       0.007180000 seconds sys
+
+
+init enclave 17988712
+succeed to load enclaves.
+create session enclave 1375008
+succeed to establish secure channel.
+message enclave 36788
+Succeed to exchange secure message...
+close session enclave 7018
+Succeed to close Session...
+destroy enclave 461158
+
+ Performance counter stats for './app':
+
+             11.44 msec task-clock                       #    0.984 CPUs utilized             
+                 7      context-switches                 #  611.896 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,378      page-faults                      #  207.870 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011624396 seconds time elapsed
+
+       0.005223000 seconds user
+       0.006257000 seconds sys
+
+
+init enclave 17869900
+succeed to load enclaves.
+create session enclave 1365922
+succeed to establish secure channel.
+message enclave 45620
+Succeed to exchange secure message...
+close session enclave 6902
+Succeed to close Session...
+destroy enclave 470506
+
+ Performance counter stats for './app':
+
+             11.34 msec task-clock                       #    0.984 CPUs utilized             
+                 7      context-switches                 #  617.340 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,379      page-faults                      #  209.807 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011523221 seconds time elapsed
+
+       0.004147000 seconds user
+       0.007247000 seconds sys
+
+
+init enclave 17088218
+succeed to load enclaves.
+create session enclave 1380940
+succeed to establish secure channel.
+message enclave 39460
+Succeed to exchange secure message...
+close session enclave 6838
+Succeed to close Session...
+destroy enclave 464576
+
+ Performance counter stats for './app':
+
+             10.98 msec task-clock                       #    0.984 CPUs utilized             
+                 7      context-switches                 #  637.494 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,379      page-faults                      #  216.657 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011164161 seconds time elapsed
+
+       0.004010000 seconds user
+       0.007012000 seconds sys
+
+
+init enclave 17365974
+succeed to load enclaves.
+create session enclave 1310852
+succeed to establish secure channel.
+message enclave 39136
+Succeed to exchange secure message...
+close session enclave 6674
+Succeed to close Session...
+destroy enclave 514140
+
+ Performance counter stats for './app':
+
+             11.09 msec task-clock                       #    0.982 CPUs utilized             
+                 9      context-switches                 #  811.787 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,379      page-faults                      #  214.582 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011284996 seconds time elapsed
+
+       0.003040000 seconds user
+       0.008083000 seconds sys
+
+
+init enclave 17282540
+succeed to load enclaves.
+create session enclave 1342632
+succeed to establish secure channel.
+message enclave 49680
+Succeed to exchange secure message...
+close session enclave 7066
+Succeed to close Session...
+destroy enclave 480044
+
+ Performance counter stats for './app':
+
+             11.06 msec task-clock                       #    0.983 CPUs utilized             
+                 8      context-switches                 #  723.336 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,380      page-faults                      #  215.192 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011249126 seconds time elapsed
+
+       0.002020000 seconds user
+       0.009082000 seconds sys
+
+
+init enclave 17638934
+succeed to load enclaves.
+create session enclave 1292542
+succeed to establish secure channel.
+message enclave 40364
+Succeed to exchange secure message...
+close session enclave 6682
+Succeed to close Session...
+destroy enclave 533224
+
+ Performance counter stats for './app':
+
+             11.21 msec task-clock                       #    0.983 CPUs utilized             
+                 7      context-switches                 #  624.335 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,380      page-faults                      #  212.274 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011411131 seconds time elapsed
+
+       0.003069000 seconds user
+       0.008166000 seconds sys
+
+
+init enclave 17495664
+succeed to load enclaves.
+create session enclave 1495384
+succeed to establish secure channel.
+message enclave 39362
+Succeed to exchange secure message...
+close session enclave 6892
+Succeed to close Session...
+destroy enclave 528460
+
+ Performance counter stats for './app':
+
+             11.63 msec task-clock                       #    0.984 CPUs utilized             
+                 7      context-switches                 #  601.898 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,380      page-faults                      #  204.645 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011816998 seconds time elapsed
+
+       0.002125000 seconds user
+       0.009544000 seconds sys
+
+
+init enclave 17135298
+succeed to load enclaves.
+create session enclave 1356470
+succeed to establish secure channel.
+message enclave 34968
+Succeed to exchange secure message...
+close session enclave 6754
+Succeed to close Session...
+destroy enclave 469396
+
+ Performance counter stats for './app':
+
+             11.01 msec task-clock                       #    0.980 CPUs utilized             
+                 9      context-switches                 #  817.788 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,379      page-faults                      #  216.169 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011232635 seconds time elapsed
+
+       0.002010000 seconds user
+       0.009037000 seconds sys
+
+
+init enclave 17986858
+succeed to load enclaves.
+create session enclave 1378692
+succeed to establish secure channel.
+message enclave 40748
+Succeed to exchange secure message...
+close session enclave 6786
+Succeed to close Session...
+destroy enclave 471796
+
+ Performance counter stats for './app':
+
+             11.44 msec task-clock                       #    0.985 CPUs utilized             
+                 6      context-switches                 #  524.641 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             2,378      page-faults                      #  207.933 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.011613648 seconds time elapsed
+
+       0.003814000 seconds user
+       0.007645000 seconds sys
+
+
