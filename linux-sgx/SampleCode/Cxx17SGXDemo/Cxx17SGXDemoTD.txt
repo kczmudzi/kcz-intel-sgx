@@ -1,4 +1,4 @@
-init enclave 88960460
+init enclave 85846628
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -36,7 +36,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f388e0db400
+1024-byte aligned address: 0x7fa1bc0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -120,28 +120,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12752430
-destroy enclave 14963530
+ecall enclave 12719776
+destroy enclave 2125248
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             59.53 msec task-clock                       #    0.997 CPUs utilized             
-                13      context-switches                 #  218.392 /sec                      
+             51.56 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  232.729 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               692      page-faults                      #   11.625 K/sec                     
+               687      page-faults                      #   13.324 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.059718388 seconds time elapsed
+       0.051768461 seconds time elapsed
 
-       0.009779000 seconds user
-       0.048890000 seconds sys
+       0.005963000 seconds user
+       0.044749000 seconds sys
 
 
-init enclave 91887442
+init enclave 86211086
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -179,7 +179,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f25990db400
+1024-byte aligned address: 0x7f76590db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -263,28 +263,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12882010
-destroy enclave 14998254
+ecall enclave 12562424
+destroy enclave 2146996
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.06 msec task-clock                       #    0.996 CPUs utilized             
-                12      context-switches                 #  196.544 /sec                      
+             51.67 msec task-clock                       #    0.996 CPUs utilized             
+                14      context-switches                 #  270.930 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               691      page-faults                      #   11.318 K/sec                     
+               686      page-faults                      #   13.276 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061272406 seconds time elapsed
+       0.051874678 seconds time elapsed
 
-       0.010841000 seconds user
-       0.049907000 seconds sys
+       0.009706000 seconds user
+       0.040765000 seconds sys
 
 
-init enclave 91320734
+init enclave 86179684
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -322,7 +322,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f31ef0db400
+1024-byte aligned address: 0x7fe75b0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -406,28 +406,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12994208
-destroy enclave 14930280
+ecall enclave 12115104
+destroy enclave 2104512
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             60.83 msec task-clock                       #    0.997 CPUs utilized             
-                13      context-switches                 #  213.724 /sec                      
+             51.38 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  233.545 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               689      page-faults                      #   11.327 K/sec                     
+               690      page-faults                      #   13.429 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061013893 seconds time elapsed
+       0.051581722 seconds time elapsed
 
-       0.013852000 seconds user
-       0.045813000 seconds sys
+       0.008952000 seconds user
+       0.041771000 seconds sys
 
 
-init enclave 91582934
+init enclave 85506520
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -465,7 +465,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f622e0db400
+1024-byte aligned address: 0x7fe0320db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -549,28 +549,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 13385520
-destroy enclave 15022818
+ecall enclave 12448140
+destroy enclave 2126354
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.20 msec task-clock                       #    0.996 CPUs utilized             
-                12      context-switches                 #  196.092 /sec                      
+             51.23 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  234.222 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               685      page-faults                      #   11.194 K/sec                     
+               686      page-faults                      #   13.390 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061411446 seconds time elapsed
+       0.051418743 seconds time elapsed
 
-       0.009763000 seconds user
-       0.051018000 seconds sys
+       0.007937000 seconds user
+       0.042679000 seconds sys
 
 
-init enclave 92137906
+init enclave 86269220
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -608,7 +608,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f330a0db400
+1024-byte aligned address: 0x7f9c0a0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -692,28 +692,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 13650178
-destroy enclave 14956622
+ecall enclave 12227940
+destroy enclave 2127314
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.58 msec task-clock                       #    0.997 CPUs utilized             
-                13      context-switches                 #  211.097 /sec                      
+             51.49 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  233.065 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               687      page-faults                      #   11.156 K/sec                     
+               693      page-faults                      #   13.459 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061776660 seconds time elapsed
+       0.051689068 seconds time elapsed
 
-       0.009745000 seconds user
-       0.050933000 seconds sys
+       0.008945000 seconds user
+       0.041768000 seconds sys
 
 
-init enclave 91444368
+init enclave 86475476
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -751,7 +751,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f4af50db400
+1024-byte aligned address: 0x7fc07f0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -835,28 +835,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 13500048
-destroy enclave 15039930
+ecall enclave 12057910
+destroy enclave 2168848
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.19 msec task-clock                       #    0.997 CPUs utilized             
-                14      context-switches                 #  228.787 /sec                      
+             51.53 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  232.865 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               687      page-faults                      #   11.227 K/sec                     
+               691      page-faults                      #   13.409 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061390301 seconds time elapsed
+       0.051716200 seconds time elapsed
 
-       0.008410000 seconds user
-       0.051521000 seconds sys
+       0.008877000 seconds user
+       0.042395000 seconds sys
 
 
-init enclave 91173248
+init enclave 85839434
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -894,7 +894,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f71670db400
+1024-byte aligned address: 0x7f22d20db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -978,28 +978,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12946304
-destroy enclave 14965814
+ecall enclave 12499686
+destroy enclave 2107284
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             60.75 msec task-clock                       #    0.997 CPUs utilized             
-                13      context-switches                 #  213.986 /sec                      
+             51.37 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  253.060 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               689      page-faults                      #   11.341 K/sec                     
+               687      page-faults                      #   13.373 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.060939777 seconds time elapsed
+       0.051598699 seconds time elapsed
 
-       0.009757000 seconds user
-       0.049888000 seconds sys
+       0.010923000 seconds user
+       0.039731000 seconds sys
 
 
-init enclave 91518436
+init enclave 86298458
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -1037,7 +1037,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7fc5da0db400
+1024-byte aligned address: 0x7f40960db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -1121,28 +1121,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12984884
-destroy enclave 14973308
+ecall enclave 12142060
+destroy enclave 2112150
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             60.92 msec task-clock                       #    0.997 CPUs utilized             
-                12      context-switches                 #  196.970 /sec                      
+             51.48 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  252.512 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               692      page-faults                      #   11.359 K/sec                     
+               690      page-faults                      #   13.403 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061104884 seconds time elapsed
+       0.051708125 seconds time elapsed
 
-       0.006492000 seconds user
-       0.054147000 seconds sys
+       0.010876000 seconds user
+       0.039574000 seconds sys
 
 
-init enclave 92129478
+init enclave 86779764
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -1180,7 +1180,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7ff3eb0db400
+1024-byte aligned address: 0x7f0d5f0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -1264,28 +1264,28 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 12988256
-destroy enclave 14972708
+ecall enclave 12117988
+destroy enclave 2116942
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.17 msec task-clock                       #    0.996 CPUs utilized             
-                13      context-switches                 #  212.510 /sec                      
+             51.72 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  232.015 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               691      page-faults                      #   11.296 K/sec                     
+               690      page-faults                      #   13.341 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061398279 seconds time elapsed
+       0.051905133 seconds time elapsed
 
-       0.005508000 seconds user
-       0.055070000 seconds sys
+       0.010933000 seconds user
+       0.039797000 seconds sys
 
 
-init enclave 91633208
+init enclave 85996322
 Map instance constructed
 Hello C++17
 Hello from nested namespace
@@ -1323,7 +1323,7 @@ Default value
 initially, in: Home Work! 
 after move, in:   
 after move, out: Home Work! 
-1024-byte aligned address: 0x7f502c0db400
+1024-byte aligned address: 0x7fa86f0db400
 value_based.size() is 2
 owner_based.size() is 1
 0 1 2 3 4 5 6 7 8 9 
@@ -1407,24 +1407,24 @@ op = 42
 [condition_variable] Waiting for the data to be loaded in the other thread.
 [condition_variable] Processing the loaded data.
 [condition_variable] Done.
-ecall enclave 13556858
-destroy enclave 14960076
+ecall enclave 12047622
+destroy enclave 2109076
 Info: Cxx17DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             61.29 msec task-clock                       #    0.997 CPUs utilized             
-                12      context-switches                 #  195.783 /sec                      
+             51.31 msec task-clock                       #    0.986 CPUs utilized             
+                15      context-switches                 #  292.335 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               689      page-faults                      #   11.241 K/sec                     
+               691      page-faults                      #   13.467 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.061490936 seconds time elapsed
+       0.052044671 seconds time elapsed
 
-       0.011607000 seconds user
-       0.048526000 seconds sys
+       0.007804000 seconds user
+       0.042913000 seconds sys
 
 

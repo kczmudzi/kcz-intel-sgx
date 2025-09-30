@@ -1,330 +1,330 @@
-init enclave 105867834
+init enclave 101119184
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3072120
+ecall 1 enclave 3080464
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2534694
+ecall 2 enclave 2556512
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1337644
+ecall 3 enclave 1307904
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18912
+ecall 4 enclave 18088
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 140192
+ecall 5 enclave 135340
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 51942
-destroy  enclave 15173522
+ecall 6 enclave 51212
+destroy  enclave 2369976
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.34 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  137.731 /sec                      
+             56.51 msec task-clock                       #    0.997 CPUs utilized             
+                13      context-switches                 #  230.066 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               592      page-faults                      #    9.060 K/sec                     
+               593      page-faults                      #   10.495 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065527284 seconds time elapsed
+       0.056683577 seconds time elapsed
 
-       0.008815000 seconds user
-       0.056229000 seconds sys
+       0.007022000 seconds user
+       0.049173000 seconds sys
 
 
-init enclave 107226506
+init enclave 102147138
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3106468
+ecall 1 enclave 3077192
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2571978
+ecall 2 enclave 2544338
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1288128
+ecall 3 enclave 1329748
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18812
+ecall 4 enclave 17586
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 142424
+ecall 5 enclave 134436
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 52162
-destroy  enclave 15308268
+ecall 6 enclave 49496
+destroy  enclave 2379410
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             66.08 msec task-clock                       #    0.997 CPUs utilized             
-                 8      context-switches                 #  121.060 /sec                      
+             57.00 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  157.891 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               595      page-faults                      #    9.004 K/sec                     
+               591      page-faults                      #   10.368 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.066253764 seconds time elapsed
+       0.057195098 seconds time elapsed
 
-       0.009861000 seconds user
-       0.055920000 seconds sys
+       0.007960000 seconds user
+       0.048777000 seconds sys
 
 
-init enclave 105961942
+init enclave 101456054
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3100656
+ecall 1 enclave 3019434
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2549982
+ecall 2 enclave 2538072
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1330372
+ecall 3 enclave 1297546
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18460
+ecall 4 enclave 17478
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 142264
+ecall 5 enclave 131022
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 52150
-destroy  enclave 15223560
+ecall 6 enclave 48244
+destroy  enclave 2439370
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.38 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  137.660 /sec                      
+             56.64 msec task-clock                       #    0.997 CPUs utilized             
+                10      context-switches                 #  176.550 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               594      page-faults                      #    9.086 K/sec                     
+               593      page-faults                      #   10.469 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065556897 seconds time elapsed
+       0.056811187 seconds time elapsed
 
-       0.008823000 seconds user
-       0.056283000 seconds sys
+       0.008047000 seconds user
+       0.048316000 seconds sys
 
 
-init enclave 104519246
+init enclave 101385074
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3155892
+ecall 1 enclave 3322606
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2534640
+ecall 2 enclave 2490906
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1337946
+ecall 3 enclave 1286952
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18664
+ecall 4 enclave 17694
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 171046
+ecall 5 enclave 136054
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 52620
-destroy  enclave 15237376
+ecall 6 enclave 50312
+destroy  enclave 2426320
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             64.67 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  139.169 /sec                      
+             56.78 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  158.498 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               592      page-faults                      #    9.154 K/sec                     
+               594      page-faults                      #   10.461 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.064845261 seconds time elapsed
+       0.056959635 seconds time elapsed
 
-       0.008728000 seconds user
-       0.055653000 seconds sys
+       0.007912000 seconds user
+       0.048486000 seconds sys
 
 
-init enclave 105805722
+init enclave 100975814
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3153478
+ecall 1 enclave 3025574
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2473684
+ecall 2 enclave 2445068
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1334172
+ecall 3 enclave 1393622
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18584
+ecall 4 enclave 18596
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 141770
+ecall 5 enclave 139324
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 51958
-destroy  enclave 15187802
+ecall 6 enclave 51556
+destroy  enclave 2380102
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.24 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  137.947 /sec                      
+             56.40 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  159.575 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               592      page-faults                      #    9.074 K/sec                     
+               592      page-faults                      #   10.496 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065420637 seconds time elapsed
+       0.056569860 seconds time elapsed
 
-       0.006608000 seconds user
-       0.058374000 seconds sys
+       0.005009000 seconds user
+       0.051140000 seconds sys
 
 
-init enclave 105839382
+init enclave 100706512
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3087466
+ecall 1 enclave 3041242
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2612452
+ecall 2 enclave 2449114
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1263882
+ecall 3 enclave 1342016
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18712
+ecall 4 enclave 18644
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 140800
+ecall 5 enclave 139180
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 51390
-destroy  enclave 15308680
+ecall 6 enclave 51774
+destroy  enclave 2403012
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.31 msec task-clock                       #    0.997 CPUs utilized             
-                11      context-switches                 #  168.431 /sec                      
+             56.25 msec task-clock                       #    0.997 CPUs utilized             
+                10      context-switches                 #  177.783 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               593      page-faults                      #    9.080 K/sec                     
+               593      page-faults                      #   10.543 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065516933 seconds time elapsed
+       0.056421994 seconds time elapsed
 
-       0.008736000 seconds user
-       0.055714000 seconds sys
+       0.006988000 seconds user
+       0.048962000 seconds sys
 
 
-init enclave 105448780
+init enclave 101119004
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3140568
+ecall 1 enclave 3056014
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2511794
+ecall 2 enclave 2553086
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1331076
+ecall 3 enclave 1309018
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18462
+ecall 4 enclave 17784
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 140512
+ecall 5 enclave 134224
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 51688
-destroy  enclave 15285162
+ecall 6 enclave 50482
+destroy  enclave 2384678
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.15 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  138.146 /sec                      
+             56.49 msec task-clock                       #    0.996 CPUs utilized             
+                11      context-switches                 #  194.710 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               594      page-faults                      #    9.118 K/sec                     
+               593      page-faults                      #   10.497 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065332994 seconds time elapsed
+       0.056717834 seconds time elapsed
 
-       0.006590000 seconds user
-       0.058284000 seconds sys
+       0.009030000 seconds user
+       0.047180000 seconds sys
 
 
-init enclave 106018354
+init enclave 101028918
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3219896
+ecall 1 enclave 3092906
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2454186
+ecall 2 enclave 2441166
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1333988
+ecall 3 enclave 1328222
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18402
+ecall 4 enclave 17618
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 142506
+ecall 5 enclave 132676
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 52268
-destroy  enclave 15220564
+ecall 6 enclave 48970
+destroy  enclave 2415508
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.36 msec task-clock                       #    0.997 CPUs utilized             
-                10      context-switches                 #  152.999 /sec                      
+             56.46 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  159.417 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               592      page-faults                      #    9.058 K/sec                     
+               593      page-faults                      #   10.504 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065533631 seconds time elapsed
+       0.056632057 seconds time elapsed
 
-       0.010833000 seconds user
-       0.054214000 seconds sys
+       0.005017000 seconds user
+       0.051172000 seconds sys
 
 
-init enclave 106592332
+init enclave 100833520
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3185024
+ecall 1 enclave 3130058
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2455914
+ecall 2 enclave 2445812
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1305882
+ecall 3 enclave 1325256
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 18844
+ecall 4 enclave 17750
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 161232
+ecall 5 enclave 136658
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 55902
-destroy  enclave 15206524
+ecall 6 enclave 51480
+destroy  enclave 2419474
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.64 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  137.117 /sec                      
+             56.35 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  159.703 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               593      page-faults                      #    9.034 K/sec                     
+               592      page-faults                      #   10.505 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065817908 seconds time elapsed
+       0.056526557 seconds time elapsed
 
-       0.009801000 seconds user
-       0.055564000 seconds sys
+       0.007872000 seconds user
+       0.048226000 seconds sys
 
 
-init enclave 105941596
+init enclave 100948468
 GM SM2 - sign and verify: PASS
-ecall 1 enclave 3151632
+ecall 1 enclave 3115750
 GM SM2 - key exchange: PASS
-ecall 2 enclave 2458636
+ecall 2 enclave 2517096
 GM SM2 - encrypt and decrypt(GM version): PASS
-ecall 3 enclave 1345936
+ecall 3 enclave 1284992
 GM SM3 - compute digest of message: PASS
-ecall 4 enclave 19512
+ecall 4 enclave 17530
 GM SM4 - cbc encrypt and decrypt: PASS
-ecall 5 enclave 147372
+ecall 5 enclave 133168
 GM SM4 - ctr encrypt and decrypt: PASS
-ecall 6 enclave 54258
-destroy  enclave 15205218
+ecall 6 enclave 49454
+destroy  enclave 2445484
 Info: SampleEnclaveGMIPP successfully returned.
 
  Performance counter stats for './app':
 
-             65.34 msec task-clock                       #    0.997 CPUs utilized             
-                 8      context-switches                 #  122.428 /sec                      
+             56.42 msec task-clock                       #    0.997 CPUs utilized             
+                 9      context-switches                 #  159.519 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               592      page-faults                      #    9.060 K/sec                     
+               593      page-faults                      #   10.511 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.065510117 seconds time elapsed
+       0.056596497 seconds time elapsed
 
-       0.007590000 seconds user
-       0.057451000 seconds sys
+       0.008864000 seconds user
+       0.047314000 seconds sys
 
 

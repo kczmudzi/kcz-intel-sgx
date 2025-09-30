@@ -1,1150 +1,240 @@
-create enclave 159486
-add pages 703818
-init enclave 47452
-ecall 177242
-destroy enclave 12658154
+create enclave 158968
+add pages 635976
+init enclave 43604
+ecall 160350
+destroy enclave 95142
 Success!
 
  Performance counter stats for './sample':
 
-              7.86 msec task-clock                       #    0.980 CPUs utilized             
-                 5      context-switches                 #  635.853 /sec                      
+              1.54 msec task-clock                       #    0.896 CPUs utilized             
+                 3      context-switches                 #    1.954 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               129      page-faults                      #   16.405 K/sec                     
+               130      page-faults                      #   84.671 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008027521 seconds time elapsed
+       0.001713079 seconds time elapsed
 
        0.000000000 seconds user
-       0.007985000 seconds sys
+       0.001691000 seconds sys
 
 
-create enclave 161940
-add pages 666206
-init enclave 47488
-ecall 170102
-destroy enclave 12680086
+create enclave 159574
+add pages 671554
+init enclave 44998
+ecall 232562
+destroy enclave 66970
 Success!
 
  Performance counter stats for './sample':
 
-              7.83 msec task-clock                       #    0.968 CPUs utilized             
-                 5      context-switches                 #  638.927 /sec                      
+              1.57 msec task-clock                       #    0.907 CPUs utilized             
+                 4      context-switches                 #    2.551 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.612 K/sec                     
+               132      page-faults                      #   84.175 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008084766 seconds time elapsed
+       0.001728358 seconds time elapsed
 
-       0.003987000 seconds user
-       0.003968000 seconds sys
+       0.000844000 seconds user
+       0.000849000 seconds sys
 
 
-create enclave 162020
-add pages 668448
-init enclave 45086
-ecall 169522
-destroy enclave 12689936
+create enclave 161962
+add pages 642946
+init enclave 43412
+ecall 158164
+destroy enclave 102990
 Success!
 
  Performance counter stats for './sample':
 
-              7.84 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  510.049 /sec                      
+              1.53 msec task-clock                       #    0.906 CPUs utilized             
+                 3      context-switches                 #    1.965 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.577 K/sec                     
+               130      page-faults                      #   85.143 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.007997028 seconds time elapsed
-
-       0.003987000 seconds user
-       0.003965000 seconds sys
-
-
-create enclave 161982
-add pages 668190
-init enclave 45342
-ecall 168364
-destroy enclave 12664942
-Success!
-
- Performance counter stats for './sample':
-
-              7.80 msec task-clock                       #    0.978 CPUs utilized             
-                 4      context-switches                 #  512.596 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.659 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.007980940 seconds time elapsed
+       0.001684987 seconds time elapsed
 
        0.000000000 seconds user
-       0.007928000 seconds sys
+       0.001674000 seconds sys
 
 
-create enclave 159042
-add pages 694002
-init enclave 44752
-ecall 167888
-destroy enclave 12702528
+create enclave 180060
+add pages 638560
+init enclave 47174
+ecall 233058
+destroy enclave 66792
 Success!
 
  Performance counter stats for './sample':
 
-              7.85 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  509.680 /sec                      
+              1.52 msec task-clock                       #    0.893 CPUs utilized             
+                 4      context-switches                 #    2.631 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.692 K/sec                     
+               130      page-faults                      #   85.494 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008004173 seconds time elapsed
+       0.001703283 seconds time elapsed
 
-       0.003991000 seconds user
-       0.003968000 seconds sys
+       0.001671000 seconds user
+       0.000000000 seconds sys
 
 
-create enclave 158842
-add pages 667844
-init enclave 46000
-ecall 166694
-destroy enclave 12681910
+create enclave 157770
+add pages 674060
+init enclave 46346
+ecall 167696
+destroy enclave 97238
 Success!
 
  Performance counter stats for './sample':
 
-              7.81 msec task-clock                       #    0.978 CPUs utilized             
-                 4      context-switches                 #  512.272 /sec                      
+              1.54 msec task-clock                       #    0.907 CPUs utilized             
+                 3      context-switches                 #    1.947 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.777 K/sec                     
+               130      page-faults                      #   84.383 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.007985914 seconds time elapsed
+       0.001698616 seconds time elapsed
 
-       0.003976000 seconds user
-       0.003957000 seconds sys
+       0.001687000 seconds user
+       0.000000000 seconds sys
 
 
-create enclave 221104
-add pages 666114
-init enclave 46122
-ecall 167882
-destroy enclave 12690384
+create enclave 163064
+add pages 671394
+init enclave 47532
+ecall 246162
+destroy enclave 69224
 Success!
 
  Performance counter stats for './sample':
 
-              7.86 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  508.919 /sec                      
+              1.54 msec task-clock                       #    0.867 CPUs utilized             
+                 5      context-switches                 #    3.252 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.667 K/sec                     
+               130      page-faults                      #   84.559 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008016503 seconds time elapsed
+       0.001774074 seconds time elapsed
 
-       0.003995000 seconds user
-       0.003974000 seconds sys
+       0.001678000 seconds user
+       0.000000000 seconds sys
 
 
-create enclave 166968
-add pages 1291124
-init enclave 49998
-ecall 195940
-destroy enclave 12664190
+create enclave 168298
+add pages 645926
+init enclave 45630
+ecall 189702
+destroy enclave 75724
 Success!
 
  Performance counter stats for './sample':
 
-              8.14 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  491.241 /sec                      
+              1.55 msec task-clock                       #    0.904 CPUs utilized             
+                 3      context-switches                 #    1.938 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.088 K/sec                     
+               131      page-faults                      #   84.610 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008299577 seconds time elapsed
+       0.001712644 seconds time elapsed
 
        0.000000000 seconds user
-       0.008263000 seconds sys
+       0.001701000 seconds sys
 
 
-create enclave 208476
-add pages 726478
-init enclave 46690
-ecall 166832
-destroy enclave 12858650
+create enclave 164980
+add pages 772846
+init enclave 45650
+ecall 160888
+destroy enclave 68314
 Success!
 
  Performance counter stats for './sample':
 
-              7.97 msec task-clock                       #    0.978 CPUs utilized             
-                 4      context-switches                 #  501.920 /sec                      
+              1.54 msec task-clock                       #    0.903 CPUs utilized             
+                 4      context-switches                 #    2.592 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.312 K/sec                     
+               131      page-faults                      #   84.895 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008148404 seconds time elapsed
-
-       0.002702000 seconds user
-       0.005375000 seconds sys
-
-
-create enclave 217204
-add pages 657100
-init enclave 44586
-ecall 171248
-destroy enclave 12855580
-Success!
-
- Performance counter stats for './sample':
-
-              7.91 msec task-clock                       #    0.980 CPUs utilized             
-                 5      context-switches                 #  632.365 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               129      page-faults                      #   16.315 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008066352 seconds time elapsed
+       0.001708042 seconds time elapsed
 
        0.000000000 seconds user
-       0.008034000 seconds sys
+       0.001658000 seconds sys
 
 
-ioctl ECREATE 159676
-create enclave 259092
-ioctl ADD PAGES IN KERNEL 78666
-ioctl ADD PAGES IN KERNEL 1274972
-add pages 1396364
-ioctl EINIT IN KERNEL 53978
-init enclave 66622
-ecall 285228
-destroy enclave 12916304
+create enclave 161174
+add pages 655950
+init enclave 46388
+ecall 193808
+destroy enclave 71216
 Success!
 
  Performance counter stats for './sample':
 
-              8.50 msec task-clock                       #    0.640 CPUs utilized             
-                 6      context-switches                 #  705.764 /sec                      
+              1.56 msec task-clock                       #    0.907 CPUs utilized             
+                 3      context-switches                 #    1.925 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   15.527 K/sec                     
+               131      page-faults                      #   84.049 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.013291973 seconds time elapsed
+       0.001717730 seconds time elapsed
 
        0.000000000 seconds user
-       0.008638000 seconds sys
+       0.001707000 seconds sys
 
 
-ioctl ECREATE 102098
-create enclave 201290
-ioctl ADD PAGES IN KERNEL 84282
-ioctl ADD PAGES IN KERNEL 604220
-add pages 719088
-ioctl EINIT IN KERNEL 42028
-init enclave 51614
-ecall 200116
-destroy enclave 12874426
+create enclave 165086
+add pages 676758
+init enclave 45416
+ecall 158628
+destroy enclave 124322
 Success!
 
  Performance counter stats for './sample':
 
-              8.01 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  499.485 /sec                      
+              1.57 msec task-clock                       #    0.906 CPUs utilized             
+                 3      context-switches                 #    1.910 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.358 K/sec                     
+               131      page-faults                      #   83.409 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.008169031 seconds time elapsed
+       0.001733834 seconds time elapsed
 
-       0.004077000 seconds user
-       0.004062000 seconds sys
-
-
-ioctl ECREATE 96388
-create enclave 185902
-ioctl ADD PAGES IN KERNEL 81956
-ioctl ADD PAGES IN KERNEL 1691026
-add pages 1804182
-ioctl EINIT IN KERNEL 40980
-init enclave 50662
-ecall 176260
-destroy enclave 12975110
-Success!
-
- Performance counter stats for './sample':
-
-              8.55 msec task-clock                       #    0.981 CPUs utilized             
-                 5      context-switches                 #  584.982 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   15.444 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008708705 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008652000 seconds sys
-
-
-ioctl ECREATE 98108
-create enclave 194352
-ioctl ADD PAGES IN KERNEL 81320
-ioctl ADD PAGES IN KERNEL 636598
-add pages 745906
-ioctl EINIT IN KERNEL 40786
-init enclave 49730
-ecall 167370
-destroy enclave 12903190
-Success!
-
- Performance counter stats for './sample':
-
-              7.99 msec task-clock                       #    0.973 CPUs utilized             
-                 5      context-switches                 #  625.571 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.515 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008218609 seconds time elapsed
-
-       0.004062000 seconds user
-       0.004041000 seconds sys
-
-
-ioctl ECREATE 97024
-create enclave 188466
-ioctl ADD PAGES IN KERNEL 80858
-ioctl ADD PAGES IN KERNEL 580286
-add pages 691620
-ioctl EINIT IN KERNEL 39304
-init enclave 48350
-ecall 269778
-destroy enclave 12884886
-Success!
-
- Performance counter stats for './sample':
-
-              8.00 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  499.924 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.498 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008160259 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008127000 seconds sys
-
-
-ioctl ECREATE 105022
-create enclave 228034
-ioctl ADD PAGES IN KERNEL 108004
-ioctl ADD PAGES IN KERNEL 591592
-add pages 730056
-ioctl EINIT IN KERNEL 104322
-init enclave 113364
-ecall 168450
-destroy enclave 12912902
-Success!
-
- Performance counter stats for './sample':
-
-              8.06 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  496.150 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               133      page-faults                      #   16.497 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008223654 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008167000 seconds sys
-
-
-ioctl ECREATE 97766
-create enclave 193612
-ioctl ADD PAGES IN KERNEL 81072
-ioctl ADD PAGES IN KERNEL 1286936
-add pages 1403708
-ioctl EINIT IN KERNEL 49762
-init enclave 62120
-ecall 228210
-destroy enclave 13047478
-Success!
-
- Performance counter stats for './sample':
-
-              8.43 msec task-clock                       #    0.981 CPUs utilized             
-                 5      context-switches                 #  593.311 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               133      page-faults                      #   15.782 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008591256 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008538000 seconds sys
-
-
-ioctl ECREATE 101898
-create enclave 197218
-ioctl ADD PAGES IN KERNEL 84162
-ioctl ADD PAGES IN KERNEL 620930
-add pages 736438
-ioctl EINIT IN KERNEL 41662
-init enclave 51456
-ecall 176146
-destroy enclave 12927370
-Success!
-
- Performance counter stats for './sample':
-
-              8.01 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  499.366 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               133      page-faults                      #   16.604 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008169922 seconds time elapsed
-
-       0.002716000 seconds user
-       0.005408000 seconds sys
-
-
-ioctl ECREATE 98248
-create enclave 192682
-ioctl ADD PAGES IN KERNEL 691702
-ioctl ADD PAGES IN KERNEL 676390
-add pages 1397720
-ioctl EINIT IN KERNEL 38208
-init enclave 46960
-ecall 167572
-destroy enclave 12963558
-Success!
-
- Performance counter stats for './sample':
-
-              8.35 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  479.173 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   15.693 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008511581 seconds time elapsed
-
-       0.004247000 seconds user
-       0.004227000 seconds sys
-
-
-ioctl ECREATE 100486
-create enclave 194670
-ioctl ADD PAGES IN KERNEL 80916
-ioctl ADD PAGES IN KERNEL 648954
-add pages 761250
-ioctl EINIT IN KERNEL 39236
-init enclave 48066
-ecall 168660
-destroy enclave 13073958
-Success!
-
- Performance counter stats for './sample':
-
-              8.08 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  495.113 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.339 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008239937 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008187000 seconds sys
-
-
-ioctl ECREATE 98184
-create enclave 185970
-ioctl ADD PAGES IN KERNEL 79538
-ioctl ADD PAGES IN KERNEL 557294
-add pages 664284
-ioctl EINIT IN KERNEL 42778
-init enclave 51712
-ecall 166734
-ioctl EREMOVE 546
-destroy enclave 13133346
-Success!
-
- Performance counter stats for './sample':
-
-              8.14 msec task-clock                       #    0.918 CPUs utilized             
-                 5      context-switches                 #  614.560 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.101 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008862569 seconds time elapsed
-
-       0.004145000 seconds user
-       0.004119000 seconds sys
-
-
-ioctl ECREATE 96958
-create enclave 188882
-ioctl ADD PAGES IN KERNEL 79406
-ioctl ADD PAGES IN KERNEL 558872
-add pages 664906
-ioctl EINIT IN KERNEL 39792
-init enclave 48812
-ecall 167976
-ioctl EREMOVE 626
-destroy enclave 13139384
-Success!
-
- Performance counter stats for './sample':
-
-              8.11 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  493.212 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.276 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008267480 seconds time elapsed
-
-       0.002749000 seconds user
-       0.005489000 seconds sys
-
-
-ioctl ECREATE 98692
-create enclave 190348
-ioctl ADD PAGES IN KERNEL 79010
-ioctl ADD PAGES IN KERNEL 568980
-add pages 674834
-ioctl EINIT IN KERNEL 42674
-init enclave 52028
-ecall 172320
-ioctl EREMOVE 802
-destroy enclave 13100918
-Success!
-
- Performance counter stats for './sample':
-
-              8.10 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  493.839 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.297 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008265966 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008232000 seconds sys
-
-
-ioctl ECREATE 170184
-create enclave 259654
-ioctl ADD PAGES IN KERNEL 83354
-ioctl ADD PAGES IN KERNEL 656892
-add pages 769268
-ioctl EINIT IN KERNEL 43026
-init enclave 52256
-ecall 175512
-ioctl EREMOVE 624
-destroy enclave 13132706
-Success!
-
- Performance counter stats for './sample':
-
-              8.16 msec task-clock                       #    0.979 CPUs utilized             
-                 4      context-switches                 #  490.414 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.061 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008332509 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008262000 seconds sys
-
-
-ioctl ECREATE 99072
-create enclave 186976
-ioctl ADD PAGES IN KERNEL 79268
-ioctl ADD PAGES IN KERNEL 562776
-add pages 669338
-ioctl EINIT IN KERNEL 41242
-init enclave 50140
-ecall 171884
-ioctl EREMOVE 632
-destroy enclave 13153108
-Success!
-
- Performance counter stats for './sample':
-
-              8.13 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  491.991 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.113 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008299889 seconds time elapsed
-
-       0.004142000 seconds user
-       0.004124000 seconds sys
-
-
-ioctl ECREATE 100684
-create enclave 192882
-ioctl ADD PAGES IN KERNEL 80100
-ioctl ADD PAGES IN KERNEL 574136
-add pages 681226
-ioctl EINIT IN KERNEL 39922
-init enclave 49216
-ecall 176650
-ioctl EREMOVE 624
-destroy enclave 13115476
-Success!
-
- Performance counter stats for './sample':
-
-              8.07 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  495.648 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.232 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008231124 seconds time elapsed
-
-       0.004101000 seconds user
-       0.004086000 seconds sys
-
-
-ioctl ECREATE 101684
-create enclave 192700
-ioctl ADD PAGES IN KERNEL 81466
-ioctl ADD PAGES IN KERNEL 594924
-add pages 703154
-ioctl EINIT IN KERNEL 40372
-init enclave 49992
-ecall 177484
-ioctl EREMOVE 670
-destroy enclave 13148514
-Success!
-
- Performance counter stats for './sample':
-
-              8.10 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  493.984 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.301 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008259466 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008227000 seconds sys
-
-
-ioctl ECREATE 104636
-create enclave 195012
-ioctl ADD PAGES IN KERNEL 81178
-ioctl ADD PAGES IN KERNEL 634978
-add pages 744828
-ioctl EINIT IN KERNEL 38902
-init enclave 47916
-ecall 246734
-ioctl EREMOVE 596
-destroy enclave 13131172
-Success!
-
- Performance counter stats for './sample':
-
-              8.18 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  489.192 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.143 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008343565 seconds time elapsed
-
-       0.005536000 seconds user
-       0.002764000 seconds sys
-
-
-ioctl ECREATE 98496
-create enclave 190810
-ioctl ADD PAGES IN KERNEL 79006
-ioctl ADD PAGES IN KERNEL 558848
-add pages 664588
-ioctl EINIT IN KERNEL 37578
-init enclave 47120
-ecall 167682
-ioctl EREMOVE 536
-destroy enclave 13074798
-Success!
-
- Performance counter stats for './sample':
-
-              8.04 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  497.424 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.291 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008204191 seconds time elapsed
-
-       0.004095000 seconds user
-       0.004078000 seconds sys
-
-
-ioctl ECREATE 104674
-create enclave 186784
-ioctl ADD PAGES IN KERNEL 80344
-ioctl ADD PAGES IN KERNEL 655014
-add pages 762778
-ioctl EINIT IN KERNEL 38648
-init enclave 47992
-ecall 170706
-ioctl EREMOVE 632
-destroy enclave 13039546
-Success!
-
- Performance counter stats for './sample':
-
-              8.07 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  495.503 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.104 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008233727 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008191000 seconds sys
-
-
-ioctl ECREATE 93474
-create enclave 183030
-ioctl ADD PAGES IN KERNEL 90364
-ioctl ADD PAGES IN KERNEL 556810
-add pages 674766
-ioctl EINIT IN KERNEL 36792
-init enclave 46954
-ecall 170322
-ioctl BASE ERASE 192
-ioctl MEM ERASE 220
-ioctl EREMOVE 606
-ioctl ELRANGE ERASE 180
-ioctl MUNMAP 12676096
-ioctl  enclave_delete 12680494
-destroy enclave 12681542
-Success!
-
- Performance counter stats for './sample':
-
-              7.94 msec task-clock                       #    0.610 CPUs utilized             
-                 5      context-switches                 #  629.931 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.630 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.013003169 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008067000 seconds sys
-
-
-ioctl ECREATE 96888
-create enclave 192704
-ioctl ADD PAGES IN KERNEL 78000
-ioctl ADD PAGES IN KERNEL 577566
-add pages 681800
-ioctl EINIT IN KERNEL 37794
-init enclave 47200
-ecall 170688
-ioctl BASE ERASE 186
-ioctl MEM ERASE 194
-ioctl EREMOVE 614
-ioctl ELRANGE ERASE 78
-ioctl MUNMAP 12797086
-ioctl  enclave_delete 12801310
-destroy enclave 12802434
-Success!
-
- Performance counter stats for './sample':
-
-              7.93 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  504.563 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.524 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008087195 seconds time elapsed
-
-       0.000000000 seconds user
-       0.008056000 seconds sys
-
-
-ioctl ECREATE 93584
-create enclave 177692
-ioctl ADD PAGES IN KERNEL 77286
-ioctl ADD PAGES IN KERNEL 566528
-add pages 669008
-ioctl EINIT IN KERNEL 37196
-init enclave 45648
-ecall 169360
-ioctl BASE ERASE 164
-ioctl MEM ERASE 246
-ioctl EREMOVE 576
-ioctl ELRANGE ERASE 76
-ioctl MUNMAP 12823062
-ioctl  enclave_delete 12827394
-destroy enclave 12828474
-Success!
-
- Performance counter stats for './sample':
-
-              7.91 msec task-clock                       #    0.980 CPUs utilized             
-                 5      context-switches                 #  631.762 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               132      page-faults                      #   16.679 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008079808 seconds time elapsed
-
-       0.002679000 seconds user
-       0.005349000 seconds sys
-
-
-ioctl ECREATE 94882
-create enclave 180792
-ioctl ADD PAGES IN KERNEL 77652
-ioctl ADD PAGES IN KERNEL 556940
-add pages 660828
-ioctl EINIT IN KERNEL 36786
-init enclave 45198
-ecall 168932
-ioctl BASE ERASE 196
-ioctl MEM ERASE 182
-ioctl EREMOVE 516
-ioctl ELRANGE ERASE 78
-ioctl MUNMAP 12759344
-ioctl  enclave_delete 12763620
-destroy enclave 12764708
-Success!
-
- Performance counter stats for './sample':
-
-              7.89 msec task-clock                       #    0.975 CPUs utilized             
-                 4      context-switches                 #  506.989 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.604 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008088384 seconds time elapsed
-
-       0.003994000 seconds user
-       0.004056000 seconds sys
-
-
-ioctl ECREATE 97110
-create enclave 187520
-ioctl ADD PAGES IN KERNEL 81622
-ioctl ADD PAGES IN KERNEL 590466
-add pages 699416
-ioctl EINIT IN KERNEL 38536
-init enclave 48034
-ecall 174580
-ioctl BASE ERASE 186
-ioctl MEM ERASE 200
-ioctl EREMOVE 516
-ioctl ELRANGE ERASE 78
-ioctl MUNMAP 12705166
-ioctl  enclave_delete 12709294
-destroy enclave 12710436
-Success!
-
- Performance counter stats for './sample':
-
-              7.88 msec task-clock                       #    0.980 CPUs utilized             
-                 5      context-switches                 #  634.314 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.619 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008043022 seconds time elapsed
-
-       0.002671000 seconds user
-       0.005329000 seconds sys
-
-
-ioctl ECREATE 105494
-create enclave 193874
-ioctl ADD PAGES IN KERNEL 82512
-ioctl ADD PAGES IN KERNEL 739680
-add pages 850464
-ioctl EINIT IN KERNEL 37650
-init enclave 46254
-ecall 168250
-ioctl BASE ERASE 160
-ioctl MEM ERASE 212
-ioctl EREMOVE 704
-ioctl ELRANGE ERASE 78
-ioctl MUNMAP 12706144
-ioctl  enclave_delete 12710814
-destroy enclave 12711784
-Success!
-
- Performance counter stats for './sample':
-
-              7.92 msec task-clock                       #    0.980 CPUs utilized             
-                 4      context-switches                 #  504.918 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.536 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008083253 seconds time elapsed
-
-       0.002686000 seconds user
-       0.005338000 seconds sys
-
-
-ioctl ECREATE 95794
-create enclave 182856
-ioctl ADD PAGES IN KERNEL 81196
-ioctl ADD PAGES IN KERNEL 565078
-add pages 673622
-ioctl EINIT IN KERNEL 35838
-init enclave 44918
-ecall 167968
-ioctl BASE ERASE 160
-ioctl MEM ERASE 222
-ioctl EREMOVE 682
-ioctl ELRANGE ERASE 114
-ioctl MUNMAP 12751978
-ioctl  enclave_delete 12756348
-destroy enclave 12757308
-Success!
-
- Performance counter stats for './sample':
-
-              7.90 msec task-clock                       #    0.980 CPUs utilized             
-                 5      context-switches                 #  633.015 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               130      page-faults                      #   16.458 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008058618 seconds time elapsed
-
-       0.002677000 seconds user
-       0.005335000 seconds sys
-
-
-ioctl ECREATE 94022
-create enclave 179870
-ioctl ADD PAGES IN KERNEL 77750
-ioctl ADD PAGES IN KERNEL 562080
-add pages 667538
-ioctl EINIT IN KERNEL 35266
-init enclave 43622
-ecall 170250
-ioctl BASE ERASE 156
-ioctl MEM ERASE 242
-ioctl EREMOVE 584
-ioctl ELRANGE ERASE 76
-ioctl MUNMAP 12683764
-ioctl  enclave_delete 12688002
-destroy enclave 12688988
-Success!
-
- Performance counter stats for './sample':
-
-              7.82 msec task-clock                       #    0.981 CPUs utilized             
-                 4      context-switches                 #  511.776 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   16.761 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.007971101 seconds time elapsed
-
-       0.003972000 seconds user
-       0.003954000 seconds sys
-
-
-ioctl ECREATE 95242
-create enclave 180574
-ioctl ADD PAGES IN KERNEL 78138
-ioctl ADD PAGES IN KERNEL 1206408
-add pages 1332840
-ioctl EINIT IN KERNEL 45378
-init enclave 55676
-ecall 303694
-ioctl BASE ERASE 186
-ioctl MEM ERASE 248
-ioctl EREMOVE 1020
-ioctl ELRANGE ERASE 114
-ioctl MUNMAP 12683780
-ioctl  enclave_delete 12689216
-destroy enclave 12690500
-Success!
-
- Performance counter stats for './sample':
-
-              8.24 msec task-clock                       #    0.975 CPUs utilized             
-                 5      context-switches                 #  606.760 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   15.897 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008449360 seconds time elapsed
-
-       0.002767000 seconds user
-       0.005620000 seconds sys
-
-
-ioctl ECREATE 95058
-create enclave 181830
-ioctl ADD PAGES IN KERNEL 81296
-ioctl ADD PAGES IN KERNEL 1218506
-add pages 1326506
-ioctl EINIT IN KERNEL 34720
-init enclave 43780
-ecall 168900
-ioctl BASE ERASE 190
-ioctl MEM ERASE 214
-ioctl EREMOVE 668
-ioctl ELRANGE ERASE 76
-ioctl MUNMAP 12851148
-ioctl  enclave_delete 12855602
-destroy enclave 12856588
-Success!
-
- Performance counter stats for './sample':
-
-              8.27 msec task-clock                       #    0.976 CPUs utilized             
-                 5      context-switches                 #  604.778 /sec                      
-                 0      cpu-migrations                   #    0.000 /sec                      
-               131      page-faults                      #   15.845 K/sec                     
-   <not supported>      cycles                                                                
-   <not supported>      instructions                                                          
-   <not supported>      branches                                                              
-   <not supported>      branch-misses                                                         
-
-       0.008469095 seconds time elapsed
-
-       0.002800000 seconds user
-       0.005573000 seconds sys
+       0.000854000 seconds user
+       0.000848000 seconds sys
 
 

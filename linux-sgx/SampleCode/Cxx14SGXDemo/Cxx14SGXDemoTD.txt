@@ -1,4 +1,4 @@
-init enclave 87793128
+init enclave 84164156
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -46,28 +46,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4178636
-destroy enclave 14903366
+ecall enclave 3706024
+destroy enclave 2015936
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.64 msec task-clock                       #    0.996 CPUs utilized             
-                 9      context-switches                 #  164.700 /sec                      
+             46.15 msec task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #  195.034 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   10.925 K/sec                     
+               596      page-faults                      #   12.916 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054855755 seconds time elapsed
+       0.046339057 seconds time elapsed
 
-       0.008866000 seconds user
-       0.045530000 seconds sys
+       0.005991000 seconds user
+       0.039957000 seconds sys
 
 
-init enclave 87591872
+init enclave 82244680
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -115,28 +115,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4048378
-destroy enclave 14868610
+ecall enclave 3700452
+destroy enclave 1967368
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.45 msec task-clock                       #    0.996 CPUs utilized             
-                 9      context-switches                 #  165.286 /sec                      
+             45.17 msec task-clock                       #    0.995 CPUs utilized             
+                10      context-switches                 #  221.394 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               596      page-faults                      #   10.946 K/sec                     
+               596      page-faults                      #   13.195 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054664830 seconds time elapsed
+       0.045377734 seconds time elapsed
 
-       0.005509000 seconds user
-       0.048738000 seconds sys
+       0.004873000 seconds user
+       0.039947000 seconds sys
 
 
-init enclave 87275258
+init enclave 82974356
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -184,28 +184,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4072066
-destroy enclave 14854940
+ecall enclave 3825828
+destroy enclave 1960510
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.31 msec task-clock                       #    0.997 CPUs utilized             
-                 8      context-switches                 #  147.306 /sec                      
+             45.57 msec task-clock                       #    0.996 CPUs utilized             
+                 8      context-switches                 #  175.546 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               596      page-faults                      #   10.974 K/sec                     
+               597      page-faults                      #   13.100 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054482673 seconds time elapsed
+       0.045743133 seconds time elapsed
 
-       0.006619000 seconds user
-       0.047459000 seconds sys
+       0.004927000 seconds user
+       0.040446000 seconds sys
 
 
-init enclave 86623736
+init enclave 82691268
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -253,28 +253,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4068966
-destroy enclave 14865980
+ecall enclave 3852700
+destroy enclave 1962708
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             53.97 msec task-clock                       #    0.996 CPUs utilized             
-                 9      context-switches                 #  166.762 /sec                      
+             45.44 msec task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #  198.063 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   11.062 K/sec                     
+               597      page-faults                      #   13.138 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054179406 seconds time elapsed
+       0.045612491 seconds time elapsed
 
-       0.006722000 seconds user
-       0.047076000 seconds sys
+       0.008039000 seconds user
+       0.037200000 seconds sys
 
 
-init enclave 87107162
+init enclave 83738198
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -322,28 +322,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4071198
-destroy enclave 14798246
+ecall enclave 3895130
+destroy enclave 1963128
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.12 msec task-clock                       #    0.995 CPUs utilized             
-                11      context-switches                 #  203.244 /sec                      
+             46.05 msec task-clock                       #    0.996 CPUs utilized             
+                10      context-switches                 #  217.136 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   11.031 K/sec                     
+               597      page-faults                      #   12.963 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054411696 seconds time elapsed
+       0.046230199 seconds time elapsed
 
-       0.006724000 seconds user
-       0.047166000 seconds sys
+       0.003894000 seconds user
+       0.041938000 seconds sys
 
 
-init enclave 87355646
+init enclave 83754322
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -391,28 +391,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4194672
-destroy enclave 14799370
+ecall enclave 3855468
+destroy enclave 1960038
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.36 msec task-clock                       #    0.995 CPUs utilized             
-                10      context-switches                 #  183.969 /sec                      
+             45.96 msec task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #  195.825 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   10.983 K/sec                     
+               597      page-faults                      #   12.990 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054620195 seconds time elapsed
+       0.046132878 seconds time elapsed
 
-       0.007721000 seconds user
-       0.046424000 seconds sys
+       0.006962000 seconds user
+       0.038803000 seconds sys
 
 
-init enclave 89001526
+init enclave 82526472
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -460,28 +460,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4265306
-destroy enclave 14770184
+ecall enclave 3800742
+destroy enclave 1962822
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             55.19 msec task-clock                       #    0.997 CPUs utilized             
-                 9      context-switches                 #  163.079 /sec                      
+             45.39 msec task-clock                       #    0.984 CPUs utilized             
+                13      context-switches                 #  286.428 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   10.818 K/sec                     
+               596      page-faults                      #   13.132 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.055358904 seconds time elapsed
+       0.046121461 seconds time elapsed
 
-       0.005494000 seconds user
-       0.049464000 seconds sys
+       0.006732000 seconds user
+       0.038443000 seconds sys
 
 
-init enclave 88294522
+init enclave 83127532
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -529,28 +529,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4081768
-destroy enclave 14804618
+ecall enclave 3776386
+destroy enclave 1972282
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.79 msec task-clock                       #    0.996 CPUs utilized             
-                10      context-switches                 #  182.512 /sec                      
+             45.62 msec task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #  197.279 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   10.896 K/sec                     
+               597      page-faults                      #   13.086 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.055018260 seconds time elapsed
+       0.045796129 seconds time elapsed
 
-       0.005545000 seconds user
-       0.049024000 seconds sys
+       0.003028000 seconds user
+       0.042397000 seconds sys
 
 
-init enclave 87862698
+init enclave 83798010
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -598,28 +598,28 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4119070
-destroy enclave 14865288
+ecall enclave 3725706
+destroy enclave 1972578
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.60 msec task-clock                       #    0.997 CPUs utilized             
-                10      context-switches                 #  183.138 /sec                      
+             45.96 msec task-clock                       #    0.995 CPUs utilized             
+                10      context-switches                 #  217.588 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               596      page-faults                      #   10.915 K/sec                     
+               595      page-faults                      #   12.946 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054792957 seconds time elapsed
+       0.046167967 seconds time elapsed
 
-       0.008875000 seconds user
-       0.045491000 seconds sys
+       0.003893000 seconds user
+       0.041857000 seconds sys
 
 
-init enclave 87504746
+init enclave 82992268
 hello world
 99, 1.000000, foo
 make_unique<Vec>():      {0, 0}
@@ -667,24 +667,24 @@ read in     [String with spaces, and embedded $quotes$ too]
 stored as   [$String with spaces, and embedded %$quotes%$ too$]
 written out [String with spaces, and embedded $quotes$ too]
 
-ecall enclave 4081810
-destroy enclave 14891536
+ecall enclave 3816590
+destroy enclave 1993320
 Info: Cxx14DemoEnclave successfully returned.
 
  Performance counter stats for './app':
 
-             54.49 msec task-clock                       #    0.996 CPUs utilized             
-                 9      context-switches                 #  165.170 /sec                      
+             45.60 msec task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #  197.381 /sec                      
                  0      cpu-migrations                   #    0.000 /sec                      
-               597      page-faults                      #   10.956 K/sec                     
+               596      page-faults                      #   13.071 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.054710745 seconds time elapsed
+       0.045770547 seconds time elapsed
 
-       0.008846000 seconds user
-       0.045459000 seconds sys
+       0.004036000 seconds user
+       0.041371000 seconds sys
 
 

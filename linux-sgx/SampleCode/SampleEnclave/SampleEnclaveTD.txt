@@ -1,250 +1,270 @@
-init enclave 80772280
-Checksum(0x0x7ffd2ca45db0, 100) = 0xfffd4143
-edger8r enclave 1379510
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77500478
+Checksum(0x0x7fff34866f60, 100) = 0xfffd4143
+edger8r enclave 1291568
 Info: executing thread synchronization, please wait...  
-ecall enclave 112041918
-destroy enclave 14716398
+ecall enclave 117168936
+destroy enclave 1880394
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            105.64 msec task-clock                       #    0.998 CPUs utilized             
-             6,841      context-switches                 #   64.755 K/sec                     
+            100.06 msec task-clock                       #    0.998 CPUs utilized             
+             7,418      context-switches                 #   74.132 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               641      page-faults                      #    6.068 K/sec                     
+               641      page-faults                      #    6.406 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.105856293 seconds time elapsed
+       0.100291153 seconds time elapsed
 
-       0.049067000 seconds user
-       0.055302000 seconds sys
+       0.052675000 seconds user
+       0.046686000 seconds sys
 
 
-init enclave 79607888
-Checksum(0x0x7ffcaa6bed10, 100) = 0xfffd4143
-edger8r enclave 1364092
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 78150138
+Checksum(0x0x7ffe15aa5a50, 100) = 0xfffd4143
+edger8r enclave 1417870
 Info: executing thread synchronization, please wait...  
-ecall enclave 125011656
-destroy enclave 14700086
+ecall enclave 117641404
+destroy enclave 1871390
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            111.44 msec task-clock                       #    0.998 CPUs utilized             
-             7,621      context-switches                 #   68.388 K/sec                     
+            100.65 msec task-clock                       #    0.998 CPUs utilized             
+             7,241      context-switches                 #   71.942 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               639      page-faults                      #    5.734 K/sec                     
+               640      page-faults                      #    6.359 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.111676806 seconds time elapsed
+       0.100891584 seconds time elapsed
 
-       0.059315000 seconds user
-       0.050950000 seconds sys
+       0.057265000 seconds user
+       0.042427000 seconds sys
 
 
-init enclave 79543500
-Checksum(0x0x7ffdccbd3f40, 100) = 0xfffd4143
-edger8r enclave 1426018
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 78668328
+Checksum(0x0x7ffc7c985980, 100) = 0xfffd4143
+edger8r enclave 1381812
 Info: executing thread synchronization, please wait...  
-ecall enclave 125139872
-destroy enclave 14678422
+ecall enclave 116564840
+destroy enclave 1912888
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            111.53 msec task-clock                       #    0.998 CPUs utilized             
-             7,425      context-switches                 #   66.574 K/sec                     
+            100.33 msec task-clock                       #    0.997 CPUs utilized             
+             7,426      context-switches                 #   74.018 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               639      page-faults                      #    5.729 K/sec                     
+               640      page-faults                      #    6.379 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.111735378 seconds time elapsed
+       0.100648118 seconds time elapsed
 
-       0.061416000 seconds user
-       0.048898000 seconds sys
+       0.052611000 seconds user
+       0.046606000 seconds sys
 
 
-init enclave 79585052
-Checksum(0x0x7ffc78517330, 100) = 0xfffd4143
-edger8r enclave 1356478
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77949526
+Checksum(0x0x7ffcf203fd80, 100) = 0xfffd4143
+edger8r enclave 1405726
 Info: executing thread synchronization, please wait...  
-ecall enclave 116190378
-destroy enclave 14777598
+ecall enclave 114994874
+destroy enclave 1892500
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            107.03 msec task-clock                       #    0.998 CPUs utilized             
-             7,029      context-switches                 #   65.673 K/sec                     
+             99.29 msec task-clock                       #    0.998 CPUs utilized             
+             7,231      context-switches                 #   72.826 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               640      page-faults                      #    5.980 K/sec                     
+               644      page-faults                      #    6.486 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.107273915 seconds time elapsed
+       0.099509647 seconds time elapsed
 
-       0.063170000 seconds user
-       0.043133000 seconds sys
+       0.057303000 seconds user
+       0.041471000 seconds sys
 
 
-init enclave 79242190
-Checksum(0x0x7fff4d129fc0, 100) = 0xfffd4143
-edger8r enclave 1370338
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77179540
+Checksum(0x0x7ffd949afec0, 100) = 0xfffd4143
+edger8r enclave 1353902
 Info: executing thread synchronization, please wait...  
-ecall enclave 115968320
-destroy enclave 14753906
+ecall enclave 108649638
+destroy enclave 1861870
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            106.79 msec task-clock                       #    0.998 CPUs utilized             
-             7,028      context-switches                 #   65.810 K/sec                     
+             95.61 msec task-clock                       #    0.997 CPUs utilized             
+             6,839      context-switches                 #   71.531 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               644      page-faults                      #    6.030 K/sec                     
+               642      page-faults                      #    6.715 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.107011014 seconds time elapsed
+       0.095864175 seconds time elapsed
 
-       0.060978000 seconds user
-       0.045180000 seconds sys
+       0.053631000 seconds user
+       0.040687000 seconds sys
 
 
-init enclave 79798318
-Checksum(0x0x7ffcd47c3c10, 100) = 0xfffd4143
-edger8r enclave 1368170
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77351472
+Checksum(0x0x7fffe0e5b560, 100) = 0xfffd4143
+edger8r enclave 1304764
 Info: executing thread synchronization, please wait...  
-ecall enclave 125272050
-destroy enclave 14773920
+ecall enclave 118823740
+destroy enclave 1881944
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            111.70 msec task-clock                       #    0.998 CPUs utilized             
-             7,451      context-switches                 #   66.703 K/sec                     
+            100.77 msec task-clock                       #    0.997 CPUs utilized             
+             7,420      context-switches                 #   73.635 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               640      page-faults                      #    5.729 K/sec                     
+               641      page-faults                      #    6.361 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.111926464 seconds time elapsed
+       0.101022760 seconds time elapsed
 
-       0.063501000 seconds user
-       0.046817000 seconds sys
+       0.059363000 seconds user
+       0.040522000 seconds sys
 
 
-init enclave 79382754
-Checksum(0x0x7ffc531f03c0, 100) = 0xfffd4143
-edger8r enclave 1369114
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77382444
+Checksum(0x0x7ffe7ebb0ba0, 100) = 0xfffd4143
+edger8r enclave 1364302
 Info: executing thread synchronization, please wait...  
-ecall enclave 122444652
-destroy enclave 14732210
+ecall enclave 108428326
+destroy enclave 1937502
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            110.10 msec task-clock                       #    0.998 CPUs utilized             
-             7,420      context-switches                 #   67.396 K/sec                     
+             95.69 msec task-clock                       #    0.998 CPUs utilized             
+             6,837      context-switches                 #   71.449 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               643      page-faults                      #    5.840 K/sec                     
+               644      page-faults                      #    6.730 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.110366685 seconds time elapsed
+       0.095902807 seconds time elapsed
 
-       0.064311000 seconds user
-       0.044579000 seconds sys
+       0.047703000 seconds user
+       0.046690000 seconds sys
 
 
-init enclave 79636116
-Checksum(0x0x7ffe720da0b0, 100) = 0xfffd4143
-edger8r enclave 1430702
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77785818
+Checksum(0x0x7fffc33e95d0, 100) = 0xfffd4143
+edger8r enclave 1352112
 Info: executing thread synchronization, please wait...  
-ecall enclave 115803088
-destroy enclave 14673586
+ecall enclave 118054226
+destroy enclave 1959794
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            106.89 msec task-clock                       #    0.998 CPUs utilized             
-             7,030      context-switches                 #   65.769 K/sec                     
+            100.71 msec task-clock                       #    0.997 CPUs utilized             
+             7,230      context-switches                 #   71.793 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               640      page-faults                      #    5.988 K/sec                     
+               636      page-faults                      #    6.315 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.107143533 seconds time elapsed
+       0.100962501 seconds time elapsed
 
-       0.051587000 seconds user
-       0.054713000 seconds sys
+       0.061481000 seconds user
+       0.038646000 seconds sys
 
 
-init enclave 79956140
-Checksum(0x0x7fff56e4c6a0, 100) = 0xfffd4143
-edger8r enclave 1426242
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77565948
+Checksum(0x0x7ffc181d4b20, 100) = 0xfffd4143
+edger8r enclave 1322718
 Info: executing thread synchronization, please wait...  
-ecall enclave 120732876
-destroy enclave 14725350
+ecall enclave 115538766
+destroy enclave 1882912
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            109.57 msec task-clock                       #    0.998 CPUs utilized             
-             7,238      context-switches                 #   66.059 K/sec                     
+             99.30 msec task-clock                       #    0.998 CPUs utilized             
+             7,411      context-switches                 #   74.630 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               643      page-faults                      #    5.868 K/sec                     
+               644      page-faults                      #    6.485 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.109823577 seconds time elapsed
+       0.099510142 seconds time elapsed
 
-       0.060336000 seconds user
-       0.047814000 seconds sys
+       0.053556000 seconds user
+       0.044604000 seconds sys
 
 
-init enclave 80055960
-Checksum(0x0x7fff0a690770, 100) = 0xfffd4143
-edger8r enclave 1395514
+kcz before sgx_create_enclave
+kcz after sgx_create_enclave
+init enclave 77296318
+Checksum(0x0x7ffde1e40c60, 100) = 0xfffd4143
+edger8r enclave 1342552
 Info: executing thread synchronization, please wait...  
-ecall enclave 122312974
-destroy enclave 14755614
+ecall enclave 107618912
+destroy enclave 1858470
 Info: SampleEnclave successfully returned.
 
  Performance counter stats for './app':
 
-            110.37 msec task-clock                       #    0.998 CPUs utilized             
-             7,228      context-switches                 #   65.487 K/sec                     
+             95.15 msec task-clock                       #    0.997 CPUs utilized             
+             6,451      context-switches                 #   67.801 K/sec                     
                  0      cpu-migrations                   #    0.000 /sec                      
-               635      page-faults                      #    5.753 K/sec                     
+               639      page-faults                      #    6.716 K/sec                     
    <not supported>      cycles                                                                
    <not supported>      instructions                                                          
    <not supported>      branches                                                              
    <not supported>      branch-misses                                                         
 
-       0.110597398 seconds time elapsed
+       0.095421765 seconds time elapsed
 
-       0.064574000 seconds user
-       0.044757000 seconds sys
+       0.048673000 seconds user
+       0.045670000 seconds sys
 
 
