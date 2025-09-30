@@ -1299,7 +1299,8 @@ extern "C" bool COMM_API enclave_delete(
         s_enclave_elrange_map.erase(base_address);
     }
 
-    if (0 != munmap(base_address, enclave_size)) {
+    start_cycles = __rdtsc();
+	if (0 != munmap(base_address, enclave_size)) {
         SE_TRACE(SE_TRACE_WARNING, "delete SGX enclave failed, error = %d\n", errno);
         if (enclave_error != NULL) {
             if (errno == EINVAL)
@@ -1309,6 +1310,8 @@ extern "C" bool COMM_API enclave_delete(
         }
         return false;
     }
+	stop_cycles = __rdtsc();
+	printf("ioctl MUNMAP %ld\n", stop_cycles-start_cycles);
 
     if (enclave_error != NULL)
         *enclave_error = ENCLAVE_ERROR_SUCCESS;
