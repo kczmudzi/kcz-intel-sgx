@@ -1260,6 +1260,7 @@ extern "C" bool COMM_API enclave_delete(
     COMM_IN void* base_address,
     COMM_OUT_OPT uint32_t* enclave_error)
 {
+	uint64_t s_start_cycles = __rdtsc();
     if (base_address == NULL) {
         if (enclave_error != NULL)
             *enclave_error = ENCLAVE_INVALID_PARAMETER;
@@ -1321,6 +1322,8 @@ extern "C" bool COMM_API enclave_delete(
 
     if (enclave_error != NULL)
         *enclave_error = ENCLAVE_ERROR_SUCCESS;
+	stop_cycles = __rdtsc();
+	printf("ioctl  enclave_delete %ld\n", stop_cycles-s_start_cycles);
     return true;
 }
 
