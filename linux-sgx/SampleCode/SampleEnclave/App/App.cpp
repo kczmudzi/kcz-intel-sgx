@@ -163,9 +163,7 @@ int initialize_enclave(void)
     
     /* Call sgx_create_enclave to initialize an enclave instance */
     /* Debug Support: set 2nd parameter to 1 */
-    printf("kcz before sgx_create_enclave\n");
     ret = sgx_create_enclave(ENCLAVE_FILENAME, SGX_DEBUG_FLAG, NULL, NULL, &global_eid, NULL);
-    printf("kcz after sgx_create_enclave\n");
     if (ret != SGX_SUCCESS) {
         print_error_message(ret);
         return -1;
