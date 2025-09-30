@@ -1320,8 +1320,9 @@ extern "C" bool COMM_API enclave_delete(
 	stop_cycles = __rdtsc();
 	printf("ioctl MUNMAP %ld\n", stop_cycles-start_cycles);
 
-    if (enclave_error != NULL)
+    if (enclave_error != NULL) {
         *enclave_error = ENCLAVE_ERROR_SUCCESS;
+	}
 	stop_cycles = __rdtsc();
 	printf("ioctl  enclave_delete %ld\n", stop_cycles-s_start_cycles);
     return true;
