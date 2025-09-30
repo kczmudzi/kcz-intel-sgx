@@ -52,7 +52,7 @@
 #include "cpuid.h"
 
 #include <x86intrin.h> // For __rdtsc()                                         
-static uint64_t start_cycles, stop_cycles;
+//static uint64_t start_cycles, stop_cycles;
 
 //ubuntu 18.04 use glibc 2.27, doesn't support MAP_FIXED_NOREPLACE
 #ifndef MAP_FIXED_NOREPLACE
@@ -498,10 +498,10 @@ static void enclave_set_provision_access(int hdevice, void* enclave_base)
         {
             struct sgx_enclave_set_attribute_in_kernel attrp = { 0 };
             attrp.attribute_fd = hdev_prov;
-	    start_cycles = __rdtsc();
+	    //	    start_cycles = __rdtsc();
             int ret2 = ioctl(hdevice, SGX_IOC_ENCLAVE_SET_ATTRIBUTE_IN_KERNEL, &attrp);
-	    stop_cycles = __rdtsc();
-	    printf("ioctl SET ATTRIBUTE IN KERNEL %ld\n", stop_cycles-start_cycles);
+	    //	    stop_cycles = __rdtsc();
+	    //	    printf("ioctl SET ATTRIBUTE IN KERNEL %ld\n", stop_cycles-start_cycles);
             if ( ret2 )
             {
                 SE_TRACE(SE_TRACE_WARNING, "\nSGX_IOC_ENCLAVE_SET_ATTRIBUTE, failed: errno = %d\n", errno);
@@ -522,10 +522,10 @@ static void enclave_set_provision_access(int hdevice, void* enclave_base)
             struct sgx_enclave_set_attribute attrp = { 0, 0 };
             attrp.addr = POINTER_TO_U64(enclave_base);
             attrp.attribute_fd = hdev_prov;
-	    start_cycles = __rdtsc();
+	    //	    start_cycles = __rdtsc();
             int ret2 = ioctl(hdevice, SGX_IOC_ENCLAVE_SET_ATTRIBUTE, &attrp);
-	    stop_cycles = __rdtsc();
-	    printf("ioctl SET ATTRIBUTE %ld\n", stop_cycles-start_cycles);
+	    //	    stop_cycles = __rdtsc();
+	    //	    printf("ioctl SET ATTRIBUTE %ld\n", stop_cycles-start_cycles);
             if ( ret2 )
             {
                 SE_TRACE(SE_TRACE_WARNING, "\nSGX_IOC_ENCLAVE_SET_ATTRIBUTE, failed: errno = %d\n", errno);
@@ -763,10 +763,10 @@ extern "C" void* COMM_API enclave_create_ex(
     
     struct sgx_enclave_create param = { 0 };
     param.src = POINTER_TO_U64(secs);
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(hdevice_temp, SGX_IOC_ENCLAVE_CREATE, &param);
-    stop_cycles = __rdtsc();
-    printf("ioctl ECREATE %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl ECREATE %ld\n", stop_cycles-start_cycles);
     if (ret) {
         SE_TRACE(SE_TRACE_WARNING, "\nSGX_IOC_ENCLAVE_CREATE failed: ret = %d\n", ret);
         if (enclave_error != NULL)
@@ -1019,10 +1019,10 @@ extern "C" size_t COMM_API enclave_load_data(
             addp.flags = SGX_PAGE_MEASURE;
         addp.count = 0;
         do {
-	  start_cycles = __rdtsc();
+	  //	  start_cycles = __rdtsc();
             int ret = ioctl(hfile, SGX_IOC_ENCLAVE_ADD_PAGES_IN_KERNEL, &addp);
-	    stop_cycles = __rdtsc();
-	    printf("ioctl ADD PAGES IN KERNEL %ld\n", stop_cycles-start_cycles);
+	    //	    stop_cycles = __rdtsc();
+	    //	    printf("ioctl ADD PAGES IN KERNEL %ld\n", stop_cycles-start_cycles);
             if(ret && addp.count == 0 && errno != EBUSY && errno != EAGAIN )
             { //total failure
                 SE_TRACE(SE_TRACE_WARNING, "\nAdd Page - %p to %p... FAIL\n", source, target_address);
@@ -1071,10 +1071,10 @@ extern "C" size_t COMM_API enclave_load_data(
             if (!(data_properties & ENCLAVE_PAGE_UNVALIDATED))
                 addp.mrmask |= 0xFFFF;
 
-	    start_cycles = __rdtsc();
+	    //	    start_cycles = __rdtsc();
             int ret = ioctl(s_hdevice, SGX_IOC_ENCLAVE_ADD_PAGE, &addp);
-	    stop_cycles = __rdtsc();
-	    printf("ioctl ADD PAGE %ld\n", stop_cycles-start_cycles);
+	    //	    stop_cycles = __rdtsc();
+	    //	    printf("ioctl ADD PAGE %ld\n", stop_cycles-start_cycles);
             if (ret) {
                 SE_TRACE(SE_TRACE_WARNING, "\nAdd Page - %p to %p... FAIL\n", source, target_address);
 
@@ -1194,10 +1194,10 @@ extern "C" bool COMM_API enclave_initialize(
         initp.sigstruct = POINTER_TO_U64(enclave_css);
         initp.einittoken = POINTER_TO_U64(&launch_token);
 
-	start_cycles = __rdtsc();
+	//	start_cycles = __rdtsc();
         ret = ioctl(s_hdevice, SGX_IOC_ENCLAVE_INIT, &initp);
-	stop_cycles = __rdtsc();
-	printf("ioctl EINIT %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EINIT %ld\n", stop_cycles-start_cycles);
     } 
     else if (s_driver_type == SGX_DRIVER_DCAP )
     {
@@ -1206,10 +1206,10 @@ extern "C" bool COMM_API enclave_initialize(
         initp.addr = POINTER_TO_U64(base_address);
         initp.sigstruct = POINTER_TO_U64(enclave_init_sgx->sigstruct);
 
-	start_cycles = __rdtsc();
+	//	start_cycles = __rdtsc();
         ret = ioctl(s_hdevice, SGX_IOC_ENCLAVE_INIT_DCAP, &initp);
-	stop_cycles = __rdtsc();
-	printf("ioctl EINIT DCAP %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EINIT DCAP %ld\n", stop_cycles-start_cycles);
     }
     else
     {
@@ -1217,10 +1217,10 @@ extern "C" bool COMM_API enclave_initialize(
         struct sgx_enclave_init_in_kernel initp = { 0 };
         initp.sigstruct = POINTER_TO_U64(enclave_init_sgx->sigstruct);
 
-	start_cycles = __rdtsc();
+	//	start_cycles = __rdtsc();
         ret = ioctl(hfile, SGX_IOC_ENCLAVE_INIT_IN_KERNEL, &initp);
-	stop_cycles = __rdtsc();
-	printf("ioctl EINIT IN KERNEL %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EINIT IN KERNEL %ld\n", stop_cycles-start_cycles);
     }
 
     if (ret) {
@@ -1260,7 +1260,7 @@ extern "C" bool COMM_API enclave_delete(
     COMM_IN void* base_address,
     COMM_OUT_OPT uint32_t* enclave_error)
 {
-	uint64_t s_start_cycles = __rdtsc();
+  //	uint64_t s_start_cycles = __rdtsc();
     if (base_address == NULL) {
         if (enclave_error != NULL)
             *enclave_error = ENCLAVE_INVALID_PARAMETER;
@@ -1279,34 +1279,34 @@ extern "C" bool COMM_API enclave_delete(
         }
         enclave_size = it->second;
 
-        start_cycles = __rdtsc();
+	//        start_cycles = __rdtsc();
 		s_enclave_base_address.erase(std::remove(s_enclave_base_address.begin(), s_enclave_base_address.end(), (uint64_t)base_address),
             s_enclave_base_address.end());
-		stop_cycles = __rdtsc();
-		printf("ioctl BASE ERASE %ld\n", stop_cycles-start_cycles);
+		//		stop_cycles = __rdtsc();
+		//		printf("ioctl BASE ERASE %ld\n", stop_cycles-start_cycles);
 
         s_enclave_size.erase(base_address);
         s_enclave_init.erase(base_address);
-		start_cycles = __rdtsc();
+	//		start_cycles = __rdtsc();
         s_enclave_mem_region.erase(base_address);
-		stop_cycles = __rdtsc();
-		printf("ioctl MEM ERASE %ld\n", stop_cycles-start_cycles);
+	//		stop_cycles = __rdtsc();
+	//		printf("ioctl MEM ERASE %ld\n", stop_cycles-start_cycles);
         if (s_driver_type == SGX_DRIVER_IN_KERNEL)
         {
             int hfile_temp = s_hfile[base_address];
-	    start_cycles = __rdtsc();
+	    //	    start_cycles = __rdtsc();
 	    close_file(&hfile_temp);
-	    stop_cycles = __rdtsc();
-	    printf("ioctl EREMOVE %ld\n", stop_cycles-start_cycles);
+	    //	    stop_cycles = __rdtsc();
+	    //	    printf("ioctl EREMOVE %ld\n", stop_cycles-start_cycles);
             s_hfile.erase(base_address);
         }
-		start_cycles = __rdtsc();
+	//		start_cycles = __rdtsc();
         s_enclave_elrange_map.erase(base_address);
-		stop_cycles = __rdtsc();
-		printf("ioctl ELRANGE ERASE %ld\n", stop_cycles-start_cycles);
+	//		stop_cycles = __rdtsc();
+	//		printf("ioctl ELRANGE ERASE %ld\n", stop_cycles-start_cycles);
     }
 
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
 	if (0 != munmap(base_address, enclave_size)) {
         SE_TRACE(SE_TRACE_WARNING, "delete SGX enclave failed, error = %d\n", errno);
         if (enclave_error != NULL) {
@@ -1317,14 +1317,14 @@ extern "C" bool COMM_API enclave_delete(
         }
         return false;
     }
-	stop_cycles = __rdtsc();
-	printf("ioctl MUNMAP %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl MUNMAP %ld\n", stop_cycles-start_cycles);
 
     if (enclave_error != NULL) {
         *enclave_error = ENCLAVE_ERROR_SUCCESS;
 	}
-	stop_cycles = __rdtsc();
-	printf("ioctl  enclave_delete %ld\n", stop_cycles-s_start_cycles);
+    //	stop_cycles = __rdtsc();
+    //	printf("ioctl  enclave_delete %ld\n", stop_cycles-s_start_cycles);
     return true;
 }
 
@@ -1405,10 +1405,10 @@ uint32_t COMM_API enclave_get_features()
     open_se_device(SGX_DRIVER_IN_KERNEL, &hFile);
     struct sgx_enclave_restrict_permissions ioc;
     memset(&ioc, 0, sizeof(ioc));
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(hFile, SGX_IOC_ENCLAVE_RESTRICT_PERMISSIONS, &ioc);
-    stop_cycles = __rdtsc();
-    printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
     close_file(&hFile);
 
     bool kernel_sgx2 = ((ret != -1) || (errno != ENOTTY));
@@ -1520,10 +1520,10 @@ static int emodt(int fd, void *addr, size_t length, uint64_t type)
     ioc.length = length;
     do
     {
-      start_cycles = __rdtsc();
+      //      start_cycles = __rdtsc();
         int ret = ioctl(fd, SGX_IOC_ENCLAVE_MODIFY_TYPES, &ioc);
-	stop_cycles = __rdtsc();
-	printf("ioctl EMODT %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EMODT %ld\n", stop_cycles-start_cycles);
 
         if (ret && ioc.count == 0 && errno != EBUSY && errno != EAGAIN)
         { //total failure
@@ -1564,10 +1564,10 @@ static int trim_accept(int fd, void *addr, size_t length)
     ioc.length = length;
     int ret = 0;
     do {
-      start_cycles = __rdtsc();
+      //      start_cycles = __rdtsc();
         ret = ioctl(fd, SGX_IOC_ENCLAVE_REMOVE_PAGES, &ioc);
-	stop_cycles = __rdtsc();
-	printf("ioctl EREMOVE (trim) %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EREMOVE (trim) %ld\n", stop_cycles-start_cycles);
         if(ret && ioc.count == 0 && errno != EBUSY && errno != EAGAIN )
         { //total failure
             int err = errno;
@@ -1600,10 +1600,10 @@ static int emodpr(int fd, void *addr, size_t length, uint64_t prot)
 
     do
     {
-      start_cycles = __rdtsc();
+      //      start_cycles = __rdtsc();
         int ret = ioctl(fd, SGX_IOC_ENCLAVE_RESTRICT_PERMISSIONS, &ioc);
-	stop_cycles = __rdtsc();
-	printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
+	//	stop_cycles = __rdtsc();
+	//	printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
         if (ret && ioc.count == 0 && errno != EBUSY && errno!=EAGAIN )
         {
             int err = errno;
@@ -1630,10 +1630,10 @@ static int trim_accept_legacy(int fd, void *addr, size_t len)
     params.start_addr = (unsigned long)addr;
     params.nr_pages = (unsigned int)(len / SE_PAGE_SIZE);
 
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(fd, SGX_IOC_ENCLAVE_NOTIFY_ACCEPT, &params);
-    stop_cycles = __rdtsc();
-    printf("ioctl EACCEPT %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl EACCEPT %ld\n", stop_cycles-start_cycles);
 
     if (ret)
     {
@@ -1650,10 +1650,10 @@ static int trim_legacy(int fd, void *fromaddr, uint64_t len)
     params.start_addr = (unsigned long)fromaddr;
     params.nr_pages = (unsigned int)((len) / SE_PAGE_SIZE);
 
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(fd, SGX_IOC_ENCLAVE_TRIM, &params);
-    stop_cycles = __rdtsc();
-    printf("ioctl ETRIM %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl ETRIM %ld\n", stop_cycles-start_cycles);
     if (ret)
     {
         return errno;
@@ -1671,10 +1671,10 @@ static int mktcs_legacy(int fd, void *tcs_addr, size_t len)
     params.start_addr = (unsigned long)tcs_addr;
     params.nr_pages = 1;
 
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(fd, SGX_IOC_ENCLAVE_MKTCS, &params);
-    stop_cycles = __rdtsc();
-    printf("ioctl EMKTCS %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl EMKTCS %ld\n", stop_cycles-start_cycles);
     if (ret)
     {
         return errno;
@@ -1690,10 +1690,10 @@ static int emodpr_legacy(int fd, void *addr, uint64_t size, uint64_t flag)
     params.range.nr_pages = (unsigned int)(size / SE_PAGE_SIZE);
     params.flags = (unsigned long)flag;
 
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     int ret = ioctl(fd, SGX_IOC_ENCLAVE_EMODPR, &params);
-    stop_cycles = __rdtsc();
-    printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("ioctl EMODPR %ld\n", stop_cycles-start_cycles);
     if (ret)
     {
         return errno;
