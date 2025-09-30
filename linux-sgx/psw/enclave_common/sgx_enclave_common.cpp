@@ -1260,6 +1260,7 @@ extern "C" bool COMM_API enclave_delete(
     COMM_IN void* base_address,
     COMM_OUT_OPT uint32_t* enclave_error)
 {
+	uint64_t s_start_cycles = __rdtsc();
     if (base_address == NULL) {
         if (enclave_error != NULL)
             *enclave_error = ENCLAVE_INVALID_PARAMETER;
@@ -1282,11 +1283,14 @@ extern "C" bool COMM_API enclave_delete(
 		s_enclave_base_address.erase(std::remove(s_enclave_base_address.begin(), s_enclave_base_address.end(), (uint64_t)base_address),
             s_enclave_base_address.end());
 		stop_cycles = __rdtsc();
-		printf("ioctl ERASE %ld\n", stop_cycles-start_cycles);
+		printf("ioctl BASE ERASE %ld\n", stop_cycles-start_cycles);
 
         s_enclave_size.erase(base_address);
         s_enclave_init.erase(base_address);
+		start_cycles = __rdtsc();
         s_enclave_mem_region.erase(base_address);
+		stop_cycles = __rdtsc();
+		printf("ioctl MEM ERASE %ld\n", stop_cycles-start_cycles);
         if (s_driver_type == SGX_DRIVER_IN_KERNEL)
         {
             int hfile_temp = s_hfile[base_address];
@@ -1296,10 +1300,14 @@ extern "C" bool COMM_API enclave_delete(
 	    printf("ioctl EREMOVE %ld\n", stop_cycles-start_cycles);
             s_hfile.erase(base_address);
         }
+		start_cycles = __rdtsc();
         s_enclave_elrange_map.erase(base_address);
+		stop_cycles = __rdtsc();
+		printf("ioctl ELRANGE ERASE %ld\n", stop_cycles-start_cycles);
     }
 
-    if (0 != munmap(base_address, enclave_size)) {
+    start_cycles = __rdtsc();
+	if (0 != munmap(base_address, enclave_size)) {
         SE_TRACE(SE_TRACE_WARNING, "delete SGX enclave failed, error = %d\n", errno);
         if (enclave_error != NULL) {
             if (errno == EINVAL)
@@ -1309,9 +1317,14 @@ extern "C" bool COMM_API enclave_delete(
         }
         return false;
     }
+	stop_cycles = __rdtsc();
+	printf("ioctl MUNMAP %ld\n", stop_cycles-start_cycles);
 
-    if (enclave_error != NULL)
+    if (enclave_error != NULL) {
         *enclave_error = ENCLAVE_ERROR_SUCCESS;
+	}
+	stop_cycles = __rdtsc();
+	printf("ioctl  enclave_delete %ld\n", stop_cycles-s_start_cycles);
     return true;
 }
 
