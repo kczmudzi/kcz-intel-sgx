@@ -204,7 +204,7 @@ int main(void)
     start_cycles = __rdtsc();
     //    sgx_get_token(NULL, (void *)secs.base);
     volatile uint64_t ij = 0;
-    for (uint64_t i = 0; i < 0x10; i++) {
+    for (uint64_t i = 0; i < 0x100; i++) {
       for (uint64_t j = 0; j < 0x10; j++) {
 	ij = i*j;
 	outputFile << ij << std::endl;
