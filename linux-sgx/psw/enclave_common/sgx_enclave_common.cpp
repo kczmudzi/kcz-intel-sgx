@@ -1278,11 +1278,11 @@ extern "C" bool COMM_API enclave_delete(
         }
         enclave_size = it->second;
 
-	stop_cycles = __rdtsc();
-        s_enclave_base_address.erase(std::remove(s_enclave_base_address.begin(), s_enclave_base_address.end(), (uint64_t)base_address),
+        start_cycles = __rdtsc();
+		s_enclave_base_address.erase(std::remove(s_enclave_base_address.begin(), s_enclave_base_address.end(), (uint64_t)base_address),
             s_enclave_base_address.end());
-	stop_cycles = __rdtsc();
-	printf("ioctl ERASE %ld\n", stop_cycles-start_cycles);
+		stop_cycles = __rdtsc();
+		printf("ioctl ERASE %ld\n", stop_cycles-start_cycles);
 
         s_enclave_size.erase(base_address);
         s_enclave_init.erase(base_address);
@@ -1927,4 +1927,3 @@ extern "C" uint32_t COMM_API enclave_get_file_handle(void* virt_addr, int* encla
     return ENCLAVE_ERROR_SUCCESS;
 }
 #endif
-
