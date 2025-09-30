@@ -1278,8 +1278,11 @@ extern "C" bool COMM_API enclave_delete(
         }
         enclave_size = it->second;
 
+	stop_cycles = __rdtsc();
         s_enclave_base_address.erase(std::remove(s_enclave_base_address.begin(), s_enclave_base_address.end(), (uint64_t)base_address),
             s_enclave_base_address.end());
+	stop_cycles = __rdtsc();
+	printf("ioctl ERASE %ld\n", stop_cycles-start_cycles);
 
         s_enclave_size.erase(base_address);
         s_enclave_init.erase(base_address);
@@ -1551,7 +1554,7 @@ static int trim_accept(int fd, void *addr, size_t length)
       start_cycles = __rdtsc();
         ret = ioctl(fd, SGX_IOC_ENCLAVE_REMOVE_PAGES, &ioc);
 	stop_cycles = __rdtsc();
-	printf("ioctl EREMOVE %ld\n", stop_cycles-start_cycles);
+	printf("ioctl EREMOVE (trim) %ld\n", stop_cycles-start_cycles);
         if(ret && ioc.count == 0 && errno != EBUSY && errno != EAGAIN )
         { //total failure
             int err = errno;
