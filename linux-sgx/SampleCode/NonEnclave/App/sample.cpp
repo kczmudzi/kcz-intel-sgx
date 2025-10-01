@@ -190,7 +190,7 @@ int main(void)
         return 1;
     stop_cycles = __rdtsc();
     printf("init enclave %ld\n", stop_cycles-start_cycles);
-
+    /*
     start_cycles = __rdtsc();
     std::ofstream outputFile("mydata.txt");
     if (!outputFile.is_open()) {
@@ -199,15 +199,15 @@ int main(void)
     }
     stop_cycles = __rdtsc();
     printf("open file %ld\n", stop_cycles-start_cycles);
-
+    */
     // enclave is ready to use.
     start_cycles = __rdtsc();
     //    sgx_get_token(NULL, (void *)secs.base);
     volatile uint64_t ij = 0;
     for (uint64_t i = 0; i < 0x100; i++) {
-      for (uint64_t j = 0; j < 0x10; j++) {
+      for (uint64_t j = 0; j < 0x100; j++) {
 	ij = i*j;
-	outputFile << ij << std::endl;
+	//	outputFile << ij << std::endl;
       }
     }
     stop_cycles = __rdtsc();
@@ -218,12 +218,12 @@ int main(void)
         return 1;
     stop_cycles = __rdtsc();
     printf("destroy enclave %ld\n", stop_cycles-start_cycles);
-
+    /*
     start_cycles = __rdtsc();
     outputFile.close();
     stop_cycles = __rdtsc();
     printf("close file %ld\n", stop_cycles-start_cycles);
-
+    */
     printf("Success!\n");
 
     return 0;
