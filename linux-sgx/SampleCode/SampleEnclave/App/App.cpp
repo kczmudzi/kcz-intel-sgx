@@ -202,18 +202,20 @@ int SGX_CDECL main(int argc, char *argv[])
 
     /* Utilize edger8r attributes */
     start_cycles = __rdtsc();
+    for (int i = 0; i < 10; i++) {
     edger8r_array_attributes();
     edger8r_pointer_attributes();
     edger8r_type_attributes();
     edger8r_function_attributes();
-    stop_cycles = __rdtsc();
-    printf("edger8r enclave %ld\n", stop_cycles-start_cycles);
+    //    stop_cycles = __rdtsc();
+    //    printf("edger8r enclave %ld\n", stop_cycles-start_cycles);
     
     /* Utilize trusted libraries */
-    start_cycles = __rdtsc();
+    //    start_cycles = __rdtsc();
     ecall_libc_functions();
     ecall_libcxx_functions();
     ecall_thread_functions();
+    }
     stop_cycles = __rdtsc();
     printf("ecall enclave %ld\n", stop_cycles-start_cycles);
 

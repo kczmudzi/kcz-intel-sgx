@@ -189,6 +189,7 @@ int main(void)
 
     // enclave is ready to use.
     start_cycles = __rdtsc();
+    for (int i = 0; i < 10; i++)
     sgx_get_token(NULL, (void *)secs.base);
     stop_cycles = __rdtsc();
     printf("ecall %ld\n", stop_cycles-start_cycles);

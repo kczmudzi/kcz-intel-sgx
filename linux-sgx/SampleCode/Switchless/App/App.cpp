@@ -234,7 +234,10 @@ void benchmark_empty_ecall(int is_switchless)
 }
 
 #include <x86intrin.h> // For __rdtsc()                                         
-uint64_t start_cycles, stop_cycles;
+uint64_t start_cycles, stop_cycles, total_cycles[6] = {0};
+char *cycles_names[6] = {
+  "build", "ocall1", "ocall0", "ecall1", "ecall0", "destroy"
+};
 
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
@@ -255,16 +258,20 @@ int SGX_CDECL main(int argc, char *argv[])
         return -1;
     }
     stop_cycles = __rdtsc();
+    total_cycles[0] += (stop_cycles - start_cycles);
     printf("init enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Running a benchmark that compares **ordinary** and **switchless** OCalls...\n");
+    for (int i = 0; i < 10; i++) {
     start_cycles = __rdtsc();
     benchmark_empty_ocall(1);
     stop_cycles = __rdtsc();
+    total_cycles[1] += (stop_cycles - start_cycles);
     printf("ocall 1 enclave %ld\n", stop_cycles-start_cycles);
     start_cycles = __rdtsc();
     benchmark_empty_ocall(0);
     stop_cycles = __rdtsc();
+    total_cycles[2] += (stop_cycles - start_cycles);
     printf("ocall 0 enclave %ld\n", stop_cycles-start_cycles);
     printf("Done.\n");
     
@@ -273,16 +280,22 @@ int SGX_CDECL main(int argc, char *argv[])
     start_cycles = __rdtsc();
     benchmark_empty_ecall(1);
     stop_cycles = __rdtsc();
+    total_cycles[3] += (stop_cycles - start_cycles);
     printf("ecall 1 enclave %ld\n", stop_cycles-start_cycles);
     start_cycles = __rdtsc();
     benchmark_empty_ecall(0);
     stop_cycles = __rdtsc();
+    total_cycles[4] += (stop_cycles - start_cycles);
     printf("ecall 0 enclave %ld\n", stop_cycles-start_cycles);
+    }
     printf("Done.\n");
 
     start_cycles = __rdtsc();
     sgx_destroy_enclave(global_eid);
     stop_cycles = __rdtsc();
+    total_cycles[5] += (stop_cycles - start_cycles);
     printf("destroy enclave %ld\n", stop_cycles-start_cycles);
+    for (int i = 0; i < 6; i++)
+      printf("%s %ld\n", cycles_names[i], total_cycles[i]);
     return 0;
 }

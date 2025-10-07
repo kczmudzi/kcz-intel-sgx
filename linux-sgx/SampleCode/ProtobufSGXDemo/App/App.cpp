@@ -206,11 +206,13 @@ int SGX_CDECL main(int argc, char *argv[])
     printf("init enclave %ld\n", stop_cycles-start_cycles); 
  
     start_cycles = __rdtsc();
+    for (int i = 0; i < 10; i++) {
     sgx_status_t status = ecall_person(global_eid);
     if (status != SGX_SUCCESS) {
 	    printf("ERROR: ECall failed\n");
 	    print_error_message(status);
 	    exit(-1);
+    }
     }
     stop_cycles = __rdtsc();
     printf("ecall enclave %ld\n", stop_cycles-start_cycles);

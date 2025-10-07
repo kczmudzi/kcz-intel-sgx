@@ -208,7 +208,8 @@ int SGX_CDECL main(int argc, char *argv[])
 
     
     start_cycles = __rdtsc();
-    /* Utilize trusted libraries */ 
+    /* Utilize trusted libraries */
+    for (int i = 0 ; i < 10; i++)
     ecall_libcxx_functions();
     stop_cycles = __rdtsc();
     printf("ecall enclave %ld\n", stop_cycles-start_cycles);
