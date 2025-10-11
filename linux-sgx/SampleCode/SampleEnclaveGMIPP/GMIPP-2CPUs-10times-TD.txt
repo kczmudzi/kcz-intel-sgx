@@ -1,0 +1,10 @@
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
+-bash: per: command not found
