@@ -1,0 +1,330 @@
+init enclave 8661004
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1643240
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2308558
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1260468
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4074
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6084
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5656
+destroy  enclave 343104
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.46 msec task-clock                       #    0.980 CPUs utilized             
+                 6      context-switches                 #  709.231 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,764      page-faults                      #  208.514 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008631901 seconds time elapsed
+
+       0.005367000 seconds user
+       0.003215000 seconds sys
+
+
+init enclave 8707780
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1621286
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2342208
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1227026
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 3962
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6338
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 6476
+destroy  enclave 338758
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.42 msec task-clock                       #    0.976 CPUs utilized             
+                 6      context-switches                 #  712.245 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,764      page-faults                      #  209.400 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008632062 seconds time elapsed
+
+       0.005339000 seconds user
+       0.003192000 seconds sys
+
+
+init enclave 8672790
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1646448
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2324840
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1234134
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 3946
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6240
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5456
+destroy  enclave 326134
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.44 msec task-clock                       #    0.981 CPUs utilized             
+                 6      context-switches                 #  711.100 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,762      page-faults                      #  208.826 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008600729 seconds time elapsed
+
+       0.004279000 seconds user
+       0.004270000 seconds sys
+
+
+init enclave 8798822
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1629954
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2342372
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1280400
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4206
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6714
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 6014
+destroy  enclave 344802
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.56 msec task-clock                       #    0.898 CPUs utilized             
+                 6      context-switches                 #  700.638 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  205.871 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.009531202 seconds time elapsed
+
+       0.005421000 seconds user
+       0.003239000 seconds sys
+
+
+init enclave 9151950
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1667566
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2370886
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1219678
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 3818
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6160
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5516
+destroy  enclave 327510
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.69 msec task-clock                       #    0.982 CPUs utilized             
+                 5      context-switches                 #  575.255 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  202.835 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008849293 seconds time elapsed
+
+       0.005502000 seconds user
+       0.003301000 seconds sys
+
+
+init enclave 8795962
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1839372
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2412160
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1239272
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4216
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6058
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5902
+destroy  enclave 334482
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.63 msec task-clock                       #    0.981 CPUs utilized             
+                 5      context-switches                 #  579.619 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  204.374 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008796410 seconds time elapsed
+
+       0.003885000 seconds user
+       0.004848000 seconds sys
+
+
+init enclave 9162594
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1692562
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2368000
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1225990
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4084
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6072
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5684
+destroy  enclave 335998
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.72 msec task-clock                       #    0.982 CPUs utilized             
+                 5      context-switches                 #  573.211 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  202.114 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008881202 seconds time elapsed
+
+       0.004423000 seconds user
+       0.004412000 seconds sys
+
+
+init enclave 8443716
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1638502
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2329294
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1279716
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4218
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6504
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5748
+destroy  enclave 360950
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.35 msec task-clock                       #    0.981 CPUs utilized             
+                 5      context-switches                 #  599.056 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  211.227 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008504532 seconds time elapsed
+
+       0.004228000 seconds user
+       0.004217000 seconds sys
+
+
+init enclave 8758424
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1644848
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2314072
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1227198
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 4050
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6164
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5558
+destroy  enclave 326846
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.46 msec task-clock                       #    0.982 CPUs utilized             
+                 6      context-switches                 #  709.003 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  208.329 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.008620384 seconds time elapsed
+
+       0.005360000 seconds user
+       0.003211000 seconds sys
+
+
+init enclave 8840192
+GM SM2 - sign and verify: PASS
+ecall 1 enclave 1644820
+GM SM2 - key exchange: PASS
+ecall 2 enclave 2392484
+GM SM2 - encrypt and decrypt(GM version): PASS
+ecall 3 enclave 1237730
+GM SM3 - compute digest of message: PASS
+ecall 4 enclave 3972
+GM SM4 - cbc encrypt and decrypt: PASS
+ecall 5 enclave 6350
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 5548
+destroy  enclave 330518
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+              8.58 msec task-clock                       #    0.910 CPUs utilized             
+                 6      context-switches                 #  699.294 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             1,763      page-faults                      #  205.476 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.009432328 seconds time elapsed
+
+       0.004339000 seconds user
+       0.004340000 seconds sys
+
+

@@ -1,0 +1,240 @@
+create enclave 176608
+add pages 643596
+init enclave 45784
+ecall 267584
+destroy enclave 76410
+Success!
+
+ Performance counter stats for './sample':
+
+              1.64 msec task-clock                       #    0.908 CPUs utilized             
+                 3      context-switches                 #    1.830 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               129      page-faults                      #   78.687 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001806073 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001798000 seconds sys
+
+
+create enclave 176678
+add pages 649594
+init enclave 44624
+ecall 265750
+destroy enclave 76830
+Success!
+
+ Performance counter stats for './sample':
+
+              1.65 msec task-clock                       #    0.890 CPUs utilized             
+                 3      context-switches                 #    1.823 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               129      page-faults                      #   78.388 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001849420 seconds time elapsed
+
+       0.001834000 seconds user
+       0.000000000 seconds sys
+
+
+create enclave 243620
+add pages 646322
+init enclave 44952
+ecall 264816
+destroy enclave 74264
+Success!
+
+ Performance counter stats for './sample':
+
+              1.56 msec task-clock                       #    0.889 CPUs utilized             
+                 3      context-switches                 #    1.924 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               131      page-faults                      #   83.995 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001754713 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001711000 seconds sys
+
+
+create enclave 154862
+add pages 643332
+init enclave 44720
+ecall 265424
+destroy enclave 69872
+Success!
+
+ Performance counter stats for './sample':
+
+              1.54 msec task-clock                       #    0.907 CPUs utilized             
+                 3      context-switches                 #    1.948 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               130      page-faults                      #   84.398 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001697773 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001686000 seconds sys
+
+
+create enclave 226070
+add pages 653458
+init enclave 43154
+ecall 275370
+destroy enclave 76048
+Success!
+
+ Performance counter stats for './sample':
+
+              1.57 msec task-clock                       #    0.670 CPUs utilized             
+                 5      context-switches                 #    3.193 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               130      page-faults                      #   83.026 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.002336052 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001700000 seconds sys
+
+
+create enclave 167638
+add pages 652534
+init enclave 44006
+ecall 267178
+destroy enclave 99660
+Success!
+
+ Performance counter stats for './sample':
+
+              1.60 msec task-clock                       #    0.903 CPUs utilized             
+                 3      context-switches                 #    1.877 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               131      page-faults                      #   81.946 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001770417 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001761000 seconds sys
+
+
+create enclave 156934
+add pages 645316
+init enclave 43944
+ecall 301588
+destroy enclave 71260
+Success!
+
+ Performance counter stats for './sample':
+
+              1.59 msec task-clock                       #    0.907 CPUs utilized             
+                 3      context-switches                 #    1.888 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               130      page-faults                      #   81.812 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001750995 seconds time elapsed
+
+       0.001730000 seconds user
+       0.000000000 seconds sys
+
+
+create enclave 159552
+add pages 644844
+init enclave 43726
+ecall 294640
+destroy enclave 74286
+Success!
+
+ Performance counter stats for './sample':
+
+              1.56 msec task-clock                       #    0.908 CPUs utilized             
+                 3      context-switches                 #    1.917 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               131      page-faults                      #   83.717 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001723006 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001711000 seconds sys
+
+
+create enclave 169162
+add pages 709206
+init enclave 46886
+ecall 267304
+destroy enclave 67592
+Success!
+
+ Performance counter stats for './sample':
+
+              1.62 msec task-clock                       #    0.906 CPUs utilized             
+                 4      context-switches                 #    2.473 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               131      page-faults                      #   81.004 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001784849 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001724000 seconds sys
+
+
+create enclave 157976
+add pages 644694
+init enclave 44866
+ecall 303638
+destroy enclave 71658
+Success!
+
+ Performance counter stats for './sample':
+
+              1.56 msec task-clock                       #    0.908 CPUs utilized             
+                 3      context-switches                 #    1.924 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               130      page-faults                      #   83.373 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.001717120 seconds time elapsed
+
+       0.000000000 seconds user
+       0.001707000 seconds sys
+
+

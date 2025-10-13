@@ -1,0 +1,890 @@
+init enclave 19027400
+sealed data size enclave 57220
+seal data enclave 155940
+write buf to file enclave 152718
+sealed data size enclave 9388
+seal data enclave 24934
+write buf to file enclave 1703930
+sealed data size enclave 10482
+seal data enclave 50908
+write buf to file enclave 1364762
+sealed data size enclave 9224
+seal data enclave 24492
+write buf to file enclave 1086566
+sealed data size enclave 9054
+seal data enclave 24870
+write buf to file enclave 1102888
+sealed data size enclave 9036
+seal data enclave 21206
+write buf to file enclave 1326022
+sealed data size enclave 9102
+seal data enclave 21850
+write buf to file enclave 1139996
+sealed data size enclave 9444
+seal data enclave 21052
+write buf to file enclave 1432720
+sealed data size enclave 9132
+seal data enclave 21144
+write buf to file enclave 1428008
+sealed data size enclave 9732
+seal data enclave 22568
+write buf to file enclave 789382
+destroy enclave 1035492
+Sealing data succeeded.
+init enclave 18236624
+file size enclave 30626
+read file to buf enclave 15792
+unseal data enclave 205632
+file size enclave 7344
+read file to buf enclave 5170
+unseal data enclave 20016
+file size enclave 7300
+read file to buf enclave 4692
+unseal data enclave 20344
+file size enclave 7226
+read file to buf enclave 4932
+unseal data enclave 21464
+file size enclave 7722
+read file to buf enclave 4762
+unseal data enclave 18760
+file size enclave 7104
+read file to buf enclave 5336
+unseal data enclave 21338
+file size enclave 7604
+read file to buf enclave 5184
+unseal data enclave 22962
+file size enclave 7220
+read file to buf enclave 4974
+unseal data enclave 19600
+file size enclave 7548
+read file to buf enclave 5320
+unseal data enclave 21616
+file size enclave 7170
+read file to buf enclave 5464
+unseal data enclave 20882
+destroy enclave 967706
+Unseal succeeded.
+build 37264024
+size 238678
+(un)seal 781578
+rw 11588618
+destroy 967120
+
+ Performance counter stats for './app':
+
+             21.70 msec task-clock                       #    0.786 CPUs utilized             
+                13      context-switches                 #  599.168 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               843      page-faults                      #   38.854 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027600258 seconds time elapsed
+
+       0.003968000 seconds user
+       0.018117000 seconds sys
+
+
+init enclave 18558066
+sealed data size enclave 57508
+seal data enclave 159372
+write buf to file enclave 147296
+sealed data size enclave 8858
+seal data enclave 24638
+write buf to file enclave 1368766
+sealed data size enclave 9228
+seal data enclave 19834
+write buf to file enclave 1055250
+sealed data size enclave 9084
+seal data enclave 22806
+write buf to file enclave 1091888
+sealed data size enclave 9186
+seal data enclave 20786
+write buf to file enclave 1597742
+sealed data size enclave 9738
+seal data enclave 24340
+write buf to file enclave 949572
+sealed data size enclave 9438
+seal data enclave 21462
+write buf to file enclave 1623708
+sealed data size enclave 45420
+seal data enclave 50946
+write buf to file enclave 1045898
+sealed data size enclave 11192
+seal data enclave 22772
+write buf to file enclave 948712
+sealed data size enclave 10530
+seal data enclave 20228
+write buf to file enclave 783774
+destroy enclave 1213580
+Sealing data succeeded.
+init enclave 18293396
+file size enclave 30532
+read file to buf enclave 15404
+unseal data enclave 217386
+file size enclave 8276
+read file to buf enclave 6414
+unseal data enclave 20372
+file size enclave 7428
+read file to buf enclave 4798
+unseal data enclave 23724
+file size enclave 7416
+read file to buf enclave 5152
+unseal data enclave 25530
+file size enclave 7324
+read file to buf enclave 4564
+unseal data enclave 23006
+file size enclave 7292
+read file to buf enclave 5546
+unseal data enclave 19184
+file size enclave 7808
+read file to buf enclave 4674
+unseal data enclave 25596
+file size enclave 8168
+read file to buf enclave 5490
+unseal data enclave 25160
+file size enclave 8220
+read file to buf enclave 4842
+unseal data enclave 23022
+file size enclave 7692
+read file to buf enclave 5180
+unseal data enclave 24542
+destroy enclave 994740
+Unseal succeeded.
+build 36851462
+size 280338
+(un)seal 814706
+rw 10674670
+destroy 994240
+
+ Performance counter stats for './app':
+
+             21.78 msec task-clock                       #    0.796 CPUs utilized             
+                13      context-switches                 #  596.996 /sec                      
+                 1      cpu-migrations                   #   45.923 /sec                      
+               843      page-faults                      #   38.713 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027341308 seconds time elapsed
+
+       0.002910000 seconds user
+       0.019321000 seconds sys
+
+
+init enclave 19156500
+sealed data size enclave 57082
+seal data enclave 161372
+write buf to file enclave 150606
+sealed data size enclave 9236
+seal data enclave 21976
+write buf to file enclave 1653864
+sealed data size enclave 9340
+seal data enclave 22340
+write buf to file enclave 1481612
+sealed data size enclave 8904
+seal data enclave 22500
+write buf to file enclave 1462686
+sealed data size enclave 9192
+seal data enclave 21390
+write buf to file enclave 1590404
+sealed data size enclave 9464
+seal data enclave 23310
+write buf to file enclave 490938
+sealed data size enclave 8950
+seal data enclave 22304
+write buf to file enclave 773128
+sealed data size enclave 8924
+seal data enclave 21090
+write buf to file enclave 1125276
+sealed data size enclave 9024
+seal data enclave 19024
+write buf to file enclave 1713676
+sealed data size enclave 8906
+seal data enclave 18982
+write buf to file enclave 1487888
+destroy enclave 1028034
+Sealing data succeeded.
+init enclave 18374072
+file size enclave 30222
+read file to buf enclave 15968
+unseal data enclave 245492
+file size enclave 8138
+read file to buf enclave 6370
+unseal data enclave 27496
+file size enclave 7104
+read file to buf enclave 4646
+unseal data enclave 23782
+file size enclave 7084
+read file to buf enclave 4990
+unseal data enclave 24686
+file size enclave 7238
+read file to buf enclave 4564
+unseal data enclave 24608
+file size enclave 7780
+read file to buf enclave 5484
+unseal data enclave 18930
+file size enclave 9444
+read file to buf enclave 5206
+unseal data enclave 25652
+file size enclave 7324
+read file to buf enclave 5470
+unseal data enclave 24026
+file size enclave 7384
+read file to buf enclave 4514
+unseal data enclave 24440
+file size enclave 7814
+read file to buf enclave 5360
+unseal data enclave 25476
+destroy enclave 967614
+Unseal succeeded.
+build 37530572
+size 238554
+(un)seal 818876
+rw 11992650
+destroy 967090
+
+ Performance counter stats for './app':
+
+             21.90 msec task-clock                       #    0.783 CPUs utilized             
+                13      context-switches                 #  593.636 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               840      page-faults                      #   38.358 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027955826 seconds time elapsed
+
+       0.005311000 seconds user
+       0.016981000 seconds sys
+
+
+init enclave 18810380
+sealed data size enclave 58004
+seal data enclave 146048
+write buf to file enclave 148906
+sealed data size enclave 9144
+seal data enclave 21458
+write buf to file enclave 1570318
+sealed data size enclave 9146
+seal data enclave 22322
+write buf to file enclave 1375650
+sealed data size enclave 8914
+seal data enclave 19298
+write buf to file enclave 1218226
+sealed data size enclave 9308
+seal data enclave 24148
+write buf to file enclave 1702428
+sealed data size enclave 9384
+seal data enclave 25130
+write buf to file enclave 1126236
+sealed data size enclave 8834
+seal data enclave 20878
+write buf to file enclave 1279816
+sealed data size enclave 8908
+seal data enclave 21508
+write buf to file enclave 1549798
+sealed data size enclave 8890
+seal data enclave 19244
+write buf to file enclave 803940
+sealed data size enclave 8856
+seal data enclave 20278
+write buf to file enclave 1280486
+destroy enclave 961232
+Sealing data succeeded.
+init enclave 18557842
+file size enclave 32492
+read file to buf enclave 16370
+unseal data enclave 219658
+file size enclave 7630
+read file to buf enclave 6506
+unseal data enclave 24498
+file size enclave 7324
+read file to buf enclave 4836
+unseal data enclave 26084
+file size enclave 7688
+read file to buf enclave 5414
+unseal data enclave 25958
+file size enclave 7262
+read file to buf enclave 4518
+unseal data enclave 24908
+file size enclave 7246
+read file to buf enclave 4966
+unseal data enclave 19360
+file size enclave 8286
+read file to buf enclave 4890
+unseal data enclave 24510
+file size enclave 7306
+read file to buf enclave 5064
+unseal data enclave 23618
+file size enclave 7508
+read file to buf enclave 5392
+unseal data enclave 26814
+file size enclave 8106
+read file to buf enclave 5166
+unseal data enclave 23986
+destroy enclave 957112
+Unseal succeeded.
+build 37368222
+size 240236
+(un)seal 779706
+rw 12118926
+destroy 956618
+
+ Performance counter stats for './app':
+
+             21.79 msec task-clock                       #    0.780 CPUs utilized             
+                13      context-switches                 #  596.472 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               842      page-faults                      #   38.633 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027937857 seconds time elapsed
+
+       0.005019000 seconds user
+       0.017153000 seconds sys
+
+
+init enclave 18694890
+sealed data size enclave 57874
+seal data enclave 158192
+write buf to file enclave 140812
+sealed data size enclave 9402
+seal data enclave 21316
+write buf to file enclave 1562344
+sealed data size enclave 61350
+seal data enclave 50432
+write buf to file enclave 1025412
+sealed data size enclave 10874
+seal data enclave 21854
+write buf to file enclave 1111344
+sealed data size enclave 9348
+seal data enclave 20730
+write buf to file enclave 1327634
+sealed data size enclave 9550
+seal data enclave 19212
+write buf to file enclave 525860
+sealed data size enclave 27092
+seal data enclave 29430
+write buf to file enclave 834864
+sealed data size enclave 9152
+seal data enclave 27204
+write buf to file enclave 458666
+sealed data size enclave 9220
+seal data enclave 23968
+write buf to file enclave 462644
+sealed data size enclave 9262
+seal data enclave 23606
+write buf to file enclave 459014
+destroy enclave 1000174
+Sealing data succeeded.
+init enclave 18377644
+file size enclave 42098
+read file to buf enclave 16860
+unseal data enclave 211540
+file size enclave 7554
+read file to buf enclave 6168
+unseal data enclave 22340
+file size enclave 7314
+read file to buf enclave 5000
+unseal data enclave 21990
+file size enclave 7662
+read file to buf enclave 5278
+unseal data enclave 19628
+file size enclave 7802
+read file to buf enclave 5522
+unseal data enclave 20170
+file size enclave 7178
+read file to buf enclave 5298
+unseal data enclave 19680
+file size enclave 7342
+read file to buf enclave 5442
+unseal data enclave 20138
+file size enclave 7256
+read file to buf enclave 6332
+unseal data enclave 19322
+file size enclave 7460
+read file to buf enclave 4726
+unseal data enclave 21278
+file size enclave 7176
+read file to buf enclave 5364
+unseal data enclave 21306
+destroy enclave 929660
+Unseal succeeded.
+build 37072534
+size 321966
+(un)seal 793336
+rw 7974584
+destroy 929126
+
+ Performance counter stats for './app':
+
+             21.83 msec task-clock                       #    0.841 CPUs utilized             
+                13      context-switches                 #  595.391 /sec                      
+                 2      cpu-migrations                   #   91.599 /sec                      
+               844      page-faults                      #   38.655 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025972412 seconds time elapsed
+
+       0.007086000 seconds user
+       0.015157000 seconds sys
+
+
+init enclave 18771550
+sealed data size enclave 57210
+seal data enclave 145912
+write buf to file enclave 148084
+sealed data size enclave 9012
+seal data enclave 22572
+write buf to file enclave 1123122
+sealed data size enclave 9128
+seal data enclave 20690
+write buf to file enclave 1357810
+sealed data size enclave 9164
+seal data enclave 19802
+write buf to file enclave 1101226
+sealed data size enclave 9030
+seal data enclave 21760
+write buf to file enclave 1301818
+sealed data size enclave 9674
+seal data enclave 20910
+write buf to file enclave 1253144
+sealed data size enclave 8810
+seal data enclave 22444
+write buf to file enclave 1461894
+sealed data size enclave 9000
+seal data enclave 19978
+write buf to file enclave 1500454
+sealed data size enclave 8876
+seal data enclave 22990
+write buf to file enclave 1164968
+sealed data size enclave 8820
+seal data enclave 22260
+write buf to file enclave 1354792
+destroy enclave 985608
+Sealing data succeeded.
+init enclave 18450742
+file size enclave 31902
+read file to buf enclave 16838
+unseal data enclave 214416
+file size enclave 7566
+read file to buf enclave 6258
+unseal data enclave 25278
+file size enclave 7882
+read file to buf enclave 5014
+unseal data enclave 19150
+file size enclave 7244
+read file to buf enclave 4844
+unseal data enclave 20920
+file size enclave 7326
+read file to buf enclave 4670
+unseal data enclave 22972
+file size enclave 8120
+read file to buf enclave 5300
+unseal data enclave 21062
+file size enclave 7318
+read file to buf enclave 4726
+unseal data enclave 20318
+file size enclave 7278
+read file to buf enclave 4978
+unseal data enclave 22018
+file size enclave 7286
+read file to buf enclave 4664
+unseal data enclave 23644
+file size enclave 7722
+read file to buf enclave 5100
+unseal data enclave 20064
+destroy enclave 1685952
+Unseal succeeded.
+build 37222292
+size 238368
+(un)seal 749160
+rw 11829704
+destroy 1685466
+
+ Performance counter stats for './app':
+
+             21.58 msec task-clock                       #    0.772 CPUs utilized             
+                15      context-switches                 #  695.014 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               843      page-faults                      #   39.060 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027964335 seconds time elapsed
+
+       0.005725000 seconds user
+       0.016219000 seconds sys
+
+
+init enclave 18655304
+sealed data size enclave 56018
+seal data enclave 145236
+write buf to file enclave 142626
+sealed data size enclave 8850
+seal data enclave 24856
+write buf to file enclave 1376858
+sealed data size enclave 9772
+seal data enclave 19726
+write buf to file enclave 1577182
+sealed data size enclave 9078
+seal data enclave 21536
+write buf to file enclave 1507610
+sealed data size enclave 9160
+seal data enclave 19460
+write buf to file enclave 1300744
+sealed data size enclave 9240
+seal data enclave 18070
+write buf to file enclave 1111008
+sealed data size enclave 9158
+seal data enclave 19732
+write buf to file enclave 522460
+sealed data size enclave 9104
+seal data enclave 18830
+write buf to file enclave 449614
+sealed data size enclave 9086
+seal data enclave 18482
+write buf to file enclave 464066
+sealed data size enclave 9034
+seal data enclave 20038
+write buf to file enclave 446438
+destroy enclave 1012142
+Sealing data succeeded.
+init enclave 18245128
+file size enclave 29508
+read file to buf enclave 15564
+unseal data enclave 217996
+file size enclave 7400
+read file to buf enclave 5998
+unseal data enclave 20774
+file size enclave 7180
+read file to buf enclave 5144
+unseal data enclave 22546
+file size enclave 7342
+read file to buf enclave 4884
+unseal data enclave 21198
+file size enclave 7036
+read file to buf enclave 4428
+unseal data enclave 19846
+file size enclave 6984
+read file to buf enclave 4712
+unseal data enclave 20430
+file size enclave 7598
+read file to buf enclave 5274
+unseal data enclave 20636
+file size enclave 7172
+read file to buf enclave 5442
+unseal data enclave 22286
+file size enclave 7628
+read file to buf enclave 5870
+unseal data enclave 22014
+file size enclave 7194
+read file to buf enclave 5002
+unseal data enclave 20506
+destroy enclave 1274548
+Unseal succeeded.
+build 36900432
+size 233542
+(un)seal 734198
+rw 8960924
+destroy 1273988
+
+ Performance counter stats for './app':
+
+             21.42 msec task-clock                       #    0.818 CPUs utilized             
+                13      context-switches                 #  606.860 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               843      page-faults                      #   39.353 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.026178045 seconds time elapsed
+
+       0.003119000 seconds user
+       0.018701000 seconds sys
+
+
+init enclave 18789810
+sealed data size enclave 57096
+seal data enclave 143582
+write buf to file enclave 140004
+sealed data size enclave 8980
+seal data enclave 24676
+write buf to file enclave 1367784
+sealed data size enclave 9486
+seal data enclave 23318
+write buf to file enclave 1107196
+sealed data size enclave 9094
+seal data enclave 19542
+write buf to file enclave 1104780
+sealed data size enclave 9154
+seal data enclave 21708
+write buf to file enclave 1112106
+sealed data size enclave 9024
+seal data enclave 18938
+write buf to file enclave 1192144
+sealed data size enclave 9136
+seal data enclave 22760
+write buf to file enclave 1192044
+sealed data size enclave 9282
+seal data enclave 22640
+write buf to file enclave 1602696
+sealed data size enclave 9086
+seal data enclave 19322
+write buf to file enclave 1488422
+sealed data size enclave 9122
+seal data enclave 19250
+write buf to file enclave 747328
+destroy enclave 996676
+Sealing data succeeded.
+init enclave 18431542
+file size enclave 30460
+read file to buf enclave 15770
+unseal data enclave 207158
+file size enclave 7714
+read file to buf enclave 5930
+unseal data enclave 20148
+file size enclave 7036
+read file to buf enclave 4796
+unseal data enclave 22428
+file size enclave 7006
+read file to buf enclave 5252
+unseal data enclave 20666
+file size enclave 7472
+read file to buf enclave 4738
+unseal data enclave 17686
+file size enclave 7022
+read file to buf enclave 4630
+unseal data enclave 22688
+file size enclave 7556
+read file to buf enclave 4736
+unseal data enclave 21152
+file size enclave 7196
+read file to buf enclave 4890
+unseal data enclave 19606
+file size enclave 8460
+read file to buf enclave 4632
+unseal data enclave 20740
+file size enclave 7662
+read file to buf enclave 4970
+unseal data enclave 21026
+destroy enclave 978804
+Unseal succeeded.
+build 37221352
+size 237044
+(un)seal 729034
+rw 11114848
+destroy 978266
+
+ Performance counter stats for './app':
+
+             21.62 msec task-clock                       #    0.792 CPUs utilized             
+                13      context-switches                 #  601.277 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               842      page-faults                      #   38.944 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027286054 seconds time elapsed
+
+       0.000954000 seconds user
+       0.021044000 seconds sys
+
+
+init enclave 18538370
+sealed data size enclave 56980
+seal data enclave 161262
+write buf to file enclave 169698
+sealed data size enclave 9584
+seal data enclave 19928
+write buf to file enclave 1492820
+sealed data size enclave 9182
+seal data enclave 22202
+write buf to file enclave 1106272
+sealed data size enclave 9318
+seal data enclave 19730
+write buf to file enclave 1129314
+sealed data size enclave 8878
+seal data enclave 21014
+write buf to file enclave 1758606
+sealed data size enclave 9686
+seal data enclave 19934
+write buf to file enclave 1580980
+sealed data size enclave 9334
+seal data enclave 18876
+write buf to file enclave 1611312
+sealed data size enclave 9314
+seal data enclave 18974
+write buf to file enclave 1065146
+sealed data size enclave 9184
+seal data enclave 21298
+write buf to file enclave 1296964
+sealed data size enclave 9194
+seal data enclave 21086
+write buf to file enclave 1137772
+destroy enclave 1018846
+Sealing data succeeded.
+init enclave 18314562
+file size enclave 29920
+read file to buf enclave 14622
+unseal data enclave 212866
+file size enclave 7924
+read file to buf enclave 6494
+unseal data enclave 25522
+file size enclave 7508
+read file to buf enclave 5180
+unseal data enclave 22010
+file size enclave 7626
+read file to buf enclave 7160
+unseal data enclave 17466
+file size enclave 7004
+read file to buf enclave 5090
+unseal data enclave 20728
+file size enclave 7130
+read file to buf enclave 4688
+unseal data enclave 21220
+file size enclave 6976
+read file to buf enclave 4874
+unseal data enclave 17474
+file size enclave 6974
+read file to buf enclave 6492
+unseal data enclave 20434
+file size enclave 7226
+read file to buf enclave 4962
+unseal data enclave 17508
+file size enclave 7088
+read file to buf enclave 4808
+unseal data enclave 19200
+destroy enclave 1261758
+Unseal succeeded.
+build 36852932
+size 236030
+(un)seal 738732
+rw 12413254
+destroy 1261240
+
+ Performance counter stats for './app':
+
+             21.41 msec task-clock                       #    0.761 CPUs utilized             
+                13      context-switches                 #  607.055 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               842      page-faults                      #   39.319 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.028155471 seconds time elapsed
+
+       0.004958000 seconds user
+       0.016856000 seconds sys
+
+
+init enclave 18871776
+sealed data size enclave 57204
+seal data enclave 155326
+write buf to file enclave 142330
+sealed data size enclave 9198
+seal data enclave 20506
+write buf to file enclave 1558066
+sealed data size enclave 9238
+seal data enclave 24100
+write buf to file enclave 1484942
+sealed data size enclave 9878
+seal data enclave 21736
+write buf to file enclave 1236304
+sealed data size enclave 9290
+seal data enclave 19734
+write buf to file enclave 843968
+sealed data size enclave 9176
+seal data enclave 17930
+write buf to file enclave 1169840
+sealed data size enclave 9166
+seal data enclave 19544
+write buf to file enclave 1529824
+sealed data size enclave 9166
+seal data enclave 18246
+write buf to file enclave 1577092
+sealed data size enclave 9180
+seal data enclave 21456
+write buf to file enclave 1368468
+sealed data size enclave 9070
+seal data enclave 20124
+write buf to file enclave 818432
+destroy enclave 1014422
+Sealing data succeeded.
+init enclave 18378916
+file size enclave 30002
+read file to buf enclave 14758
+unseal data enclave 201836
+file size enclave 7708
+read file to buf enclave 5852
+unseal data enclave 45742
+file size enclave 6808
+read file to buf enclave 4482
+unseal data enclave 22412
+file size enclave 8102
+read file to buf enclave 4898
+unseal data enclave 19376
+file size enclave 6992
+read file to buf enclave 4488
+unseal data enclave 19372
+file size enclave 6936
+read file to buf enclave 11074
+unseal data enclave 18828
+file size enclave 7610
+read file to buf enclave 4822
+unseal data enclave 17772
+file size enclave 7560
+read file to buf enclave 5384
+unseal data enclave 22340
+file size enclave 7224
+read file to buf enclave 4678
+unseal data enclave 20204
+file size enclave 7696
+read file to buf enclave 5006
+unseal data enclave 19262
+destroy enclave 1832488
+Unseal succeeded.
+build 37250692
+size 237204
+(un)seal 745846
+rw 11794708
+destroy 1831938
+
+ Performance counter stats for './app':
+
+             21.64 msec task-clock                       #    0.771 CPUs utilized             
+                13      context-switches                 #  600.800 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               844      page-faults                      #   39.006 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.028053709 seconds time elapsed
+
+       0.002755000 seconds user
+       0.019250000 seconds sys
+
+

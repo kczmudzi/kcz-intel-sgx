@@ -1,0 +1,300 @@
+init enclave 48034532
+sealed data size enclave 472726
+seal data enclave 464708
+write buf to file enclave 173008
+destroy enclave 1256872
+Sealing data succeeded.
+init enclave 47859834
+file size enclave 30428
+read file to buf enclave 18986
+unseal data enclave 910190
+destroy enclave 1166466
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.41 msec task-clock                       #    0.996 CPUs utilized             
+                15      context-switches                 #  291.747 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               840      page-faults                      #   16.338 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.051610926 seconds time elapsed
+
+       0.003966000 seconds user
+       0.046584000 seconds sys
+
+
+init enclave 48444260
+sealed data size enclave 437602
+seal data enclave 450956
+write buf to file enclave 204322
+destroy enclave 1130628
+Sealing data succeeded.
+init enclave 48341042
+file size enclave 31256
+read file to buf enclave 17786
+unseal data enclave 1000620
+destroy enclave 1091422
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.76 msec task-clock                       #    0.996 CPUs utilized             
+                16      context-switches                 #  309.099 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               839      page-faults                      #   16.208 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.051971710 seconds time elapsed
+
+       0.010082000 seconds user
+       0.041343000 seconds sys
+
+
+init enclave 48146700
+sealed data size enclave 467020
+seal data enclave 449734
+write buf to file enclave 164174
+destroy enclave 1174274
+Sealing data succeeded.
+init enclave 47668026
+file size enclave 29052
+read file to buf enclave 15706
+unseal data enclave 930414
+destroy enclave 1120568
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.28 msec task-clock                       #    0.996 CPUs utilized             
+                15      context-switches                 #  292.487 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               840      page-faults                      #   16.379 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.051476843 seconds time elapsed
+
+       0.009730000 seconds user
+       0.040861000 seconds sys
+
+
+init enclave 48929130
+sealed data size enclave 451602
+seal data enclave 501944
+write buf to file enclave 161038
+destroy enclave 1128260
+Sealing data succeeded.
+init enclave 48550168
+file size enclave 30462
+read file to buf enclave 17040
+unseal data enclave 926968
+destroy enclave 1117618
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             52.09 msec task-clock                       #    0.996 CPUs utilized             
+                16      context-switches                 #  307.138 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               841      page-faults                      #   16.144 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.052284790 seconds time elapsed
+
+       0.006949000 seconds user
+       0.044700000 seconds sys
+
+
+init enclave 48212134
+sealed data size enclave 803552
+seal data enclave 496858
+write buf to file enclave 160500
+destroy enclave 1134994
+Sealing data succeeded.
+init enclave 48518470
+file size enclave 29396
+read file to buf enclave 16490
+unseal data enclave 975598
+destroy enclave 1126926
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.93 msec task-clock                       #    0.996 CPUs utilized             
+                17      context-switches                 #  327.388 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               839      page-faults                      #   16.158 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.052113494 seconds time elapsed
+
+       0.007930000 seconds user
+       0.043607000 seconds sys
+
+
+init enclave 48124164
+sealed data size enclave 644666
+seal data enclave 450694
+write buf to file enclave 230552
+destroy enclave 1127620
+Sealing data succeeded.
+init enclave 48478200
+file size enclave 29330
+read file to buf enclave 17406
+unseal data enclave 945416
+destroy enclave 1094482
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.78 msec task-clock                       #    0.996 CPUs utilized             
+                16      context-switches                 #  309.011 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               841      page-faults                      #   16.242 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.051989711 seconds time elapsed
+
+       0.003882000 seconds user
+       0.047575000 seconds sys
+
+
+init enclave 49603300
+sealed data size enclave 500128
+seal data enclave 532444
+write buf to file enclave 165978
+destroy enclave 1152748
+Sealing data succeeded.
+init enclave 47946448
+file size enclave 30210
+read file to buf enclave 17298
+unseal data enclave 981146
+destroy enclave 1159528
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             52.26 msec task-clock                       #    0.996 CPUs utilized             
+                15      context-switches                 #  287.043 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               840      page-faults                      #   16.074 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.052444220 seconds time elapsed
+
+       0.007935000 seconds user
+       0.043616000 seconds sys
+
+
+init enclave 48165612
+sealed data size enclave 472850
+seal data enclave 450136
+write buf to file enclave 162708
+destroy enclave 1328538
+Sealing data succeeded.
+init enclave 47720768
+file size enclave 30600
+read file to buf enclave 18002
+unseal data enclave 924500
+destroy enclave 1129794
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             51.40 msec task-clock                       #    0.996 CPUs utilized             
+                16      context-switches                 #  311.291 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               841      page-faults                      #   16.362 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.051594281 seconds time elapsed
+
+       0.003957000 seconds user
+       0.046476000 seconds sys
+
+
+init enclave 49072216
+sealed data size enclave 483646
+seal data enclave 453552
+write buf to file enclave 161180
+destroy enclave 1133992
+Sealing data succeeded.
+init enclave 48239100
+file size enclave 30432
+read file to buf enclave 16624
+unseal data enclave 938654
+destroy enclave 1121008
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             52.01 msec task-clock                       #    0.996 CPUs utilized             
+                17      context-switches                 #  326.848 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               840      page-faults                      #   16.150 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.052205277 seconds time elapsed
+
+       0.004948000 seconds user
+       0.046542000 seconds sys
+
+
+init enclave 50005110
+sealed data size enclave 656644
+seal data enclave 460026
+write buf to file enclave 160918
+destroy enclave 1176556
+Sealing data succeeded.
+init enclave 49456406
+file size enclave 29626
+read file to buf enclave 17272
+unseal data enclave 1021546
+destroy enclave 1118202
+Unseal succeeded.
+
+ Performance counter stats for './app':
+
+             53.26 msec task-clock                       #    0.996 CPUs utilized             
+                15      context-switches                 #  281.661 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               841      page-faults                      #   15.792 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.053446066 seconds time elapsed
+
+       0.007936000 seconds user
+       0.044635000 seconds sys
+
+

@@ -1,0 +1,440 @@
+init enclave 75520650
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 4 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 18 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 74 seconds to compute
+outside enclave 195146426290
+inside enclave 167022836468
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 84 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 15390606
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        181,008.29 msec task-clock                       #    0.999 CPUs utilized             
+             1,642      context-switches                 #    9.071 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               535      page-faults                      #    2.956 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     181.131900922 seconds time elapsed
+
+     178.130789000 seconds user
+       0.061065000 seconds sys
+
+
+init enclave 76207010
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 5 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 18 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 78 seconds to compute
+outside enclave 204858197046
+inside enclave 171344622784
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 86 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 18957960
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        188,043.10 msec task-clock                       #    0.999 CPUs utilized             
+             1,653      context-switches                 #    8.791 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               536      page-faults                      #    2.850 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     188.151254678 seconds time elapsed
+
+     184.992243000 seconds user
+       0.065629000 seconds sys
+
+
+init enclave 75153918
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 2 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 4 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 17 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 78 seconds to compute
+outside enclave 201146757442
+inside enclave 170297023378
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 85 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 15708400
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        185,618.76 msec task-clock                       #    0.999 CPUs utilized             
+             1,625      context-switches                 #    8.755 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               536      page-faults                      #    2.888 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     185.769334909 seconds time elapsed
+
+     182.639132000 seconds user
+       0.063108000 seconds sys
+
+
+init enclave 75004182
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 5 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 18 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 80 seconds to compute
+outside enclave 207988805442
+inside enclave 173087519258
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 86 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 17333768
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        190,461.94 msec task-clock                       #    0.999 CPUs utilized             
+             1,676      context-switches                 #    8.800 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               536      page-faults                      #    2.814 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     190.586358410 seconds time elapsed
+
+     187.338406000 seconds user
+       0.065798000 seconds sys
+
+
+init enclave 75429704
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 5 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 18 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 79 seconds to compute
+outside enclave 206479045942
+inside enclave 169913184042
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 85 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 18096486
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        188,131.07 msec task-clock                       #    0.999 CPUs utilized             
+             1,678      context-switches                 #    8.919 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               537      page-faults                      #    2.854 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     188.244944013 seconds time elapsed
+
+     185.086820000 seconds user
+       0.063344000 seconds sys
+
+
+init enclave 75724556
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 5 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 20 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 79 seconds to compute
+outside enclave 210726370816
+inside enclave 171271366988
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 86 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 18360196
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        190,931.48 msec task-clock                       #    0.999 CPUs utilized             
+             1,701      context-switches                 #    8.909 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               535      page-faults                      #    2.802 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     191.048102216 seconds time elapsed
+
+     187.787940000 seconds user
+       0.066885000 seconds sys
+
+
+init enclave 75840238
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 4 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 18 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 75 seconds to compute
+outside enclave 197599458922
+inside enclave 166879453598
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 84 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 16504590
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        182,181.04 msec task-clock                       #    0.999 CPUs utilized             
+             1,607      context-switches                 #    8.821 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               538      page-faults                      #    2.953 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     182.287713694 seconds time elapsed
+
+     179.267032000 seconds user
+       0.062952000 seconds sys
+
+
+init enclave 75723954
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 4 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 19 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 75 seconds to compute
+outside enclave 198676082048
+inside enclave 168084187466
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 84 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 17029780
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        183,334.41 msec task-clock                       #    0.999 CPUs utilized             
+             1,624      context-switches                 #    8.858 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               536      page-faults                      #    2.924 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     183.428646650 seconds time elapsed
+
+     180.365372000 seconds user
+       0.055265000 seconds sys
+
+
+init enclave 156470938
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 1 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 5 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 20 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 81 seconds to compute
+outside enclave 214269051586
+inside enclave 167809839922
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 84 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 19413362
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        190,982.28 msec task-clock                       #    0.999 CPUs utilized             
+             1,742      context-switches                 #    9.121 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               534      page-faults                      #    2.796 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     191.129693003 seconds time elapsed
+
+     187.811406000 seconds user
+       0.095252000 seconds sys
+
+
+init enclave 76093088
+There are 18 powers of two between 0 and 0x3fffc (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 20 powers of two between 0 and 0xffff0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 22 powers of two between 0 and 0x3fffc0 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 24 powers of two between 0 and 0xffff00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 26 powers of two between 0 and 0x3fffc00 (calculated outside the enclave)
+	It took 0 seconds to compute
+There are 28 powers of two between 0 and 0xffff000 (calculated outside the enclave)
+	It took 2 seconds to compute
+There are 30 powers of two between 0 and 0x3fffc000 (calculated outside the enclave)
+	It took 4 seconds to compute
+There are 32 powers of two between 0 and 0xffff0000 (calculated outside the enclave)
+	It took 19 seconds to compute
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated outside the enclave)
+	It took 79 seconds to compute
+outside enclave 208144902414
+inside enclave 167642160074
+There are 34 powers of two between 0 and 0x3fffc0000 (calculated inside the enclave)
+	It took 84 seconds to compute
+	We counted 0 async enclave exits during this time period. 
+destroy enclave 20418388
+Info: SampleAEXNotify successfully returned.
+
+ Performance counter stats for './app':
+
+        187,817.29 msec task-clock                       #    0.999 CPUs utilized             
+             1,675      context-switches                 #    8.918 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               536      page-faults                      #    2.854 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     187.944099306 seconds time elapsed
+
+     184.732006000 seconds user
+       0.073384000 seconds sys
+
+
