@@ -4,3 +4,6 @@
 [submodule "linux-sgx/external/openmp/openmp_code"]
 	path = linux-sgx/external/openmp/openmp_code
 	url = https://github.com/llvm-mirror/openmp.git
+[submodule "linux-sgx/external/dnnl/dnnl"]
+	path = linux-sgx/external/dnnl/dnnl
+	url = https://github.com/uxlfoundation/oneDNN.git
