@@ -7,3 +7,6 @@
 [submodule "linux-sgx/external/dnnl/dnnl"]
 	path = linux-sgx/external/dnnl/dnnl
 	url = https://github.com/uxlfoundation/oneDNN.git
+[submodule "linux-sgx/external/ippcp_internal/ipp-crypto"]
+	path = linux-sgx/external/ippcp_internal/ipp-crypto
+	url = https://github.com/intel/cryptography-primitives.git
