@@ -10,3 +10,6 @@
 [submodule "linux-sgx/external/ippcp_internal/ipp-crypto"]
 	path = linux-sgx/external/ippcp_internal/ipp-crypto
 	url = https://github.com/intel/cryptography-primitives.git
+[submodule "linux-sgx/external/protobuf/protobuf_code"]
+	path = linux-sgx/external/protobuf/protobuf_code
+	url = https://github.com/protocolbuffers/protobuf.git
