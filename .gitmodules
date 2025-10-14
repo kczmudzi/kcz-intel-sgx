@@ -1,3 +1,6 @@
 [submodule "linux-sgx/external/dcap_source"]
 	path = linux-sgx/external/dcap_source
 	url = https://github.com/intel/SGXDataCenterAttestationPrimitives.git
+[submodule "linux-sgx/external/openmp/openmp_code"]
+	path = linux-sgx/external/openmp/openmp_code
+	url = https://github.com/llvm-mirror/openmp.git
