@@ -1,0 +1,3 @@
+[submodule "linux-sgx/external/dcap_source"]
+	path = linux-sgx/external/dcap_source
+	url = https://github.com/intel/SGXDataCenterAttestationPrimitives.git
