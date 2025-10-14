@@ -13,3 +13,6 @@
 [submodule "linux-sgx/external/protobuf/protobuf_code"]
 	path = linux-sgx/external/protobuf/protobuf_code
 	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "linux-sgx/external/sgx-emm/emm_src"]
+	path = linux-sgx/external/sgx-emm/emm_src
+	url = https://github.com/intel/sgx-emm.git
