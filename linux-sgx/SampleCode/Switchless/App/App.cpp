@@ -262,7 +262,7 @@ int SGX_CDECL main(int argc, char *argv[])
     printf("init enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Running a benchmark that compares **ordinary** and **switchless** OCalls...\n");
-    for (int i = 0; i < 10; i++) {
+    //    for (int i = 0; i < 10; i++) {
     start_cycles = __rdtsc();
     benchmark_empty_ocall(1);
     stop_cycles = __rdtsc();
@@ -287,7 +287,7 @@ int SGX_CDECL main(int argc, char *argv[])
     stop_cycles = __rdtsc();
     total_cycles[4] += (stop_cycles - start_cycles);
     printf("ecall 0 enclave %ld\n", stop_cycles-start_cycles);
-    }
+    //    }
     printf("Done.\n");
 
     start_cycles = __rdtsc();
