@@ -1,0 +1,390 @@
+init enclave 97184822
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.073037 seconds
+ocall 1 enclave 294146318100
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.858644 seconds
+ocall 0 enclave 7717301970
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.205834 seconds
+ecall 1 enclave 306407086700
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.750047 seconds
+ecall 0 enclave 9500033906
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.009201 seconds
+ocall 1 enclave 294018374374
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.862090 seconds
+ocall 0 enclave 7724166450
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.203103 seconds
+ecall 1 enclave 306405527980
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.753861 seconds
+ecall 0 enclave 9507703532
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.270936 seconds
+ocall 1 enclave 294540814828
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.849818 seconds
+ocall 0 enclave 7699589316
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.020340 seconds
+ecall 1 enclave 306039377924
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.736231 seconds
+ecall 0 enclave 9472439416
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 146.406606 seconds
+ocall 1 enclave 292812348692
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.865804 seconds
+ocall 0 enclave 7731583576
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.180049 seconds
+ecall 1 enclave 306359054024
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.745244 seconds
+ecall 0 enclave 9490452178
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.686059 seconds
+ocall 1 enclave 295371018450
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.837877 seconds
+ocall 0 enclave 7675734208
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.389928 seconds
+ecall 1 enclave 306779199052
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.745498 seconds
+ecall 0 enclave 9490970490
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 148.798075 seconds
+ocall 1 enclave 297595243858
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.877150 seconds
+ocall 0 enclave 7754279050
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 152.494594 seconds
+ecall 1 enclave 304988331570
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.675232 seconds
+ecall 0 enclave 9350443156
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.134795 seconds
+ocall 1 enclave 294268756000
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.867681 seconds
+ocall 0 enclave 7735340338
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **swiperf: 'stats' is not a perf-command. See 'perf --help'.
+perf: 'stats' is not a perf-command. See 'perf --help'.
+init enclave 76446814
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.404988 seconds
+ocall 1 enclave 294807964138
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 4.175414 seconds
+ocall 0 enclave 8350810918
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.536562 seconds
+ecall 1 enclave 307072269106
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.954685 seconds
+ecall 0 enclave 9909337964
+Done.
+destroy enclave 2144514
+build 76446814
+ocall1 294807964138
+ocall0 8350810918
+ecall1 307072269106
+ecall0 9909337964
+destroy 2144514
+
+ Performance counter stats for './app':
+
+        310,040.22 msec task-clock                       #    1.000 CPUs utilized             
+         5,860,128      context-switches                 #   18.901 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               564      page-faults                      #    1.819 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     310.112713724 seconds time elapsed
+
+     272.664680000 seconds user
+      19.728781000 seconds sys
+
+
+init enclave 75983984
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.201655 seconds
+ocall 1 enclave 294402449926
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 4.159985 seconds
+ocall 0 enclave 8319949728
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.963271 seconds
+ecall 1 enclave 307925625290
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.770233 seconds
+ecall 0 enclave 9540438656
+Done.
+destroy enclave 2131370
+build 75983984
+ocall1 294402449926
+ocall0 8319949728
+ecall1 307925625290
+ecall0 9540438656
+destroy 2131370
+
+ Performance counter stats for './app':
+
+        310,052.15 msec task-clock                       #    1.000 CPUs utilized             
+         5,860,141      context-switches                 #   18.901 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               566      page-faults                      #    1.825 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     310.135583339 seconds time elapsed
+
+     269.964581000 seconds user
+      22.228232000 seconds sys
+
+
+init enclave 100970186
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 148.501551 seconds
+ocall 1 enclave 296994670804
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 4.049363 seconds
+ocall 0 enclave 8098744934
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.954490 seconds
+ecall 1 enclave 307913447362
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.881727 seconds
+ecall 0 enclave 9763573802
+Done.
+destroy enclave 2174068
+build 100970186
+ocall1 296994670804
+ocall0 8098744934
+ecall1 307913447362
+ecall0 9763573802
+destroy 2174068
+
+ Performance counter stats for './app':
+
+        311,340.04 msec task-clock                       #    1.000 CPUs utilized             
+         5,877,712      context-switches                 #   18.879 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               566      page-faults                      #    1.818 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     311.442403195 seconds time elapsed
+
+     292.836991000 seconds user
+       0.536153000 seconds sys
+
+
+init enclave 74767744
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 148.097578 seconds
+ocall 1 enclave 296186840892
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.972580 seconds
+ocall 0 enclave 7945145294
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.923159 seconds
+ecall 1 enclave 307845679342
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.848274 seconds
+ecall 0 enclave 9696530518
+Done.
+destroy enclave 2226756
+build 74767744
+ocall1 296186840892
+ocall0 7945145294
+ecall1 307845679342
+ecall0 9696530518
+destroy 2226756
+
+ Performance counter stats for './app':
+
+        310,799.77 msec task-clock                       #    1.000 CPUs utilized             
+         5,867,136      context-switches                 #   18.878 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               566      page-faults                      #    1.821 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     310.881511037 seconds time elapsed
+
+     292.596799000 seconds user
+       0.324276000 seconds sys
+
+
+init enclave 75538324
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 149.415763 seconds
+ocall 1 enclave 298830921112
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 3.944765 seconds
+ocall 0 enclave 7889516698
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.832756 seconds
+ecall 1 enclave 307665069036
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.865829 seconds
+ecall 0 enclave 9731648822
+Done.
+destroy enclave 2190260
+build 75538324
+ocall1 298830921112
+ocall0 7889516698
+ecall1 307665069036
+ecall0 9731648822
+destroy 2190260
+
+ Performance counter stats for './app':
+
+        312,009.36 msec task-clock                       #    1.000 CPUs utilized             
+         5,884,532      context-switches                 #   18.860 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               567      page-faults                      #    1.817 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     312.099374461 seconds time elapsed
+
+     293.878385000 seconds user
+       0.323511000 seconds sys
+
+
+init enclave 76221278
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 148.554042 seconds
+ocall 1 enclave 297107612278
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 4.029616 seconds
+ocall 0 enclave 8059225500
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.994808 seconds
+ecall 1 enclave 307989086078
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.879245 seconds
+ecall 0 enclave 9758523324
+Done.
+destroy enclave 2382470
+build 76221278
+ocall1 297107612278
+ocall0 8059225500
+ecall1 307989086078
+ecall0 9758523324
+destroy 2382470
+
+ Performance counter stats for './app':
+
+        311,412.55 msec task-clock                       #    1.000 CPUs utilized             
+         5,882,122      context-switches                 #   18.889 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               565      page-faults                      #    1.814 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     311.498424977 seconds time elapsed
+
+     293.101189000 seconds user
+       0.413312000 seconds sys
+
+
+init enclave 75689854
+Running a benchmark that compares **ordinary** and **switchless** OCalls...
+Repeating an **switchless** OCall that does nothing for 500000 times...
+Time elapsed: 147.608304 seconds
+ocall 1 enclave 295216068226
+Repeating an **ordinary** OCall that does nothing for 500000 times...
+Time elapsed: 4.053597 seconds
+ocall 0 enclave 8107181304
+Done.
+Running a benchmark that compares **ordinary** and **switchless** ECalls...
+Repeating an **switchless** ECall that does nothing for 500000 times...
+Time elapsed: 153.681528 seconds
+ecall 1 enclave 307362313258
+Repeating an **ordinary** ECall that does nothing for 500000 times...
+Time elapsed: 4.864944 seconds
+ecall 0 enclave 9729873498
+Done.
+destroy enclave 2256488
+build 75689854
+ocall1 295216068226
+ocall0 8107181304
+ecall1 307362313258
+ecall0 9729873498
+destroy 2256488
+
+ Performance counter stats for './app':
+
+        310,164.12 msec task-clock                       #    1.000 CPUs utilized             
+         5,857,897      context-switches                 #   18.886 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               565      page-faults                      #    1.822 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+     310.248754543 seconds time elapsed
+
+     292.066821000 seconds user
+       0.326947000 seconds sys
+
+
