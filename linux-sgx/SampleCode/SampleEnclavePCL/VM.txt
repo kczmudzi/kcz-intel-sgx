@@ -1,0 +1,240 @@
+init enclave 33020592
+Checksum(0x0x7fff96b5e4e0, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 72813410
+destroy enclave 1522754
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             54.76 msec task-clock                       #    0.996 CPUs utilized             
+             6,639      context-switches                 #  121.247 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               644      page-faults                      #   11.761 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.054963129 seconds time elapsed
+
+       0.030438000 seconds user
+       0.024326000 seconds sys
+
+
+init enclave 33117818
+Checksum(0x0x7ffdb1ce0670, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 86448508
+destroy enclave 1630146
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             61.63 msec task-clock                       #    0.997 CPUs utilized             
+             7,994      context-switches                 #  129.717 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               645      page-faults                      #   10.466 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.061827092 seconds time elapsed
+
+       0.034668000 seconds user
+       0.026715000 seconds sys
+
+
+init enclave 33178196
+Checksum(0x0x7ffe63fc64d0, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 80285658
+destroy enclave 1545612
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             58.53 msec task-clock                       #    0.996 CPUs utilized             
+             7,413      context-switches                 #  126.650 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               640      page-faults                      #   10.934 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.058745201 seconds time elapsed
+
+       0.038943000 seconds user
+       0.018963000 seconds sys
+
+
+init enclave 33042036
+Checksum(0x0x7ffd30311d40, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 79111830
+destroy enclave 1526218
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             57.87 msec task-clock                       #    0.996 CPUs utilized             
+             7,219      context-switches                 #  124.746 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               635      page-faults                      #   10.973 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.058075210 seconds time elapsed
+
+       0.036783000 seconds user
+       0.020865000 seconds sys
+
+
+init enclave 32861856
+Checksum(0x0x7fffb9958aa0, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 78375558
+destroy enclave 1513744
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             57.43 msec task-clock                       #    0.996 CPUs utilized             
+             7,219      context-switches                 #  125.704 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               639      page-faults                      #   11.127 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.057636846 seconds time elapsed
+
+       0.030959000 seconds user
+       0.025946000 seconds sys
+
+
+init enclave 33339802
+Checksum(0x0x7fff8e597eb0, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 78420286
+destroy enclave 1645992
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             57.75 msec task-clock                       #    0.997 CPUs utilized             
+             7,217      context-switches                 #  124.961 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               644      page-faults                      #   11.151 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.057955383 seconds time elapsed
+
+       0.031859000 seconds user
+       0.025865000 seconds sys
+
+
+init enclave 32893696
+Checksum(0x0x7ffdd67ddd10, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 78327636
+destroy enclave 1582170
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             57.40 msec task-clock                       #    0.996 CPUs utilized             
+             7,221      context-switches                 #  125.801 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               640      page-faults                      #   11.150 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.057645534 seconds time elapsed
+
+       0.030935000 seconds user
+       0.025940000 seconds sys
+
+
+init enclave 33041672
+Checksum(0x0x7ffe133ceb90, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 79960928
+destroy enclave 1508432
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             58.28 msec task-clock                       #    0.996 CPUs utilized             
+             7,419      context-switches                 #  127.309 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               643      page-faults                      #   11.034 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.058534672 seconds time elapsed
+
+       0.033153000 seconds user
+       0.025108000 seconds sys
+
+
+init enclave 33313066
+Checksum(0x0x7ffec34826a0, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 87065680
+destroy enclave 1529954
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             62.01 msec task-clock                       #    0.997 CPUs utilized             
+             8,021      context-switches                 #  129.342 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               642      page-faults                      #   10.352 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.062220057 seconds time elapsed
+
+       0.030962000 seconds user
+       0.030942000 seconds sys
+
+
+init enclave 33151144
+Checksum(0x0x7ffefe3ad270, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+ecall enclave 72749528
+destroy enclave 1525424
+Info: SampleEnclavePCL successfully returned.
+
+ Performance counter stats for './app':
+
+             54.74 msec task-clock                       #    0.996 CPUs utilized             
+             6,638      context-switches                 #  121.266 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               640      page-faults                      #   11.692 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.054944848 seconds time elapsed
+
+       0.028734000 seconds user
+       0.025747000 seconds sys
+
+
