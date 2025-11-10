@@ -1,0 +1,4920 @@
+init enclave 35349762
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 11069174
+destroy enclave 1637588
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.98 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  320.225 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   23.897 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025137290 seconds time elapsed
+
+       0.007013000 seconds user
+       0.018032000 seconds sys
+
+
+init enclave 35461598
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 10952728
+destroy enclave 1696618
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             25.02 msec task-clock                       #    0.994 CPUs utilized             
+                 7      context-switches                 #  279.772 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   23.861 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025171269 seconds time elapsed
+
+       0.008026000 seconds user
+       0.017054000 seconds sys
+
+
+init enclave 35215824
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 12127324
+destroy enclave 1671188
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.98 msec task-clock                       #    0.974 CPUs utilized             
+                13      context-switches                 #  520.475 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   23.902 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025631630 seconds time elapsed
+
+       0.006810000 seconds user
+       0.017618000 seconds sys
+
+
+init enclave 35418864
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 11002504
+destroy enclave 1624396
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.97 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  320.361 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               596      page-faults                      #   23.867 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025121619 seconds time elapsed
+
+       0.009007000 seconds user
+       0.016008000 seconds sys
+
+
+init enclave 35303828
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 11036328
+destroy enclave 1615072
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.93 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  320.906 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               595      page-faults                      #   23.867 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025079189 seconds time elapsed
+
+       0.005994000 seconds user
+       0.018971000 seconds sys
+
+
+init enclave 35416846
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 10966184
+destroy enclave 1657966
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.95 msec task-clock                       #    0.993 CPUs utilized             
+                 9      context-switches                 #  360.674 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   23.925 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025135085 seconds time elapsed
+
+       0.007001000 seconds user
+       0.018001000 seconds sys
+
+
+init enclave 35203806
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 10995982
+destroy enclave 1643514
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.87 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  321.725 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               598      page-faults                      #   24.049 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025014008 seconds time elapsed
+
+       0.006970000 seconds user
+       0.017932000 seconds sys
+
+
+init enclave 35144036
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 10942638
+destroy enclave 1633290
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             24.83 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  322.218 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               598      page-faults                      #   24.086 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.024981599 seconds time elapsed
+
+       0.007254000 seconds user
+       0.017618000 seconds sys
+
+
+init enclave 35271358
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 12495640
+destroy enclave 1769944
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             25.04 msec task-clock                       #    0.968 CPUs utilized             
+                12      context-switches                 #  479.168 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               599      page-faults                      #   23.918 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025859339 seconds time elapsed
+
+       0.006960000 seconds user
+       0.018054000 seconds sys
+
+
+init enclave 35475720
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 11005406
+destroy enclave 1722838
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             25.02 msec task-clock                       #    0.994 CPUs utilized             
+                 8      context-switches                 #  319.690 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   23.857 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.025169770 seconds time elapsed
+
+       0.007016000 seconds user
+       0.018048000 seconds sys
+
+
