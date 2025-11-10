@@ -53,7 +53,7 @@ typedef struct _sgx_errlist_t {
     const char *sug; /* Suggestion */
 } sgx_errlist_t;
 
-#define REPEATS 500000
+#define REPEATS 1000
 
 /* Error code returned by sgx_create_enclave */
 static sgx_errlist_t sgx_errlist[] = {
@@ -262,7 +262,7 @@ int SGX_CDECL main(int argc, char *argv[])
     printf("init enclave %ld\n", stop_cycles-start_cycles);
     
     printf("Running a benchmark that compares **ordinary** and **switchless** OCalls...\n");
-    //    for (int i = 0; i < 10; i++) {
+    //    for (int i = 0; i < 1; i++) {
     start_cycles = __rdtsc();
     benchmark_empty_ocall(1);
     stop_cycles = __rdtsc();
