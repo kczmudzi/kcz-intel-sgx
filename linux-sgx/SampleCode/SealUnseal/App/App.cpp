@@ -201,10 +201,9 @@ static bool seal_and_save_data()
     }
     start_cycles = __rdtsc();
     sgx_destroy_enclave(eid_seal);
+	stop_cycles = __rdtsc();
     total_cycles[4] += (stop_cycles - start_cycles);
-    stop_cycles = __rdtsc();
     printf("destroy enclave %ld\n", stop_cycles-start_cycles);
-
     std::cout << "Sealing data succeeded." << std::endl;
     return true;
 
