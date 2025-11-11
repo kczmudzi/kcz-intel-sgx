@@ -1,0 +1,1460 @@
+init enclave 34612212
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 20492934
+destroy enclave 1694512
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             29.37 msec task-clock                       #    0.994 CPUs utilized             
+                20      context-switches                 #  680.985 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               648      page-faults                      #   22.064 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.029557461 seconds time elapsed
+
+       0.010983000 seconds user
+       0.017981000 seconds sys
+
+
+init enclave 34938506
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 22647302
+destroy enclave 1668810
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             30.62 msec task-clock                       #    0.994 CPUs utilized             
+                22      context-switches                 #  718.597 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               647      page-faults                      #   21.133 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.030804565 seconds time elapsed
+
+       0.011868000 seconds user
+       0.018799000 seconds sys
+
+
+init enclave 34876348
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 22780022
+destroy enclave 1684696
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             30.63 msec task-clock                       #    0.994 CPUs utilized             
+                22      context-switches                 #  718.207 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               645      page-faults                      #   21.057 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.030820178 seconds time elapsed
+
+       0.011981000 seconds user
+       0.017983000 seconds sys
+
+
+init enclave 34760242
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 22865308
+destroy enclave 1685106
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             30.60 msec task-clock                       #    0.993 CPUs utilized             
+                22      context-switches                 #  718.891 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               646      page-faults                      #   21.109 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.030812345 seconds time elapsed
+
+       0.011642000 seconds user
+       0.018434000 seconds sys
+
+
+init enclave 34845778
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 16814830
+destroy enclave 1752342
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             27.66 msec task-clock                       #    0.993 CPUs utilized             
+                18      context-switches                 #  650.724 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               643      page-faults                      #   23.245 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027852359 seconds time elapsed
+
+       0.008989000 seconds user
+       0.017993000 seconds sys
+
+
+init enclave 34842576
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 236499396
+destroy enclave 1680594
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+            136.94 msec task-clock                       #    0.995 CPUs utilized             
+            11,524      context-switches                 #   84.151 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               646      page-faults                      #    4.717 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.137643129 seconds time elapsed
+
+       0.089927000 seconds user
+       0.046407000 seconds sys
+
+
+init enclave 35174972
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 16785522
+destroy enclave 1627702
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             27.79 msec task-clock                       #    0.993 CPUs utilized             
+                17      context-switches                 #  611.774 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               645      page-faults                      #   23.211 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027989780 seconds time elapsed
+
+       0.009277000 seconds user
+       0.018569000 seconds sys
+
+
+init enclave 34763514
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 236415320
+destroy enclave 1642826
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+            137.37 msec task-clock                       #    0.999 CPUs utilized             
+            11,703      context-switches                 #   85.196 K/sec                     
+                 0      cpu-migrations                   #    0.000 /sec                      
+               648      page-faults                      #    4.717 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.137550636 seconds time elapsed
+
+       0.103264000 seconds user
+       0.033742000 seconds sys
+
+
+init enclave 35124676
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 16852684
+destroy enclave 1683706
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             27.79 msec task-clock                       #    0.993 CPUs utilized             
+                17      context-switches                 #  611.699 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               644      page-faults                      #   23.173 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.027992591 seconds time elapsed
+
+       0.007954000 seconds user
+       0.019903000 seconds sys
+
+
+init enclave 34885024
+[Lambdas] Initial array using lambdas: { 0 1 2 3 4 5 6 7 8 9 10 }.
+[Lambdas] First odd element in the array is 1. 
+[Lambdas] Number of even elements in the array is 6.
+[Lambdas] Array after sort: { 10 9 8 7 6 5 4 3 2 1 0 }. 
+
+[auto] Type of a is int. typeid = i.
+[auto] Type of b1 is const double. typeid = d.
+[auto] Type of b2 is const double*. typeid = PKd.
+[auto] Type of c is int. typeid = i.
+[auto] Type of d is int*. typeid = Pi.
+[auto] Type of lambda is [] {}. typeid = *Z15ecall_auto_demoEUlvE_.
+[auto] Type of func is void(__cdecl*)(void). typeid = PFvvE.
+[auto] Function sample_func_auto_demo is called. 
+
+[decltype] Type of b is int. typeid = i.
+[decltype] Type of sum is double. typeid = d.
+
+[range_based_for_loops] Using range based for loops to print the content of an array: { a b c d }. 
+[range_based_for_loops] Using range based for loops to print the content of an vector: { a b c d }.
+
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b, int c).
+[delegating constructors] Called from DemoDelegatingConstructors(int a, int b). 
+[delegating constructors] Called from DemoDelegatingConstructors(int a). 
+
+[std_function] calling sample_std_function1
+[std_function] calling a lambda function
+
+[cxx11_algorithms] All elements in  { 0 1 2  3 4 5 } are even is  false. 
+[cxx11_algorithms] Some elements in  { 0 1 2 3 4 5 } are even is  true. 
+[cxx11_algorithms] None elements in  { 0 1 2 3 4 5 } are even is  false. 
+
+[variadic_templates] The sum  of paramters (1, 2, 3, 4, 5) is 15. 
+
+[sfinae] Second candidate for substitution is matched.
+
+[initializer_list] Using initializer list in the constructor. 
+[initializer_list] The elements of the vector are: 10 9 8 7 6 5 4 3 2 1.
+
+[rvalue] DemoBuffer a(100).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] DemoBuffer foobar(100). 
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called constructor : DemoBuffer(int size).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+[rvalue] DemoBuffer b(a).
+[rvalue] Called copy constructor : DemoBuffer(const DemoBuffer & rhs).
+[rvalue] DemoBuffer c(std::move(a)).
+[rvalue] Called move constructor : DemoBuffer(DemoBuffer && rhs).
+
+[nullptr] called void nullptr_overload_candidate(int i).
+[nullptr] called void nullptr_overload_candidate(int* ptr).
+[nullptr] Function g called
+[nullptr] Function g called
+[nullptr] Function g called
+
+[enum class] brown - int = 1
+[enum class] red - int = 32
+[enum class] green - int = 30
+
+[new_container_classes] unordered_set { 0, 1, 2, 3, 4, 5} has value 3.
+[new_container_classes] multiset_set { 0, 1, 2, 3, 3, 3}  has 3 elements with value 3.
+[new_container_classes] unordered_map elements: {[E 3] [D 5] [C 7] [B 8] [A 10] }.
+[new_container_classes] unordered_multimap elements: {[E 5] [E 3] [E 1] [B 8] [B 7] [A 10] }.
+
+[tuple] show first  element in TupleSample: <First element of TupleSample>. 
+[tuple] show second element in TupleSample: 1. 
+[tuple] show third  element in TupleSample: 7.900000. 
+
+[smart_ptr] In construct of object demo_smart_ptr  using smart_ptr.. 
+[smart_ptr] shared_ptr reference count = 1.  
+[smart_ptr] shared_ptr reference count = 2 incresead after creating another shared pointer.
+[smart_ptr] shared_ptr reference count = 1 decresead after calling releasing ownership. 
+[smart_ptr] In construct of object demo_smart_ptr  using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using unique_ptr. 
+[smart_ptr] In deconstructor of object demo_smart_ptr using smart_ptr.. 
+[atomic] Atomic types, objects and functions demo.
+[atomic_store] Defining an atomic_char object with an initial value of 5.
+[atomic_store] The current value stored in the atomic object is: 5
+[atomic_store] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_store_explicit] Defining an atomic_short object with an initial value of 5.
+[atomic_store_explicit] The current value stored in the atomic object is: 5.
+[atomic_store_explicit] Replacing the value of the atomic object with a non-atomic value of 3.
+[atomic_store] The new value of the atomic object is: 3.
+
+[atomic_load] Defining an atomic_int object with an initial value of 4.
+[atomic_load] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load] The obtained value is 4.
+
+[atomic_load_explicit] Defining an atomic_int object with an initial value of 2.
+[atomic_load_explicit] Obtaining the value of the atomic object and saving it in a int variable.
+[atomic_load_explicit] The obtained value is 2.
+
+[atomic_fetch_add] Defining an atomic_int object with an initial value of 7.
+[atomic_fetch_add] The current value stored in the atomic object is: 7.
+[atomic_fetch_add] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add] The new value of the atomic object is: 15.
+
+[atomic_fetch_add_explicit] Defining an atomic_uint object with an initial value of 7.
+[atomic_fetch_add_explicit] The current value stored in the atomic object is: 7.
+[atomic_fetch_add_explicit] Adding a non-atomic value of 8 to the atomic object.
+[atomic_fetch_add_explicit] The new value of the atomic object is: 15.
+
+[atomic_fetch_sub] Defining an atomic_long object with an initial value of 20.
+[atomic_fetch_sub] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub] The new value of the atomic object is: 12.
+
+[atomic_fetch_sub_explicit] Defining an atomic_llong object with an initial value of 20.
+[atomic_fetch_sub_explicit] The current value stored in the atomic object is: 20.
+[atomic_fetch_sub_explicit] Substracting a non-atomic value of 8 from the value of the atomic object.
+[atomic_fetch_sub_explicit] The new value of the atomic object is: 12.
+
+[mutex] Incrementing values in three threads without mutex protection, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[mutex] Mutex protection when incrementing a value in 3 threads, using a 100000 times loop. 
+[mutex]Expected value is 300000. The final value is 300000.
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 18678028
+destroy enclave 1796870
+Info: Cxx11DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             28.64 msec task-clock                       #    0.993 CPUs utilized             
+                19      context-switches                 #  663.404 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               650      page-faults                      #   22.695 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.028833659 seconds time elapsed
+
+       0.009762000 seconds user
+       0.018556000 seconds sys
+
+

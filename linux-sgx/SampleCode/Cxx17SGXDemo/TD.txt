@@ -1,0 +1,1430 @@
+init enclave 81804504
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7fdaf50db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 12022242
+destroy enclave 2023528
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.22 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  243.791 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               686      page-faults                      #   13.937 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049404396 seconds time elapsed
+
+       0.008939000 seconds user
+       0.039750000 seconds sys
+
+
+init enclave 81787212
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7f49a90db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11180402
+destroy enclave 2128200
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             48.76 msec task-clock                       #    0.996 CPUs utilized             
+                12      context-switches                 #  246.111 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               692      page-faults                      #   14.192 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.048970685 seconds time elapsed
+
+       0.008878000 seconds user
+       0.039452000 seconds sys
+
+
+init enclave 82402648
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7fefb80db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11185260
+destroy enclave 2020320
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             48.95 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  265.566 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               691      page-faults                      #   14.116 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049128721 seconds time elapsed
+
+       0.006958000 seconds user
+       0.041734000 seconds sys
+
+
+init enclave 81996472
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7fce590db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11771154
+destroy enclave 2022320
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.04 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  265.088 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               686      page-faults                      #   13.988 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049217524 seconds time elapsed
+
+       0.009931000 seconds user
+       0.038751000 seconds sys
+
+
+init enclave 83183036
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7f85da0db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 12163150
+destroy enclave 2022108
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.85 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  260.790 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               689      page-faults                      #   13.822 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.050026213 seconds time elapsed
+
+       0.007640000 seconds user
+       0.041058000 seconds sys
+
+
+init enclave 82702370
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7f2eed0db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11714168
+destroy enclave 2025964
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.41 msec task-clock                       #    0.996 CPUs utilized             
+                15      context-switches                 #  303.608 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               686      page-faults                      #   13.885 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049595234 seconds time elapsed
+
+       0.008789000 seconds user
+       0.040010000 seconds sys
+
+
+init enclave 82178238
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7feaef0db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11194932
+destroy enclave 2033376
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             48.89 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  265.883 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               692      page-faults                      #   14.153 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049071216 seconds time elapsed
+
+       0.005953000 seconds user
+       0.042659000 seconds sys
+
+
+init enclave 82712616
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7fd9c40db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11633984
+destroy enclave 2020216
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.35 msec task-clock                       #    0.996 CPUs utilized             
+                14      context-switches                 #  283.693 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               687      page-faults                      #   13.921 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049538689 seconds time elapsed
+
+       0.008785000 seconds user
+       0.040022000 seconds sys
+
+
+init enclave 83191054
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7f0c100db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11789256
+destroy enclave 2018868
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.63 msec task-clock                       #    0.996 CPUs utilized             
+                13      context-switches                 #  261.953 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               686      page-faults                      #   13.823 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049804399 seconds time elapsed
+
+       0.006948000 seconds user
+       0.041701000 seconds sys
+
+
+init enclave 82470614
+Map instance constructed
+Hello C++17
+Hello from nested namespace
+UTF-8 character literals: u8'a' is decimal 97
+Hexadecimal floating literals:
+  0x10.1p0 is 16.062500
+  0x1p5 is 32.000000
+Insert is successful. The value is "Hello"
+The value "Hello" already exists in the set.
+sum of 1, 2, 3, 4 is 10
+device state: SLEEP
+SGX
+std::pair <2, 4.5>
+std::tuple (4, 3, 2.5)
+inline variable: inline variable from Cxx17
+accu: 20, incre: 5
+Exception thrown
+~Foo() called during stack unwinding
+Exception caught: test exception
+~Foo() called normally
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+0 destructed
+1 destructed
+2 destructed
+Default value
+Default value
+Default value
+1 2 3 4 
+0 0 0 0 
+initially, in: Home Work! 
+after move, in:   
+after move, out: Home Work! 
+1024-byte aligned address: 0x7f7f030db400
+value_based.size() is 2
+owner_based.size() is 1
+0 1 2 3 4 5 6 7 8 9 
+1. 165
+2. 74
+3. 37
+4. 148
+5. 250
+6. 240
+7. 15
+all types in pack are T
+not all types in pack are T
+std::is_swappable<int&>::value: true
+Using std::default_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+Using std::boyer_moore_searcher
+The string pisci found at offset 43
+A has unique object representation: 1
+Na has unique object representation: 0
+sum: 10000.00
+exclusive sum: 0 3 4 8 9 14 23 25 
+inclusive product: 3 3 12 12 60 540 1080 6480 
+Start:  1(a)  2(b)  3(c)
+After extract and before insert:  2(b)  3(c)
+End:  2(b)  3(c)  4(a)
+ma.size(): 0
+mb.size(): 1
+mb.at(5): X
+1, apple
+2, zorro
+4, batman
+5, pear
+8, alpaca
+10, banana
+inserted: [a] = a
+inserted: [b] = abcd
+inserted: [c] = cccccccccc
+ignored:  [c] = cccccccccc
+[a] = a
+[b] = abcd
+[c] = cccccccccc
+inserted: [a] = apple
+inserted: [b] = banana
+inserted: [c] = cherry
+assigned:  [c] = clementine
+[a] = apple
+[b] = banana
+[c] = clementine
+size of vector: 3, empty? false
+size of array: 3, empty? false
+Hello SGX!
+create(false) returned empty
+create2(true) returned Godzilla
+create_ref(true) returned Godzilla
+modifying it changed it to Mothra
+42, 3.14, 0
+i:1
+d:3.140000
+b:1
+bad any cast
+i:2
+no value
+3
+bad_variant_access
+sum of the pair elements: 3
+sizeof(Vec3d) is 64
+alignof(Vec3d) is 64
+vec3d is aligned to alignof(Vec3d)!
+pVec is aligned to alignof(Vec3d)!
+<optional> is present
+op = -1
+op = 42
+▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─
+▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─
+▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
+[condition_variable] Loading Data...
+
+[condition_variable] Running condition variable demo.
+[condition_variable] Waiting for the data to be loaded in the other thread.
+[condition_variable] Processing the loaded data.
+[condition_variable] Done.
+ecall enclave 11375402
+destroy enclave 2023876
+Info: Cxx17DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             49.08 msec task-clock                       #    0.987 CPUs utilized             
+                15      context-switches                 #  305.608 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               691      page-faults                      #   14.078 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.049709087 seconds time elapsed
+
+       0.007729000 seconds user
+       0.040580000 seconds sys
+
+

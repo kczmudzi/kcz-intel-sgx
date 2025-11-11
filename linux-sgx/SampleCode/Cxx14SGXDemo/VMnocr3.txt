@@ -1,0 +1,690 @@
+init enclave 35682324
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1557062
+destroy enclave 1639682
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.45 msec task-clock                       #    0.992 CPUs utilized             
+                 8      context-switches                 #  391.279 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               599      page-faults                      #   29.297 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020602256 seconds time elapsed
+
+       0.002003000 seconds user
+       0.018005000 seconds sys
+
+
+init enclave 35690922
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1532690
+destroy enclave 1699010
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.47 msec task-clock                       #    0.993 CPUs utilized             
+                 7      context-switches                 #  341.993 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   29.167 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020620252 seconds time elapsed
+
+       0.002910000 seconds user
+       0.017457000 seconds sys
+
+
+init enclave 35845868
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1561662
+destroy enclave 1687258
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.49 msec task-clock                       #    0.991 CPUs utilized             
+                 9      context-switches                 #  439.132 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               596      page-faults                      #   29.080 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020687067 seconds time elapsed
+
+       0.001996000 seconds user
+       0.017981000 seconds sys
+
+
+init enclave 35472540
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1576114
+destroy enclave 1681470
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.37 msec task-clock                       #    0.992 CPUs utilized             
+                 8      context-switches                 #  392.779 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               596      page-faults                      #   29.262 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020522214 seconds time elapsed
+
+       0.003882000 seconds user
+       0.016499000 seconds sys
+
+
+init enclave 35276018
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1534360
+destroy enclave 1660000
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.22 msec task-clock                       #    0.992 CPUs utilized             
+                 8      context-switches                 #  395.722 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               598      page-faults                      #   29.580 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020375422 seconds time elapsed
+
+       0.001997000 seconds user
+       0.018013000 seconds sys
+
+
+init enclave 35520364
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1584686
+destroy enclave 1678362
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.39 msec task-clock                       #    0.993 CPUs utilized             
+                 8      context-switches                 #  392.255 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   29.272 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020546421 seconds time elapsed
+
+       0.002913000 seconds user
+       0.017477000 seconds sys
+
+
+init enclave 35550106
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1543464
+destroy enclave 1638026
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.37 msec task-clock                       #    0.992 CPUs utilized             
+                 8      context-switches                 #  392.794 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   29.312 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020523252 seconds time elapsed
+
+       0.000999000 seconds user
+       0.019015000 seconds sys
+
+
+init enclave 35753718
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1540834
+destroy enclave 1626850
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.41 msec task-clock                       #    0.991 CPUs utilized             
+                 9      context-switches                 #  440.970 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               596      page-faults                      #   29.202 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020603009 seconds time elapsed
+
+       0.003138000 seconds user
+       0.016757000 seconds sys
+
+
+init enclave 35364436
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1541906
+destroy enclave 1612808
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.24 msec task-clock                       #    0.992 CPUs utilized             
+                 8      context-switches                 #  395.210 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               597      page-faults                      #   29.493 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.020400893 seconds time elapsed
+
+       0.003003000 seconds user
+       0.017011000 seconds sys
+
+
+init enclave 35599746
+hello world
+99, 1.000000, foo
+make_unique<Vec>():      {0, 0}
+make_unique<Vec>(1, 2): {1, 2}
+make_unique<Vec[]>(5):   
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+     {0, 0}
+The sequence of size 4: 9 2 5 1 
+The sequence of size 20: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+The sequence of size 10: 0 1 2 3 4 5 6 7 8 9 
+The sequence of size 3: 0 1 2 
+(1, 2, 3, 4)
+Forward search: found the target in vector v!
+Backward search: found the target in vector v!
+1  2  3  4  
+A is final: False
+B is final: True
+veq1 and veq2 is equal: True
+first pair of different values: (2, 3)
+v_permu1 and v_permu2 is_permutation: False
+R{3} R{1} R{4} R{1} R{5} : 1, 0
+The fibonacci number at index 10: 89
+pi as a const char: pi
+circular area (integer): 300
+circular area (floating point): 314.159265
+The hex represented by '0b10100101' is: 0xa5
+digit separator for integer: 1000000
+digit separator for floating: 0.001015
+digit separator for binary literal: 0x4c6
+lambda_sum for (10, 10): 20
+lambda_sum for (10, 10.0): 20.000000
+result from lambda capture: 10
+2 is an even number: true
+result from constexpr while_loop(10): 10
+before modification: a: 3, b1: 3, b2: 3
+after modification: a: 4, b1: 3, b2: 4
+read in     [String with spaces, and embedded "quotes" too]
+stored as   ["String with spaces, and embedded \"quotes\" too"]
+written out [String with spaces, and embedded "quotes" too]
+
+read in     [String with spaces, and embedded $quotes$ too]
+stored as   [$String with spaces, and embedded %$quotes%$ too$]
+written out [String with spaces, and embedded $quotes$ too]
+
+ecall enclave 1607014
+destroy enclave 1822544
+Info: Cxx14DemoEnclave successfully returned.
+
+ Performance counter stats for './app':
+
+             20.52 msec task-clock                       #    0.971 CPUs utilized             
+                10      context-switches                 #  487.342 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               598      page-faults                      #   29.143 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.021133470 seconds time elapsed
+
+       0.002907000 seconds user
+       0.017437000 seconds sys
+
+

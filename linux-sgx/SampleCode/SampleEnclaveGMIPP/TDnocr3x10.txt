@@ -1,0 +1,820 @@
+init enclave 101425442
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51525506
+destroy  enclave 2343394
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             79.39 msec task-clock                       #    0.997 CPUs utilized             
+                10      context-switches                 #  125.966 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               593      page-faults                      #    7.470 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.079599109 seconds time elapsed
+
+       0.029980000 seconds user
+       0.048946000 seconds sys
+
+
+init enclave 98746014
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51312780
+destroy  enclave 2301878
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             77.61 msec task-clock                       #    0.998 CPUs utilized             
+                11      context-switches                 #  141.735 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               592      page-faults                      #    7.628 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077794572 seconds time elapsed
+
+       0.031649000 seconds user
+       0.045501000 seconds sys
+
+
+init enclave 98611212
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51397808
+destroy  enclave 2336480
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             77.37 msec task-clock                       #    0.998 CPUs utilized             
+                 9      context-switches                 #  116.324 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               592      page-faults                      #    7.652 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077536605 seconds time elapsed
+
+       0.028969000 seconds user
+       0.047919000 seconds sys
+
+
+init enclave 97943772
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51408320
+destroy  enclave 2294594
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             76.92 msec task-clock                       #    0.997 CPUs utilized             
+                15      context-switches                 #  194.997 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               592      page-faults                      #    7.696 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077188638 seconds time elapsed
+
+       0.028787000 seconds user
+       0.047637000 seconds sys
+
+
+init enclave 118044840
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51454680
+destroy  enclave 2304030
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             77.84 msec task-clock                       #    0.893 CPUs utilized             
+                25      context-switches                 #  321.190 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               593      page-faults                      #    7.619 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.087206714 seconds time elapsed
+
+       0.029322000 seconds user
+       0.047812000 seconds sys
+
+
+init enclave 98174956
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51317206
+destroy  enclave 2303316
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             77.07 msec task-clock                       #    0.998 CPUs utilized             
+                 8      context-switches                 #  103.796 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               592      page-faults                      #    7.681 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077240882 seconds time elapsed
+
+       0.029851000 seconds user
+       0.046757000 seconds sys
+
+
+init enclave 96655266
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51292600
+destroy  enclave 2305404
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             76.29 msec task-clock                       #    0.998 CPUs utilized             
+                 9      context-switches                 #  117.969 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               594      page-faults                      #    7.786 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.076452079 seconds time elapsed
+
+       0.029946000 seconds user
+       0.045891000 seconds sys
+
+
+init enclave 97860794
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51253116
+destroy  enclave 2337308
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             76.89 msec task-clock                       #    0.998 CPUs utilized             
+                10      context-switches                 #  130.059 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               593      page-faults                      #    7.713 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077067845 seconds time elapsed
+
+       0.029766000 seconds user
+       0.046628000 seconds sys
+
+
+init enclave 97325222
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51286060
+destroy  enclave 2278280
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             76.59 msec task-clock                       #    0.998 CPUs utilized             
+                 9      context-switches                 #  117.504 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               593      page-faults                      #    7.742 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.076758401 seconds time elapsed
+
+       0.029053000 seconds user
+       0.047067000 seconds sys
+
+
+init enclave 98287088
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+GM SM2 - sign and verify: PASS
+GM SM2 - key exchange: PASS
+GM SM2 - encrypt and decrypt(GM version): PASS
+GM SM3 - compute digest of message: PASS
+GM SM4 - cbc encrypt and decrypt: PASS
+GM SM4 - ctr encrypt and decrypt: PASS
+ecall 6 enclave 51088728
+destroy  enclave 2335172
+Info: SampleEnclaveGMIPP successfully returned.
+
+ Performance counter stats for './app':
+
+             77.00 msec task-clock                       #    0.998 CPUs utilized             
+                11      context-switches                 #  142.861 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               592      page-faults                      #    7.689 K/sec                     
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+   <not supported>      branches                                                              
+   <not supported>      branch-misses                                                         
+
+       0.077167646 seconds time elapsed
+
+       0.029815000 seconds user
+       0.046693000 seconds sys
+
+
